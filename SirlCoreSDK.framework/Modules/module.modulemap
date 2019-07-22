@@ -1,0 +1,4 @@
+framework module SirlCoreSDK {
+  header "SirlCoreSDK-Swift.h"
+  requires objc
+}
