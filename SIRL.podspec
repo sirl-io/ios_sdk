@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SIRL"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "SIRL SDKs"
 
   s.description  = "This is the set of SDKs for the SIRL system."
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
-    core.vendored_frameworks = "SirlCoreSDK.framework"
+    core.vendored_frameworks = "SIRLCore.framework"
     core.dependency "SSZipArchive"
   end
 
