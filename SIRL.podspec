@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "SIRL_SDK"
-  s.version      = "1.0.7"
-  s.summary      = "This is Sirl Core SDK."
+  s.name         = "SIRL"
+  s.version      = "1.1.0"
+  s.summary      = "SIRL SDKs"
 
-  s.description  = "This is Sirl Core SDK."
+  s.description  = "This is the set of SDKs for the SIRL system."
 
   s.homepage     = "https://www.sirl.io"
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "Copyright SIRL Inc. 2019" }
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.author             = { "Wei Cai" => "wei.cai@sirl.io" }
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://gitlab.com/sirl/mobile/Sirl_SDK"}
+  s.source       = { :git => "https://github.com/sirl-io/ios_sdk.git",
+                     :tag => "#{s.version}" }
   # --- Subspecs --------------------------------------------------------------- #
 
   s.default_subspec = 'Core'
