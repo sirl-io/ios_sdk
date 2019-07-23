@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
     core.vendored_frameworks = "SIRLCore.framework"
     core.preserve_paths = "libs/include/module.modulemap"
     core.vendored_libraries = "libs/*.a"
+    core.source_files  = "libs/include/*.{h}"
     core.libraries = "c++"
     core.dependency "SSZipArchive"
     core.requires_arc = true
