@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
     core.dependency "SSZipArchive"
     core.requires_arc = true
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
-                      'SWIFT_INCLUDE_PATHS' => '$(PODS_TARGET_SRCROOT)/libs/include'}
+                      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/libs/include'}
   end
 
 end
