@@ -34,7 +34,13 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.vendored_frameworks = "SIRLCore.framework"
+    core.preserve_paths = "libs/include/module.modulemap"
+    core.vendored_libraries = "libs/*.a"
+    core.libraries = "c++"
     core.dependency "SSZipArchive"
+    core.requires_arc = true
+    core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
+                      'SWIFT_INCLUDE_PATHS' => '$(PODS_TARGET_SRCROOT)/libs/include'}
   end
 
 end
