@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SIRL"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = "SIRL SDKs"
 
   s.description  = "This is the set of SDKs for the SIRL system."
@@ -38,7 +38,6 @@ Pod::Spec.new do |s|
     core.vendored_libraries = "libs/*.a"
     core.source_files  = "libs/include/*.{h}"
     core.libraries = "c++"
-    core.dependency "SSZipArchive"
     core.requires_arc = true
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/libs/include'}
