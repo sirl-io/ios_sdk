@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author             = { "Wei Cai" => "wei.cai@sirl.io" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios
+  s.platform     = :ios, "11.0"
   s.swift_version = '4.2'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
