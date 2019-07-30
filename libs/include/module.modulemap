@@ -7,3 +7,8 @@ module positionAPI [system]{
     header "position_lib.h"
     export *
 }
+
+module SSZipArchive [system] {
+    header "SSZipArchive.h"
+    export *
+}

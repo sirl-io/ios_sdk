@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author             = { "Wei Cai" => "wei.cai@sirl.io" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios
   s.swift_version = '4.2'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -38,7 +38,6 @@ Pod::Spec.new do |s|
     core.vendored_libraries = "libs/*.a"
     core.source_files  = "libs/include/*.{h}"
     core.libraries = "c++"
-    core.dependency "SSZipArchive"
     core.requires_arc = true
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/libs/include'}
