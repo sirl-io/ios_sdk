@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
-    core.vendored_frameworks = "SIRLCore.framework"
+    core.vendored_frameworks = "Sirl_SDK/SIRLCore.framework"
     core.preserve_paths = "libs/include/module.modulemap"
     core.vendored_libraries = "libs/*.a"
     core.source_files  = "libs/include/*.{h}"
