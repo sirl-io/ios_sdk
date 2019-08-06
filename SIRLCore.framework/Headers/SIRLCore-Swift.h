@@ -343,6 +343,16 @@ SWIFT_CLASS("_TtC8SIRLCore13SirlBLEPacket") SWIFT_AVAILABILITY(ios,introduced=10
 @end
 
 
+SWIFT_CLASS("_TtC8SIRLCore8SirlCore")
+@interface SirlCore : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _Nonnull shared;)
++ (SirlCore * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) BOOL autoDetectMainLocation;
+- (void)setML_IDWithMlID:(uint32_t)mlID;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC8SIRLCore12SirlCoreImpl") SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface SirlCoreImpl : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -726,6 +736,16 @@ SWIFT_CLASS("_TtC8SIRLCore13SirlBLEPacket") SWIFT_AVAILABILITY(ios,introduced=10
 @interface SirlBLEPacket : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8SIRLCore8SirlCore")
+@interface SirlCore : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _Nonnull shared;)
++ (SirlCore * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) BOOL autoDetectMainLocation;
+- (void)setML_IDWithMlID:(uint32_t)mlID;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
