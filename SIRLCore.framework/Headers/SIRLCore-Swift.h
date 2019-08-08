@@ -426,4 +426,3 @@ SWIFT_CLASS("_TtC8SIRLCore12sirlLocation")
 # pragma clang attribute pop
 #endif
 #pragma clang diagnostic pop
-
