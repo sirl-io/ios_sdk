@@ -209,6 +209,18 @@ SWIFT_CLASS_NAMED("AisleRegions")
 
 
 
+SWIFT_CLASS_NAMED("NodeBlackList")
+@interface NodeBlackList : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface NodeBlackList (SWIFT_EXTENSION(SIRLCore))
+@property (nonatomic, strong) NSDate * _Nullable cacheDate;
+@property (nonatomic, copy) NSString * _Nullable macAddress;
+@end
+
+
 SWIFT_CLASS("_TtC8SIRLCore10NodeConfig")
 @interface NodeConfig : NSManagedObject
 - (void)willSave;
