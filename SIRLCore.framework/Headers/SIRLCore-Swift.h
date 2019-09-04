@@ -352,6 +352,7 @@ SWIFT_CLASS("_TtC8SIRLCore13SirlBLEPacket") SWIFT_AVAILABILITY(ios,introduced=10
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+@class SirlGeoFence;
 @protocol SirlCoreDelegate;
 
 SWIFT_CLASS("_TtC8SIRLCore8SirlCore")
@@ -363,6 +364,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _
 - (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode apiKey:(NSString * _Nonnull)apiKey;
 - (void)updateSettingWithApiKey:(NSString * _Nonnull)apiKey;
 - (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode regionLocking:(BOOL)regionLocking prediction:(BOOL)prediction apiKey:(NSString * _Nonnull)apiKey;
+- (BOOL)registerGeoFenceWithGeoFences:(NSArray<SirlGeoFence *> * _Nonnull)geoFences SWIFT_WARN_UNUSED_RESULT;
 - (void)addDelegateWithDelegate:(id <SirlCoreDelegate> _Nonnull)delegate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -381,6 +383,8 @@ SWIFT_PROTOCOL("_TtP8SIRLCore16SirlCoreDelegate_")
 - (void)didChangeLocationServiceAuthorization:(NSString * _Nonnull)status;
 - (void)didEnteredSirlRegion;
 - (void)didExitedSirlRegion;
+- (void)didInitializedSirlRegion;
+- (void)didEnterGeoFenceWithId:(NSString * _Nonnull)id;
 @end
 
 
@@ -400,6 +404,25 @@ SWIFT_CLASS("_TtC8SIRLCore12SirlCoreImpl") SWIFT_AVAILABILITY(ios,introduced=10.
 
 SWIFT_CLASS("_TtC8SIRLCore13SirlDataCache") SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface SirlDataCache : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8SIRLCore12SirlGeoFence")
+@interface SirlGeoFence : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8SIRLCore10SirlLogger")
+@interface SirlLogger : NSObject
++ (void)recordProductCollectedWithUpc:(NSString * _Nonnull)upc;
++ (void)recordExternalTripId:(NSString * _Nonnull)id;
++ (void)recordExternalUserId:(NSString * _Nonnull)id;
++ (void)recordTransactionLog:(NSString * _Nonnull)data;
++ (void)recordTransactionLogWithUpc:(NSString * _Nonnull)upc name:(NSString * _Nonnull)name qty:(NSInteger)qty totalPrice:(double)totalPrice;
++ (void)recordMetaInformation:(NSString * _Nonnull)data;
++ (void)recordCustomEntryWithTag:(NSString * _Nonnull)tag data:(NSString * _Nonnull)data;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
