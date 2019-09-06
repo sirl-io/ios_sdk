@@ -366,6 +366,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _
 - (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode regionLocking:(BOOL)regionLocking prediction:(BOOL)prediction apiKey:(NSString * _Nonnull)apiKey;
 - (BOOL)registerGeoFenceWithGeoFences:(NSArray<SirlGeoFence *> * _Nonnull)geoFences SWIFT_WARN_UNUSED_RESULT;
 - (void)addDelegateWithDelegate:(id <SirlCoreDelegate> _Nonnull)delegate;
+- (void)setTestLocation;
+- (void)setTestUserLocation:(double)x :(double)y :(double)z;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -396,6 +398,10 @@ SWIFT_CLASS("_TtC8SIRLCore12SirlCoreImpl") SWIFT_AVAILABILITY(ios,introduced=10.
 
 
 
+SWIFT_AVAILABILITY(ios,introduced=10.0)
+@interface SirlCoreImpl (SWIFT_EXTENSION(SIRLCore))
+- (void)setTestLocation:(uint32_t)mlid;
+@end
 
 
 
