@@ -33,14 +33,30 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
-    core.vendored_frameworks = "SIRLCore.framework"
-    core.preserve_paths = "libs/include/module.modulemap"
-    core.vendored_libraries = "libs/*.a"
-    core.source_files  = "libs/include/*.{h}"
+    core.vendored_frameworks = "Core/SIRLCore.framework"
+    core.preserve_paths = "Core/libs/include/module.modulemap"
+    core.vendored_libraries = "Core/libs/*.a"
+    core.source_files  = "Core/libs/include/*.{h}"
     core.libraries = "c++"
     core.requires_arc = true
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/libs/include'}
+  end
+  
+  s.subspec 'User' do |usr|
+    usr.source_files  = "User/**/*.swift"
+    usr.dependency 'SIRL/Core'
+  end
+  
+  s.subspec 'Map' do |map|
+    map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}
+    map.source_files  = "Map/**/*.swift"
+    map.dependency 'SIRL/Core'
+  end
+  
+  s.subspec 'Retail' do |ret|
+    ret.source_files  = "Retail/**/*.swift"
+    ret.dependency 'SIRL/Map'
   end
 
 end
