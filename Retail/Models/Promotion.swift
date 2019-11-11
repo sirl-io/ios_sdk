@@ -111,7 +111,7 @@ public class Promotion: SirlGeoFence, Decodable {
         self.expires = expires
         self.image = image
         self.storeId = storeId
-        self.id = geoId
+       // self.id = geoId
         self.requiredDwellDuration = requiredDwellDuration
         self.margin = margin
         self.title = title
