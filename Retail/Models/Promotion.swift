@@ -20,7 +20,7 @@ public class StorePromotions: Decodable {
             var map: [String: Int] = [:]
             let storeId = 2
             for (index, promo) in promos.enumerated() {
-                guard let promoId = promo.productId else {return}
+                guard let promoId = promo.id else {return}
                 productIds.append(promoId)
                 map[promoId] = index
             }
@@ -63,12 +63,13 @@ public class StorePromotions: Decodable {
 
 public class Promotion: SirlGeoFence, Decodable {
     public var companyId: Int?
-    public var productId: String?
     public var expires: String?
     public var image: String?
     public var storeId: Int?
     public var title: String?
     public var details: String?
+    public var promotionCode: String?
+    public var allowNavigation: Bool?
 
     enum CodingKeys: String, CodingKey {
         case companyId
@@ -76,11 +77,12 @@ public class Promotion: SirlGeoFence, Decodable {
         case expires
         case image
         case storeId
-        case id
         case requiredDwellDuration
         case margin
         case title
         case description
+        case couponCode
+        case navigate
     }
 
     required convenience public init(from decoder: Decoder) throws {
@@ -88,24 +90,24 @@ public class Promotion: SirlGeoFence, Decodable {
         let companyId = try container.decode(Int.self, forKey: .companyId)
         let storeId = try container.decode(Int.self, forKey: .storeId)
         let duration = try container.decode(Int.self, forKey: .requiredDwellDuration)
-        let geoId = try container.decode(Int.self, forKey: .id)
         let productId = try container.decode(String.self, forKey: .productId)
         let expires = try container.decode(String.self, forKey: .expires)
         let image = try container.decode(String.self, forKey: .image)
         let margin = try container.decode(Double.self, forKey: .margin)
         let title = try container.decode(String.self, forKey: .title)
         let details = try container.decode(String.self, forKey: .description)
-        self.init(companyID: companyId, productId: productId, expires: expires, image: image,
-                  storeId: storeId, geoId: geoId, requiredDwellDuration: duration, margin: margin,
-                  title: title, details: details)
+        let promoCode = try container.decodeIfPresent(String.self, forKey: .couponCode)
+        let allowNav = try container.decodeIfPresent(Bool.self, forKey: .navigate)
+        self.init(companyID: companyId, expires: expires, image: image,
+                  storeId: storeId, geoId: productId, requiredDwellDuration: duration, margin: margin,
+                  title: title, details: details, navigate: allowNav, promotionCode: promoCode)
     }
 
-    public init(companyID: Int, productId: String, expires: String, image: String?,
-                storeId: Int, geoId: Int, requiredDwellDuration: Int, margin: Double,
-                title: String, details: String) {
+    public init(companyID: Int, expires: String, image: String?,
+                storeId: Int, geoId: String, requiredDwellDuration: Int, margin: Double,
+                title: String, details: String, navigate: Bool?, promotionCode: String?) {
         super.init()
         self.companyId = companyID
-        self.productId = productId
         self.expires = expires
         self.image = image
         self.storeId = storeId
@@ -114,6 +116,8 @@ public class Promotion: SirlGeoFence, Decodable {
         self.margin = margin
         self.title = title
         self.details = details
+        self.allowNavigation = navigate
+        self.promotionCode = promotionCode
     }
 
     public func getExpireDate() -> Date? {
