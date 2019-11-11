@@ -293,7 +293,6 @@ SWIFT_AVAILABILITY(ios,introduced=10.0)
 @property (nonatomic) int32_t appId;
 @property (nonatomic) int32_t locId;
 @property (nonatomic) int32_t bldId;
-@property (nonatomic) int32_t storeId;
 @property (nonatomic, strong) NSSet * _Nullable nodeConfig;
 @property (nonatomic, strong) NSDate * _Nullable cacheDate;
 @end
@@ -386,11 +385,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-@interface SirlCore (SWIFT_EXTENSION(SIRLCore))
-- (void)recordProductScanWithId:(NSString * _Nonnull)id type:(NSString * _Nonnull)type rightSide:(BOOL)rightSide;
-@end
-
 @class sirlLocation;
 
 SWIFT_PROTOCOL("_TtP8SIRLCore16SirlCoreDelegate_")
@@ -436,6 +430,7 @@ SWIFT_CLASS("_TtC8SIRLCore13SirlDataCache") SWIFT_AVAILABILITY(ios,introduced=10
 
 SWIFT_CLASS("_TtC8SIRLCore12SirlGeoFence")
 @interface SirlGeoFence : NSObject
+- (nonnull instancetype)initWithDwellDuration:(NSInteger)dwellDuration margin:(double)margin id:(NSString * _Nonnull)id center:(sirlLocation * _Nonnull)center;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
