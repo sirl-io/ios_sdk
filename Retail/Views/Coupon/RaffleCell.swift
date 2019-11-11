@@ -20,9 +20,6 @@ class RaffleCell: UICollectionViewCell {
         case announced
     }
 
-    private var ttl: TimeInterval?
-    private var expirationTime: Date?
-
     var coupon: Coupon? {
         didSet {
             guard let mCoupon = coupon else {return}
@@ -79,6 +76,15 @@ class RaffleCell: UICollectionViewCell {
     }()
 
     private let actionButton: UIButton = {
+        let btn = UIButton()
+        btn.setTitleColor(.white, for: .normal)
+        btn.titleLabel?.font = btn.titleLabel?.font.withSize(15)
+        btn.layer.cornerRadius = 15
+        btn.translatesAutoresizingMaskIntoConstraints = false
+        return btn
+    }()
+
+    internal let registerEmailButton: UIButton = {
         let btn = UIButton()
         btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = btn.titleLabel?.font.withSize(15)
@@ -165,20 +171,10 @@ class RaffleCell: UICollectionViewCell {
         configView()
         actionButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         backButton.addTarget(self, action: #selector(backAction), for: .touchUpInside)
-        NotificationCenter.default
-            .addObserver(self, selector: #selector(handleApplicationReActive), name: UIApplication.didBecomeActiveNotification, object: nil)
     }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    override func removeFromSuperview() {
-        super.removeFromSuperview()
-        NotificationCenter.default
-            .removeObserver(self,
-                            name: UIApplication.didBecomeActiveNotification,
-                            object: nil)
     }
 
     private func configView() {
@@ -189,6 +185,7 @@ class RaffleCell: UICollectionViewCell {
         frontView.addSubview(raffleDetailView)
         frontView.addSubview(expireLabel)
         frontView.addSubview(actionButton)
+        frontView.addSubview(registerEmailButton)
         backView.addSubview(finePrintView)
         backView.addSubview(backButton)
         configContainer()
@@ -231,6 +228,10 @@ class RaffleCell: UICollectionViewCell {
         actionButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         actionButton.widthAnchor.constraint(equalTo: self.frontView.widthAnchor, multiplier: 0.55).isActive = true
         actionButton.centerXAnchor.constraint(equalTo: self.frontView.centerXAnchor).isActive = true
+        registerEmailButton.bottomAnchor.constraint(equalTo: self.actionButton.topAnchor, constant: -10).isActive = true
+        registerEmailButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        registerEmailButton.widthAnchor.constraint(equalTo: self.frontView.widthAnchor, multiplier: 0.55).isActive = true
+        registerEmailButton.centerXAnchor.constraint(equalTo: self.frontView.centerXAnchor).isActive = true
     }
 
     private func configBack() {
@@ -277,23 +278,15 @@ class RaffleCell: UICollectionViewCell {
         UIView.transition(with: self.container, duration: 0.3, options: .transitionFlipFromRight, animations: nil, completion: nil)
     }
 
-    @objc private func handleApplicationReActive() {
-    }
-
     private func setActionButton() {
         switch currentState {
         case .running: fallthrough
         case .ended: fallthrough
         case .announced:
+            registerEmailButton.backgroundColor = sirlDarkBtnColor
+            registerEmailButton.setTitle("Register Email Notification", for: .normal)
             actionButton.backgroundColor = sirlDarkBtnColor
             actionButton.setTitle("View Fine Print", for: .normal)
-        }
-    }
-
-    private func startTimer() {
-        if expirationTime == nil {
-            guard let ttl = ttl else {return}
-            expirationTime = Date().addingTimeInterval(ttl)
         }
     }
 }

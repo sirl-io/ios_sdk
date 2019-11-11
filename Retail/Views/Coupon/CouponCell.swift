@@ -26,16 +26,23 @@ class CouponCell: UICollectionViewCell {
 
     var coupon: Coupon? {
         didSet {
-            guard let mCoupon = coupon else {return}
+            guard let mCoupon = coupon else {
+                cleanup()
+                return
+            }
             self.couponTitle = mCoupon.title
             self.couponDetail = mCoupon.description
             guard let code = mCoupon.code,
                   let expiration = mCoupon.expiration else {
-                    self.currentState = .notActivated
-                    if let ttl = mCoupon.ttlSeconds {
-                        self.ttl = TimeInterval(ttl)
+                    if mCoupon.isClaimable {
+                        self.currentState = .notActivated
+                        if let ttl = mCoupon.ttlSeconds {
+                            self.ttl = TimeInterval(ttl)
+                        }
+                    } else {
+                        self.currentState = .isActivated
                     }
-                    return
+                return
             }
             self.couponCode = code
             let timeRemain = -Date().timeIntervalSince(expiration)
@@ -102,6 +109,15 @@ class CouponCell: UICollectionViewCell {
         return btn
     }()
 
+    internal let dismissButon: UIButton = {
+        let btn = UIButton()
+        if let close = UIImage(named: "close_black") {
+            btn.setImage(close, for: .normal)
+        }
+        btn.translatesAutoresizingMaskIntoConstraints = false
+        return btn
+    }()
+
     private let expireLabel: UILabel = {
         let lb = UILabel()
         lb.isHidden = true
@@ -159,6 +175,12 @@ class CouponCell: UICollectionViewCell {
     private var couponTitle: String? {
         didSet {
             guard let couponTitle = self.couponTitle else {return}
+            if couponTitle.count > 26 {
+                couponTitleView.font = couponTitleView.font.withSize(20)
+            }
+            if couponTitle.count > 36 {
+                couponTitleView.font = couponTitleView.font.withSize(18)
+            }
             couponTitleView.text = couponTitle
         }
     }
@@ -175,20 +197,10 @@ class CouponCell: UICollectionViewCell {
         configView()
         actionButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         backButton.addTarget(self, action: #selector(backAction), for: .touchUpInside)
-        NotificationCenter.default
-                          .addObserver(self, selector: #selector(handleApplicationReActive), name: UIApplication.didBecomeActiveNotification, object: nil)
     }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    override func removeFromSuperview() {
-        super.removeFromSuperview()
-        NotificationCenter.default
-            .removeObserver(self,
-                            name: UIApplication.didBecomeActiveNotification,
-                            object: nil)
     }
 
     private func configView() {
@@ -198,6 +210,7 @@ class CouponCell: UICollectionViewCell {
         frontView.addSubview(couponTitleView)
         frontView.addSubview(couponDetailView)
         frontView.addSubview(expireLabel)
+        frontView.addSubview(dismissButon)
         frontView.addSubview(actionButton)
         backView.addSubview(barCodeView)
         backView.addSubview(couponCodeView)
@@ -236,6 +249,10 @@ class CouponCell: UICollectionViewCell {
         actionButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
         actionButton.widthAnchor.constraint(equalTo: self.frontView.widthAnchor, multiplier: 0.55).isActive = true
         actionButton.centerXAnchor.constraint(equalTo: self.frontView.centerXAnchor).isActive = true
+        dismissButon.topAnchor.constraint(equalTo: self.frontView.topAnchor, constant: 10).isActive  = true
+        dismissButon.rightAnchor.constraint(equalTo: self.frontView.rightAnchor, constant: -10).isActive = true
+        dismissButon.heightAnchor.constraint(equalToConstant: 17).isActive = true
+        dismissButon.widthAnchor.constraint(equalToConstant: 17).isActive = true
     }
 
     private func configBack() {
@@ -284,7 +301,6 @@ class CouponCell: UICollectionViewCell {
         default:
             break
         }
-
     }
 
     @objc private func backAction() {
@@ -304,13 +320,16 @@ class CouponCell: UICollectionViewCell {
         return nil
     }
 
-    private func resetTimer() {
+    internal func resetTimer() {
         expireLabel.isHidden = true
+        activationTimer?.invalidate()
         guard let expirationDate = self.expirationTime else {
             activationTimer = nil
             return
         }
-        expireLabel.isHidden = false
+        if let cp = self.coupon, cp.isClaimable {
+            expireLabel.isHidden = false
+        }
         activationTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (_) in
             let ttl = -Date().timeIntervalSince(expirationDate)
             if ttl <= 0 {
@@ -320,10 +339,6 @@ class CouponCell: UICollectionViewCell {
             }
 
         })
-    }
-
-   @objc private func handleApplicationReActive() {
-        resetTimer()
     }
 
     @objc private func activateCoupon() {
@@ -337,7 +352,6 @@ class CouponCell: UICollectionViewCell {
                     self.showBarCode()
                 }
             }
-
         }
     }
 
@@ -348,7 +362,11 @@ class CouponCell: UICollectionViewCell {
             actionButton.setTitle("Redeem", for: .normal)
         case .isActivated:
             actionButton.backgroundColor = sirlDarkBtnColor
+            if self.couponCode != nil {
             actionButton.setTitle("Show Coupon Code", for: .normal)
+            } else {
+            actionButton.setTitle("Show This to Casher", for: .normal)
+            }
         case .isExpired:
             actionButton.backgroundColor = .gray
             actionButton.setTitle("Expired", for: .disabled)
@@ -357,7 +375,6 @@ class CouponCell: UICollectionViewCell {
             actionButton.backgroundColor = sirlDarkBtnColor
             actionButton.setTitle("Activating", for: .normal)
         }
-
     }
 
     private func startTimer() {
@@ -366,6 +383,20 @@ class CouponCell: UICollectionViewCell {
             expirationTime = Date().addingTimeInterval(ttl)
             resetTimer()
         }
+    }
+
+    private func cleanup() {
+        self.couponTitle = nil
+        self.couponDetail = nil
+        self.expirationTime = nil
+        self.ttl = nil
+        self.couponCode = nil
+        self.currentState = .notActivated
+        self.activationTimer?.invalidate()
+    }
+
+    override func prepareForReuse() {
+        self.coupon = nil
     }
 
 }

@@ -21,13 +21,9 @@ public class Coupon: Decodable {
 
     public var isClaimable: Bool {
         get {
-            guard type != nil else {
-                if(type == "Raffle") {
-                    return false
-                }
-
-                return true
-            }
+            if(type == "Raffle" || type == "Promotion") {
+                 return false
+             }
             return true
         }
     }
