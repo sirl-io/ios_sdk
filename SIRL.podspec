@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
     core.libraries = "c++"
     core.requires_arc = true
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
-                      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/libs/include'}
+                      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/Core/libs/include'}
   end
   
   s.subspec 'User' do |usr|
