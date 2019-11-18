@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
     core.vendored_frameworks = "Core/SIRLCore.framework"
     core.preserve_paths = "Core/libs/include/module.modulemap"
+    core.module_map = "Core/libs/include/module.modulemap"
     core.vendored_libraries = "Core/libs/*.a"
     core.source_files  = "Core/libs/include/*.{h}"
     core.libraries = "c++"
