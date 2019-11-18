@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SIRL"
-  s.version      = "1.0.1"
+  s.version      = "1.0.11"
   s.summary      = "SIRL SDKs"
 
   s.description  = "This is the set of SDKs for the SIRL system."
