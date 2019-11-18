@@ -525,9 +525,6 @@ public protocol APIRequest : Swift.Encodable {
   var requestMethod: Swift.String { get }
   var requestBody: Self.RequestBody { get }
 }
-extension SirlCore {
-  @objc dynamic public func recordProductScan(id: Swift.String, type: Swift.String, rightSide: Swift.Bool)
-}
 public enum URLQueryEncoder {
 }
 @available(iOS 10.0, *)
