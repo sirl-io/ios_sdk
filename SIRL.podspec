@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SIRL"
-  s.version      = "1.0.11"
+  s.version      = "1.1.16"
   s.summary      = "SIRL SDKs"
 
   s.description  = "This is the set of SDKs for the SIRL system."
@@ -30,14 +30,31 @@ Pod::Spec.new do |s|
                      :tag => "#{s.version}" }
   # --- Subspecs --------------------------------------------------------------- #
 
-  #s.default_subspec = 'Core'
-  s.module_map = "Core/libs/include/module.modulemap"
-  s.vendored_frameworks = "Core/SIRLCore.framework"
-  s.preserve_paths = "Core/libs/include/module.modulemap"
-  s.vendored_libraries = "Core/libs/*.a"
-  s.source_files  = "Core/libs/include/*.{h}"
-  s.libraries = "c++"
-  s.requires_arc = true
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
+  s.default_subspec = 'Core'
+  s.subspec 'Core' do |core|
+    core.vendored_frameworks = "Core/SIRLCore.framework"
+    core.preserve_paths = "Core/libs/include/module.modulemap"
+    core.vendored_libraries = "Core/libs/*.a"
+    core.source_files  = "Core/libs/include/*.{h}"
+    core.libraries = "c++"
+    core.requires_arc = true
+    core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/libs/include'}
+  end
+  
+  s.subspec 'User' do |usr|
+    usr.source_files  = "User/**/*.swift"
+    usr.dependency 'SIRL/Core'
+  end
+  
+  s.subspec 'Map' do |map|
+    map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}
+    map.source_files  = "Map/**/*.swift"
+    map.dependency 'SIRL/Core'
+  end
+  
+  s.subspec 'Retail' do |ret|
+    ret.source_files  = "Retail/**/*.swift"
+    ret.dependency 'SIRL/Map'
+  end
 end
