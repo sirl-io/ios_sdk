@@ -384,6 +384,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface SirlCore (SWIFT_EXTENSION(SIRLCore))
+- (void)recordProductScanWithId:(NSString * _Nonnull)id type:(NSString * _Nonnull)type rightSide:(BOOL)rightSide;
+@end
+
 @class sirlLocation;
 
 SWIFT_PROTOCOL("_TtP8SIRLCore16SirlCoreDelegate_")
