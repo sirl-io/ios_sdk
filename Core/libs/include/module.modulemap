@@ -1,14 +1,14 @@
-module pipsAPI [system] {
+framework module pipsAPI [system] {
   header "wl_api.h"
   export *
 }
 
-module positionAPI [system]{
+framework module positionAPI [system]{
     header "position_lib.h"
     export *
 }
 
-module SSZipArchive [system] {
+framework module SSZipArchive [system] {
     header "SSZipArchive.h"
     export *
 }
