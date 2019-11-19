@@ -362,7 +362,7 @@ SWIFT_AVAILABILITY(ios,introduced=10.0)
 SWIFT_CLASS("_TtC8SIRLCore13SirlBLEPacket") SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface SirlBLEPacket : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 @class SirlGeoFence;
@@ -481,11 +481,10 @@ SWIFT_CLASS("_TtC8SIRLCore12sirlLocation")
 @property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull ArrayValue;
 @property (nonatomic, readonly, copy) NSString * _Nonnull xyString;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
 #pragma clang diagnostic pop
-
