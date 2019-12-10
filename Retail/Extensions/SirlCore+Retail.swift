@@ -7,12 +7,15 @@
 //
 
 import Foundation
+
 #if canImport(SIRLCore)
-import SIRLCore
+    import SIRLCore
 #endif
 
-public extension SirlCore {
-    @objc func recordProductScan(id: String, type: String, rightSide: Bool) {
+@available(iOS 13.0, *)
+extension SirlCore {
+    @objc
+    public func recordProductScan(id: String, type: String, rightSide: Bool) {
         if #available(iOS 10.0, *) {
             if let recorder = SirlCoreImpl.shared.executionLog {
                 recorder.productScanEvent(id: id, type: type, rightSide: rightSide)
