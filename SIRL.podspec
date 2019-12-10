@@ -41,20 +41,5 @@ Pod::Spec.new do |s|
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/Core/libs/include'}
   end
-  
-  s.subspec 'User' do |usr|
-    usr.source_files  = "User/**/*.swift"
-    usr.dependency 'SIRL/Core'
-  end
-  
-  s.subspec 'Map' do |map|
-    map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}
-    map.source_files  = "Map/**/*.swift"
-    map.dependency 'SIRL/Core'
-  end
-  
-  s.subspec 'Retail' do |ret|
-    ret.source_files  = "Retail/**/*.swift"
-    ret.dependency 'SIRL/Map'
-  end
+
 end
