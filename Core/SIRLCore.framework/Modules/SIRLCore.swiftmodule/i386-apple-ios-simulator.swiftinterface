@@ -1,0 +1,1171 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1 (swift-5.1-RELEASE)
+// swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name SIRLCore
+import AdSupport
+import CoreBluetooth
+import CoreData
+import CoreLocation
+import CoreMotion
+import Foundation
+import SSZipArchive
+import Swift
+import SystemConfiguration
+import UIKit
+import UserNotifications
+import os.log
+import os
+import pipsAPI
+import positionAPI
+@available(iOS 10.0, *)
+extension CodingUserInfoKey {
+  public static var managedObjectContext: Swift.CodingUserInfoKey?
+}
+@available(iOS 10.0, *)
+extension UIDevice {
+  public static var modelName: Swift.String
+}
+@objc open class SirlLogger : ObjectiveC.NSObject {
+  public enum externalTag : Swift.String {
+    case EXTERNAL
+    case TRANSACTION_LOG
+    case PROMOTION
+    case CUSTOM
+    case META
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum externalStr : Swift.String {
+    case START
+    case END
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum promoEvent : Swift.String {
+    case TRIGGERED
+    case NOTFIFY
+    case PRESENTED
+    case IGNORED
+    case ROUTED
+    case LIMITED
+    case ERROR
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  @objc public static func recordProductCollected(upc: Swift.String)
+  @objc public static func recordExternalTripId(_ id: Swift.String)
+  @objc public static func recordExternalUserId(_ id: Swift.String)
+  @objc public static func recordTransactionLog(_ data: Swift.String)
+  @objc public static func recordTransactionLog(upc: Swift.String, name: Swift.String, qty: Swift.Int, totalPrice: Swift.Double)
+  @objc public static func recordMetaInformation(_ data: Swift.String)
+  @objc public static func recordCustomEntry(tag: Swift.String, data: Swift.String)
+  public static func recordPromotionEevent(event: SIRLCore.SirlLogger.promoEvent, id: Swift.String, details: Swift.String? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(NodeBlackList) public class NodeBlackList : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+public class Coupon : Swift.Decodable {
+  public var id: Swift.Int?
+  public var title: Swift.String?
+  public var description: Swift.String?
+  public var finePrint: Swift.String?
+  public var updatedOn: Swift.String?
+  public var type: Swift.String?
+  public var ttlSeconds: Swift.Int?
+  public var code: Swift.String?
+  public var expiration: Foundation.Date?
+  public var isClaimable: Swift.Bool {
+    get
+  }
+  public init(id: Swift.Int? = nil, title: Swift.String? = nil, description: Swift.String? = nil, finePrint: Swift.String? = nil, updatedOn: Swift.String? = nil, type: Swift.String? = nil, ttlSeconds: Swift.Int? = nil, code: Swift.String? = nil)
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+}
+@objc(AisleRegions) public class AisleRegions : CoreData.NSManagedObject {
+  @objc override dynamic public func willSave()
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension AisleRegions {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.AisleRegions>
+  @objc @NSManaged dynamic public var mlId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var jsonStr: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var cacheDate: Foundation.NSDate? {
+    @objc get
+    @objc set(value)
+  }
+}
+public struct Location : Swift.Decodable {
+  public var custId: Swift.UInt32!
+  public var appId: Swift.UInt32!
+  public var locId: Swift.UInt32!
+  public var bldId: Swift.UInt32!
+  public var storeId: Swift.UInt32!
+  public var companyId: Swift.UInt32!
+  public var casingId: Swift.UInt32!
+  public var configId: Swift.UInt32!
+  public var id: Swift.UInt32!
+  public var description: Swift.String!
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc(NodeConfig) public class NodeConfig : CoreData.NSManagedObject {
+  public func convertObject() -> SIRLCore.NodeConfigs
+  @objc override dynamic public func willSave()
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension NodeConfig {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.NodeConfig>
+  @objc @NSManaged dynamic public var mlId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var roomId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var nodeId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var macAddress: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var x: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var y: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var z: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var xMinimum: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var yMinimum: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var zMinimum: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var xMaximum: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var yMaximum: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var zMaximum: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var xa: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var ya: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var za: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var rotationOrder: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var pathLoss: Swift.Double {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var id: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var installationAisleId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var relaventTable: SIRLCore.NodeConfigTable? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var cacheDate: Foundation.NSDate? {
+    @objc get
+    @objc set(value)
+  }
+}
+public class NodeConfigs : Swift.Decodable {
+  public init(id: Swift.UInt32, macAddress: Swift.String, roomId: Swift.UInt32, nodeId: Swift.UInt32, x: Swift.Double, xMinimum: Swift.Double, xMaximum: Swift.Double, y: Swift.Double, yMinimum: Swift.Double, yMaximum: Swift.Double, z: Swift.Double, zMinimum: Swift.Double, zMaximum: Swift.Double, pathLoss: Swift.Double, xa: Swift.Double, ya: Swift.Double, za: Swift.Double, rotationOrder: Swift.Int32, installationAisleId: Swift.UInt32?, mlId: Swift.UInt32?)
+  required public convenience init(from decoder: Swift.Decoder) throws
+  @objc deinit
+}
+@objc(NodeConfigTable) public class NodeConfigTable : CoreData.NSManagedObject {
+  public func convertObject() -> SIRLCore.SirlNodeConfigs
+  @objc override dynamic public func willSave()
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension NodeConfigTable {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.NodeConfigTable>
+  @objc @NSManaged dynamic public var mlId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var custId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var appId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var locId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var bldId: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var nodeConfig: Foundation.NSSet? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var cacheDate: Foundation.NSDate? {
+    @objc get
+    @objc set(value)
+  }
+}
+@available(iOS 10.0, *)
+extension NodeConfigTable {
+  @objc(addNodeConfigObject:) @NSManaged dynamic public func addToNodeConfig(_ value: SIRLCore.NodeConfig)
+  @objc(removeNodeConfigObject:) @NSManaged dynamic public func removeFromNodeConfig(_ value: SIRLCore.NodeConfig)
+  @objc(addNodeConfig:) @NSManaged dynamic public func addToNodeConfig(_ values: Foundation.NSSet)
+  @objc(removeNodeConfig:) @NSManaged dynamic public func removeFromNodeConfig(_ values: Foundation.NSSet)
+}
+public class SessionTokenRequestInfo : Swift.Encodable {
+  public init(mlId: Swift.Int32, pipsLibVer: Swift.String, appVer: Swift.String, timestamp: Swift.Int64? = nil)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct RelevantNodes : Swift.Decodable {
+  public var locations: [SIRLCore.SirlNodeConfigs]
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc(Settings) public class Settings : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension Settings {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.Settings>
+  @objc @NSManaged dynamic public var backgroundMode: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var regionLocking: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var prediction: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var apiKey: Swift.String {
+    @objc get
+    @objc set(value)
+  }
+}
+public class SirlNodeConfigs : Swift.Decodable {
+  public init(custID: Swift.UInt32, appID: Swift.UInt32, locID: Swift.UInt32, bldID: Swift.UInt32, mlId: Swift.UInt32? = nil, storeId: Swift.UInt32? = nil, nodeConfig: [SIRLCore.NodeConfigs]? = nil, blackList: [Swift.String]? = nil)
+  required public convenience init(from decoder: Swift.Decoder) throws
+  public func getNodeConfigTable() -> [pipsAPI.pips_node_setting]
+  @available(iOS 10.0, *)
+  public func save()
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public enum SirlBundleHelper {
+  public static func getResourceImage(name: Swift.String) -> UIKit.UIImage?
+  public static func getResourceDataModleURL() -> Foundation.URL
+  public static func getSDKVersionNumber() -> Swift.String
+}
+@available(iOS 10.0, *)
+public struct GetMapLocationID : SIRLCore.APIRequest {
+  public typealias Response = [SIRLCore.Location]
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public init(cust_id: Swift.UInt32, app_id: Swift.UInt32, loc_id: Swift.UInt32, bld_id: Swift.UInt32)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct GetNodeConfigs : SIRLCore.APIRequest {
+  public typealias Response = SIRLCore.SirlNodeConfigs
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public init(mlId: Swift.Int)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct GetRelevantNodes : SIRLCore.APIRequest {
+  public typealias Response = SIRLCore.RelevantNodes
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public init(macAddress: Swift.String, geoLocation: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct GetAisleRegionsString : SIRLCore.APIRequest {
+  public typealias Response = SIRLCore.RawStringValue
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public let mlId: Swift.Int!
+  public init(mlId: Swift.Int)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public protocol Cachable {
+  associatedtype CacheType
+  static func decode(_ data: Foundation.Data) -> Self.CacheType?
+  func encode() -> Foundation.Data?
+}
+@objc @available(iOS 10.0, *)
+public class SirlDataBase : ObjectiveC.NSObject {
+  public static var shared: SIRLCore.SirlDataBase
+  @objc override dynamic public init()
+  public var persistentContainer: CoreData.NSPersistentContainer {
+    get
+    set(value)
+  }
+  public var context: CoreData.NSManagedObjectContext {
+    get
+  }
+  public var pipsConfigContext: CoreData.NSManagedObjectContext
+  public func saveContext(compeletion: ((Swift.Error?) -> Swift.Void)? = nil)
+  public func saveContextSync(compeletion: ((Swift.Error?) -> Swift.Void)? = nil)
+  public func deleteObject(_ entry: CoreData.NSManagedObject, context: CoreData.NSManagedObjectContext? = nil)
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public class CacheManager {
+  public static var shared: SIRLCore.CacheManager
+  final public let dataCache: SIRLCore.SirlDataBase
+  public func store<T>(key: Swift.String, object: T, memCaheOnly: Swift.Bool, completion: (() -> Swift.Void)?) where T : SIRLCore.Cachable
+  public func retrive<T>(_ key: Swift.String, completion: @escaping (T?) -> Swift.Void) where T : SIRLCore.Cachable
+  public func remove(_ key: Swift.String, completion: (() -> Swift.Void)?)
+  public func getCoreDataContainer() -> CoreData.NSPersistentContainer
+  public func clearCache()
+  public func clearMapCache(mapID: Swift.String? = nil)
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public class RawStringValue : Swift.Decodable {
+  public init(value: Swift.String)
+  required public convenience init(from decoder: Swift.Decoder) throws
+  @objc deinit
+}
+@objc open class SirlGeoFence : ObjectiveC.NSObject {
+  public var requiredDwellDuration: Swift.Int?
+  public var margin: Swift.Double?
+  public var id: Swift.String?
+  public var center: SIRLCore.sirlLocation?
+  @objc public convenience init(dwellDuration: Swift.Int, margin: Swift.Double, id: Swift.String, center: SIRLCore.sirlLocation)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum HTTPParameter : Swift.CustomStringConvertible, Swift.Decodable {
+  case string(Swift.String)
+  case bool(Swift.Bool)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  public init(from decoder: Swift.Decoder) throws
+  public var description: Swift.String {
+    get
+  }
+}
+public enum Result<Value> {
+  case success(Value)
+  case failure(Swift.Error)
+}
+public typealias ResultCallback<Value> = (SIRLCore.Result<Value>) -> Swift.Void
+@objc @available(iOS 10.0, *)
+open class SirlCoreImpl : ObjectiveC.NSObject, SIRLCore.PIPSDelegate {
+  public var allowRegionLocking: Swift.Bool
+  public var allowPrediction: Swift.Bool
+  public static var shared: SIRLCore.SirlCoreImpl
+  weak public var sirlMapAdapter: SIRLCore.SirlCoreMapDelegate?
+  public var dataSource: SIRLCore.SirlCoreDataSource {
+    get
+    set(newValue)
+  }
+  public var getLibVersion: Swift.String {
+    get
+  }
+  public var isDataSourceAvalible: Swift.Bool {
+    get
+  }
+  public var isDataSourceInitialized: Swift.Bool {
+    get
+  }
+  public var inActiveRegion: Swift.Bool {
+    get
+  }
+  public var ML_ID: Swift.UInt32? {
+    get
+  }
+  public func executionLogConfig(pips: Swift.Bool? = nil, ble: Swift.Bool? = nil, debug: Swift.Bool? = nil, info: Swift.Bool? = nil, imu: Swift.Bool? = nil, speed: Swift.Bool? = nil, event: Swift.Bool? = nil)
+  public var executionLog: SIRLCore.SirlTripExecutionLogRecorder? {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+  public func runRegionStateCheck()
+  public func startScan()
+  public var isScanning: Swift.Bool {
+    get
+  }
+  public func stopScan()
+  public func clearLocations()
+  public func didGetNewPosition(_ position: SIRLCore.sirlLocation, _ velocity: SIRLCore.sirlLocation, _ confidence: Swift.Double)
+  public func didGetNewAIInfo(_ aiInfo: [pipsAPI.pips_ai_node_info])
+  public func didSendDebugMessage(_ msg: Swift.String)
+  public func updateSettings(backgroundMode: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = "")
+}
+@available(iOS 10.0, *)
+extension SirlCoreImpl : SIRLCore.SirlCoreDataSourceDelegate, SIRLCore.SirlMapLocationListenerDelegate {
+  public func didStartDataSource()
+  public func didStopDataSource()
+  public func didTriggerBackgroundTaskTermination()
+  public func didChangeSourceAvalibility(avaliable: Swift.Bool, state: CoreBluetooth.CBManagerState?)
+  public func didReceiveSirlPacket(packet: SIRLCore.SirlBLEPacket, timeElap: Swift.Int64)
+  public func didDetectLocationChange(mlId: Swift.UInt32)
+}
+@available(iOS 10.0, *)
+extension SirlCoreImpl : SIRLCore.SirlPositionDelegate {
+  public func registerGeoFence(geoFences: [SIRLCore.SirlGeoFence]) -> Swift.Bool
+  public func didInitializedSirlRegion()
+}
+@available(iOS 10.0, *)
+extension SirlCoreImpl {
+  public static var testTimer: Foundation.Timer?
+  @objc dynamic public func setTestLocation(_ mlid: Swift.UInt32)
+  public func setTestUserLocation(x: Swift.Double, y: Swift.Double, z: Swift.Double)
+}
+public struct NULLCodable : Swift.Codable {
+  public init()
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct SimpleResponse : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public protocol APIRequest : Swift.Encodable {
+  associatedtype Response : Swift.Decodable
+  associatedtype RequestBody : Swift.Encodable
+  var resourceName: Swift.String { get }
+  var requestMethod: Swift.String { get }
+  var requestBody: Self.RequestBody { get }
+}
+public enum URLQueryEncoder {
+}
+@available(iOS 10.0, *)
+public class ZipFileDownloader {
+  public init()
+  public func download(url: Swift.String, to destURL: Swift.String, completion: @escaping () -> Swift.Void)
+  @objc deinit
+}
+public enum ReachabilityError : Swift.Error {
+  case FailedToCreateWithAddress(Darwin.sockaddr_in)
+  case FailedToCreateWithHostname(Swift.String)
+  case UnableToSetCallback
+  case UnableToSetDispatchQueue
+  case UnableToGetInitialFlags
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public var ReachabilityChangedNotification: Foundation.NSNotification.Name
+@available(iOS 10.0, *)
+extension NSNotification.Name {
+  public static var reachabilityChanged: Foundation.Notification.Name
+}
+@available(iOS 10.0, *)
+public class Reachability {
+  public typealias NetworkReachable = (SIRLCore.Reachability) -> Swift.Void
+  public typealias NetworkUnreachable = (SIRLCore.Reachability) -> Swift.Void
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable
+    case reachableViaWiFi
+    case reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: SIRLCore.Reachability.NetworkStatus, b: SIRLCore.Reachability.NetworkStatus) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    case none
+    case wifi
+    case cellular
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: SIRLCore.Reachability.Connection, b: SIRLCore.Reachability.Connection) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public var whenReachable: SIRLCore.Reachability.NetworkReachable?
+  public var whenUnreachable: SIRLCore.Reachability.NetworkUnreachable?
+  @available(swift, deprecated: 4.0, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  @available(swift, deprecated: 4.0, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: SIRLCore.Reachability.Connection {
+    get
+  }
+  public var connection: SIRLCore.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  public convenience init?(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  public convenience init?(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  @objc deinit
+}
+@available(iOS 10.0, *)
+extension Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  @available(*, deprecated, message: "Please use `connection != .none`")
+  public var isReachable: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .cellular`")
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .wifi`")
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+@available(iOS 10.0, *)
+public class SirlAPIClient {
+  public static var shared: SIRLCore.SirlAPIClient
+  public func send<T>(_ request: T, withAccessToken accessToken: Swift.String = "", baseURL: Swift.String = "", completion: @escaping SIRLCore.ResultCallback<T.Response>) where T : SIRLCore.APIRequest
+  public init()
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public struct GetSessionToken : SIRLCore.APIRequest {
+  public typealias Response = SIRLCore.SirlSessionToken
+  public typealias RequestBody = SIRLCore.SessionTokenRequestInfo
+  public var requestBody: SIRLCore.SessionTokenRequestInfo {
+    get
+  }
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public init(mlId: Swift.Int32, pipsLibVer: Swift.String, appVer: Swift.String, requestTimeStamp: Swift.Int64? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+@objc(SessionToken) public class SessionToken : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@available(iOS 10.0, *)
+extension SessionToken {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.SessionToken>
+  @objc @NSManaged dynamic public var tripID: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var timeStamp: Foundation.NSDate? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var token: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var mlID: Swift.Int32 {
+    @objc get
+    @objc set(value)
+  }
+}
+@available(iOS 10.0, *)
+public struct SirlSessionToken : Swift.Decodable {
+  public var token: Swift.String!
+  public init(from decoder: Swift.Decoder) throws
+  public init(token: Swift.String)
+}
+@available(iOS 10.0, *)
+@objc(TripData) public class TripData : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+@available(iOS 10.0, *)
+extension TripData {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.TripData>
+  @objc @NSManaged dynamic public var completed: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var tripID: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var fileName: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var timeUpdate: Foundation.NSDate? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var type: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+}
+@available(iOS 10.0, *)
+public class SirlTripDataReporter {
+  public static var shared: SIRLCore.SirlTripDataReporter
+  public var executionLog: SIRLCore.SirlTripExecutionLogRecorder? {
+    get
+  }
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public class SirlTripDataRecorder {
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public class SirlTripDataUploader {
+  public static var shared: SIRLCore.SirlTripDataUploader
+  public enum dataType : Swift.String {
+    case position
+    case ai_data
+    case executionLog
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.String)
+  }
+  public enum mimeType : Swift.String {
+    case txt
+    case zip
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func upload(withUserSessionToken userSessionToken: Swift.String, dataType: SIRLCore.SirlTripDataUploader.dataType, file: Foundation.Data, MIMEType: SIRLCore.SirlTripDataUploader.mimeType, baseURL: Swift.String = "", completion: @escaping (Swift.Error?, Foundation.URLResponse?) -> Swift.Void)
+  public func upload(withUserSessionToken userSessionToken: Swift.String, dataType: Swift.String, file: Foundation.Data, MIMEType: SIRLCore.SirlTripDataUploader.mimeType, baseURL: Swift.String = "", completion: @escaping (Swift.Error?, Foundation.URLResponse?) -> Swift.Void)
+  public init()
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
+  public enum logType : Swift.String {
+    case ble
+    case imu
+    case pips
+    case speed
+    case i
+    case d
+    case event
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum eventType : Swift.String {
+    case core
+    case retail
+    case map
+    case location
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum sessionEventType : Swift.String {
+    case start
+    case finish
+    case request
+    case receive
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum bleEventType : Swift.String {
+    case poweredOn
+    case poweredOff
+    case unsupported
+    case resetting
+    case unauthorized
+    case unknown
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum routeEventType : Swift.String {
+    case cancel
+    case complete
+    case reroute_manual
+    case reroute_auto
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum retailEventType : Swift.String {
+    case search
+    case route
+    case missingProduct
+    case scan
+    case promotion
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func turnOnExcutionLog(pips: Swift.Bool? = nil, ble: Swift.Bool? = nil, debug: Swift.Bool? = nil, info: Swift.Bool? = nil, imu: Swift.Bool? = nil, speed: Swift.Bool? = nil, event: Swift.Bool? = nil)
+  public func feed(position: SIRLCore.sirlLocation, velocity: SIRLCore.sirlLocation, confidence: Swift.Double)
+  public func feed(dataPacket: SIRLCore.SirlBLEPacket, time_ms: Swift.Int64)
+  public func info(msg: Swift.String)
+  public func debug(msg: Swift.String)
+  public func errorEvent(msg: Swift.String)
+  public func sessionEvent(type: SIRLCore.SirlTripExecutionLogRecorder.sessionEventType)
+  public func sessionEvent(type: SIRLCore.SirlTripExecutionLogRecorder.sessionEventType, msg: Swift.String)
+  public func bleEvent(type: SIRLCore.SirlTripExecutionLogRecorder.bleEventType)
+  public func routeEvent(type: SIRLCore.SirlTripExecutionLogRecorder.routeEventType)
+  public func reportEvent(type: SIRLCore.SirlTripExecutionLogRecorder.eventType, event: Swift.String, data: Swift.String)
+  public func reportExternal(type: Swift.String, data: Swift.String)
+  public func retailEvent(type: SIRLCore.SirlTripExecutionLogRecorder.retailEventType, content: Swift.String)
+  public func productScanEvent(id: Swift.String, type: Swift.String, rightSide: Swift.Bool)
+  @objc deinit
+}
+public protocol SirlPositionDelegate : AnyObject {
+  func didInitializedSirlRegion()
+}
+public class SirlPosition {
+  public static var shared: SIRLCore.SirlPosition
+  public var version: Swift.String {
+    get
+  }
+  public func initAisleRegions(aisleRegionString: Swift.String)
+  public func adjustPosition(position: SIRLCore.sirlLocation) -> SIRLCore.sirlLocation?
+  public func getPredictions(position: SIRLCore.sirlLocation, vX: Swift.Double, vY: Swift.Double, confidence: Swift.Double) -> SIRLCore.sirlLocation?
+  public func addGeoFenceLocation(id: Swift.String?, center: SIRLCore.sirlLocation?, radius: Swift.Double?, duration: Swift.Int?) -> Swift.Bool
+  public func feedLocationForGeoFence(timestamp: Swift.Int, location: SIRLCore.sirlLocation) -> Swift.Bool
+  public func getCurrentGeofenceId() -> Swift.String
+  public func resetRegions()
+  public func resetGeofence()
+  public func resetPrediction()
+  public func reset()
+  @available(iOS 10.0, *)
+  public static func saveRegionCache(mlId: Swift.UInt32, jsonStr: Swift.String)
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public protocol SirlMapLocationListenerDelegate : AnyObject {
+  func didDetectLocationChange(mlId: Swift.UInt32)
+}
+@available(iOS 10.0, *)
+extension SirlMapLocationListenerDelegate {
+  public func didDetectLocationChange(mlId: Swift.UInt32)
+}
+@objc public protocol SirlUserDelegate : AnyObject {
+  @objc optional func didChangeLoginStatus(status: Swift.Bool)
+}
+@objc @available(iOS 10.0, *)
+public class SirlBLEPacket : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public protocol PIPSDelegate : AnyObject {
+  func didGetNewPosition(_ position: SIRLCore.sirlLocation, _ velocity: SIRLCore.sirlLocation, _ confidence: Swift.Double)
+  func didGetNewAIInfo(_ aiInfo: [pipsAPI.pips_ai_node_info])
+  func didChangeScanMode(_ mode: SIRLCore.ScanMode)
+  func didSendDebugMessage(_ msg: Swift.String)
+}
+@available(iOS 10.0, *)
+extension PIPSDelegate {
+  public func didChangeScanMode(_ mode: SIRLCore.ScanMode)
+  public func didSendDebugMessage(_ msg: Swift.String)
+  public func didGetNewAIInfo(_ aiInfo: [pipsAPI.pips_ai_node_info])
+}
+@available(iOS 10.0, *)
+extension pips_ai_node_info {
+  public var stringValue: Swift.String? {
+    get
+  }
+}
+@objc @available(iOS 10.0, *)
+public class PIPS : ObjectiveC.NSObject {
+  public var movementMode: SIRLCore.MovementMode
+  public var currentPosition: SIRLCore.sirlLocation {
+    get
+    set(newValue)
+  }
+  public var currentVelocity: SIRLCore.sirlLocation? {
+    get
+  }
+  public var pipsVelocity: SIRLCore.sirlLocation {
+    get
+  }
+  public var confidence: Swift.Double {
+    get
+  }
+  public var x_Cordinate: Swift.Double {
+    get
+  }
+  public var y_Cordinate: Swift.Double {
+    get
+  }
+  public var z_Cordinate: Swift.Double {
+    get
+  }
+  public var currentMode: SIRLCore.ScanMode {
+    get
+    set(newValue)
+  }
+  public var delayCtr: Swift.Int32 {
+    get
+    set(newValue)
+  }
+  public var loopCtr: Swift.Int32 {
+    get
+    set(newValue)
+  }
+  public var debugMSG: Swift.String {
+    get
+    set(newValue)
+  }
+  @objc override dynamic public init()
+  public func pips_reset()
+  public func getVersion() -> Swift.String
+  public func feedDataPacket(dataPacket: Swift.String, rssi: Foundation.NSNumber, time_ms: Swift.Int64)
+  public func setNodes(_ nodesSettingTable: [pipsAPI.pips_node_setting])
+  public func getTable() -> Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<pipsAPI.pips_node_setting>?>
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public protocol SirlCoreDataSource : AnyObject {
+  func start() -> Swift.Bool
+  func stop()
+  func updateBackgroundState()
+  func requestDataSourceAvalibility()
+  func initializeDataSource(completion: (() -> Swift.Void)?)
+  var isSourceAvalible: Swift.Bool { get }
+  var isSourceInitialized: Swift.Bool { get }
+  var isScanning: Swift.Bool { get }
+  var isBackgroundModeEnable: Swift.Bool { get set }
+  var backgroundModeRunningIfEnabled: Swift.Bool { get set }
+  var allowDataReport: Swift.Bool { get }
+  var delegate: SIRLCore.SirlCoreDataSourceDelegate? { get set }
+}
+@available(iOS 10.0, *)
+extension SirlCoreDataSource {
+  public func updateBackgroundState()
+}
+@available(iOS 10.0, *)
+public protocol SirlCoreDataSourceDelegate : AnyObject {
+  func didReceiveSirlPacket(packet: SIRLCore.SirlBLEPacket, timeElap: Swift.Int64)
+  func didChangeSourceAvalibility(avaliable: Swift.Bool, state: CoreBluetooth.CBManagerState?)
+  func didStartDataSource()
+  func didStopDataSource()
+  func didTriggerBackgroundTaskTermination()
+}
+@available(iOS 10.0, *)
+extension SirlCoreDataSourceDelegate {
+  public func didChangeSourceAvalibility(avaliable: Swift.Bool)
+  public func didTriggerBackgroundTaskTermination()
+}
+@objc @available(iOS 10.0, *)
+public class SirlBLEAdapter : ObjectiveC.NSObject, SIRLCore.SirlCoreDataSource {
+  weak public var delegate: SIRLCore.SirlCoreDataSourceDelegate?
+  public enum backgroundModeType {
+    case location
+    case backgroundTask
+    public static func == (a: SIRLCore.SirlBLEAdapter.backgroundModeType, b: SIRLCore.SirlBLEAdapter.backgroundModeType) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public var currentBackgroundModeType: SIRLCore.SirlBLEAdapter.backgroundModeType
+  public var isSourceAvalible: Swift.Bool {
+    get
+  }
+  public var isSourceInitialized: Swift.Bool {
+    get
+  }
+  public var allowDataReport: Swift.Bool {
+    get
+  }
+  public func requestDataSourceAvalibility()
+  public var isBackgroundModeEnable: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public var isScanning: Swift.Bool {
+    get
+  }
+  public var backgroundModeRunningIfEnabled: Swift.Bool {
+    get
+    set(newValue)
+  }
+  @objc override dynamic public init()
+  public func registerBackgroundTask()
+  public func updateBackgroundState()
+  public func start() -> Swift.Bool
+  public func initializeDataSource(completion: (() -> Swift.Void)?)
+  public func stop()
+  @objc deinit
+}
+@available(iOS 10.0, *)
+extension SirlBLEAdapter : CoreBluetooth.CBCentralManagerDelegate {
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
+}
+@available(iOS 10.0, *)
+extension SirlBLEAdapter : CoreLocation.CLLocationManagerDelegate {
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+}
+public var SIRL_NODE_MANUFACTORY_ID: Foundation.Data
+public var SIRL_UUID: CoreBluetooth.CBUUID
+public var SIRL_PAYLOAD_ID: Swift.String
+public var SIRL_COMPANY_ID: Swift.String
+public var SIRL_USER_CACHE_KEY: Swift.String
+public var SIRL_USER_META_CACHE_KEY: Swift.String
+public var WESTSIDE_98th_MAP_ID: Swift.UInt32
+public enum ScanMode {
+  case general
+  case standing
+  case walking
+  public static func == (a: SIRLCore.ScanMode, b: SIRLCore.ScanMode) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum MovementMode {
+  case standing
+  case walking
+  public static func == (a: SIRLCore.MovementMode, b: SIRLCore.MovementMode) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum TiledViewContentMode {
+  case contentToFit
+  case contentToFill
+  case mapToFit
+  public static func == (a: SIRLCore.TiledViewContentMode, b: SIRLCore.TiledViewContentMode) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum barCodeType {
+  case upca
+  case upce
+  case qr
+  case code39
+  case code39Mod43
+  case code93
+  case code128
+  case ean8
+  case aztec
+  case pdf417
+  case itf14
+  case dataMatrix
+  case interleaved2of5
+  public static func == (a: SIRLCore.barCodeType, b: SIRLCore.barCodeType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum BuildConfig {
+}
+@objc public class sirlLocation : ObjectiveC.NSObject {
+  @objc public var x: Swift.Double
+  @objc public var y: Swift.Double
+  @objc public var z: Swift.Double
+  @objc public init(x: Swift.Double, y: Swift.Double, z: Swift.Double)
+  @objc public var ArrayValue: [Swift.Double] {
+    @objc get
+  }
+  @objc public var xyString: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol SirlCoreDelegate : AnyObject {
+  @objc optional func didStartSirlNodeScan()
+  @objc optional func didStopSirlNodeScan()
+  @objc optional func didGetNewPosition(_ position: SIRLCore.sirlLocation)
+  @objc optional func didChangeBLEAvalibility(_ blePowerOn: Swift.Bool)
+  @objc optional func didReceiveDebugMessage(_ msg: Swift.String)
+  @objc optional func didDetectMapLocation(mlId: Swift.UInt32)
+  @objc optional func didChangeLocationServiceAuthorization(_ status: Swift.String)
+  @objc optional func didEnteredSirlRegion()
+  @objc optional func didExitedSirlRegion()
+  @objc optional func didInitializedSirlRegion()
+  @objc optional func didEnterGeoFence(id: Swift.String)
+  @objc optional func didReceiveSessionToken(token: Swift.String)
+}
+@available(iOS 10.0, *)
+public protocol SirlCoreMapDelegate : AnyObject {
+  func didGetNewPosition(_ position: SIRLCore.sirlLocation)
+  func didDetectMapLocation(mlId: Swift.UInt32)
+}
+@available(iOS 10.0, *)
+extension SirlCoreMapDelegate {
+  public func didGetNewPosition(_ position: SIRLCore.sirlLocation)
+  public func didDetectMapLocation(mlId: Swift.UInt32)
+}
+@available(iOS 10.0, *)
+open class SirlScannerSetting {
+  public var backgroundMode: Swift.Bool {
+    get
+  }
+  public var autoWakeup: Swift.Bool {
+    get
+  }
+  public var regionLocking: Swift.Bool {
+    get
+  }
+  public var prediction: Swift.Bool {
+    get
+  }
+  public var apiKey: Swift.String {
+    get
+  }
+  public static var shared: SIRLCore.SirlScannerSetting
+  public init()
+  @objc deinit
+}
+@objc open class SirlCore : ObjectiveC.NSObject {
+  @objc public static var shared: SIRLCore.SirlCore
+  public var ML_ID: Swift.UInt32? {
+    get
+  }
+  @objc public func setSingleLocation(mlID: Swift.UInt32)
+  public func updateSettings(backgroundMode: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = "")
+  @objc public func updateSetting(backgroundMode: Swift.Bool, apiKey: Swift.String)
+  @objc public func updateSetting(apiKey: Swift.String)
+  @objc public func updateSetting(backgroundMode: Swift.Bool, regionLocking: Swift.Bool, prediction: Swift.Bool, apiKey: Swift.String)
+  @objc public func registerGeoFence(geoFences: [SIRLCore.SirlGeoFence]) -> Swift.Bool
+  public func startScan()
+  public func stopScan()
+  @objc public func addDelegate(delegate: SIRLCore.SirlCoreDelegate)
+  @objc public func setTestLocation()
+  @objc public func setTestUserLocation(_ x: Swift.Double = 11.5, _ y: Swift.Double = 4.5, _ z: Swift.Double = 1)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension NodeBlackList {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.NodeBlackList>
+  @objc @NSManaged dynamic public var cacheDate: Foundation.NSDate? {
+    @objc get
+    @objc set(value)
+  }
+  @objc @NSManaged dynamic public var macAddress: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+}
+public var sirlDarkBtnColor: UIKit.UIColor
+public var sirlLightBtnColor: UIKit.UIColor

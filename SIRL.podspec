@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "9.0"
-  s.swift_version = '4.2'
+  s.swift_version = '5.1'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/sirl-io/ios_sdk.git",
@@ -40,6 +40,17 @@ Pod::Spec.new do |s|
     core.requires_arc = true
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/Core/libs/include'}
+  end
+
+  s.subspec 'Map' do |map|	
+    map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}	
+    map.source_files  = "Map/**/*.swift"	
+    map.dependency 'SIRL/Core'	
+  end	
+
+  s.subspec 'Retail' do |ret|	
+    ret.source_files  = "Retail/**/*.swift"	
+    ret.dependency 'SIRL/Map'	
   end
 
 end
