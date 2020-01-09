@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Map' do |map|	
-    map.vendored_frameworks = "Core/SIRLCore.framework"
+    map.vendored_frameworks = "Map/SIRLMap.framework"
     map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}	
     map.requires_arc = true
     map.dependency 'SIRL/Core'	
