@@ -49,4 +49,9 @@ Pod::Spec.new do |s|
     map.dependency 'SIRL/Core'	
   end	
 
+  s.subspec 'Retail' do |ret|	
+    ret.vendored_frameworks = "Retail/SIRLRetail.framework"
+    ret.dependency 'SIRL/Map'	
+  end
+
 end
