@@ -268,6 +268,8 @@ SWIFT_CLASS("_TtC7SIRLMap11SirlMapView") SWIFT_AVAILABILITY(ios,introduced=10.0)
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
+- (void)delete:(id _Nullable)sender;
+- (void)removeFromSuperview;
 @end
 
 
@@ -548,6 +550,8 @@ SWIFT_CLASS("_TtC7SIRLMap11SirlMapView") SWIFT_AVAILABILITY(ios,introduced=10.0)
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
+- (void)delete:(id _Nullable)sender;
+- (void)removeFromSuperview;
 @end
 
 
