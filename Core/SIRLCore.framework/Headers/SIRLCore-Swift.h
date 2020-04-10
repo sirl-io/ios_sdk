@@ -383,14 +383,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class sirlLocation;
+@class SirlLocation;
 
 SWIFT_PROTOCOL("_TtP8SIRLCore16SirlCoreDelegate_")
 @protocol SirlCoreDelegate
 @optional
 - (void)didStartSirlNodeScan;
 - (void)didStopSirlNodeScan;
-- (void)didGetNewPosition:(sirlLocation * _Nonnull)position;
+- (void)didGetNewPosition:(SirlLocation * _Nonnull)position;
 - (void)didChangeBLEAvalibility:(BOOL)blePowerOn;
 - (void)didReceiveDebugMessage:(NSString * _Nonnull)msg;
 - (void)didDetectMapLocationWithMlId:(uint32_t)mlId;
@@ -431,8 +431,24 @@ SWIFT_CLASS("_TtC8SIRLCore12SirlDataBase") SWIFT_AVAILABILITY(ios,introduced=10.
 
 SWIFT_CLASS("_TtC8SIRLCore12SirlGeoFence")
 @interface SirlGeoFence : NSObject
-- (nonnull instancetype)initWithDwellDuration:(NSInteger)dwellDuration margin:(double)margin id:(NSString * _Nonnull)id center:(sirlLocation * _Nonnull)center;
+- (nonnull instancetype)initWithDwellDuration:(NSInteger)dwellDuration margin:(double)margin id:(NSString * _Nonnull)id center:(SirlLocation * _Nonnull)center;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8SIRLCore12SirlLocation")
+@interface SirlLocation : NSObject
+@property (nonatomic) double x;
+@property (nonatomic) double y;
+@property (nonatomic) double z;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) SirlLocation * _Nonnull zero;)
++ (SirlLocation * _Nonnull)zero SWIFT_WARN_UNUSED_RESULT;
++ (void)setZero:(SirlLocation * _Nonnull)value;
+- (nonnull instancetype)initWithX:(double)x y:(double)y z:(double)z OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull ArrayValue;
+@property (nonatomic, readonly, copy) NSString * _Nonnull xyString;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
@@ -472,19 +488,6 @@ SWIFT_AVAILABILITY(ios,introduced=10.0)
 @end
 
 
-
-
-SWIFT_CLASS("_TtC8SIRLCore12sirlLocation")
-@interface sirlLocation : NSObject
-@property (nonatomic) double x;
-@property (nonatomic) double y;
-@property (nonatomic) double z;
-- (nonnull instancetype)initWithX:(double)x y:(double)y z:(double)z OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull ArrayValue;
-@property (nonatomic, readonly, copy) NSString * _Nonnull xyString;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

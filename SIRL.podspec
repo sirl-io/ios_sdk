@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SIRL"
-  s.version      = "1.1.27"
+  s.version      = "1.2.0"
   s.summary      = "SIRL SDKs"
 
   s.description  = "This is the set of SDKs for the SIRL system."
@@ -47,11 +47,17 @@ Pod::Spec.new do |s|
     map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}	
     map.requires_arc = true
     map.dependency 'SIRL/Core'	
+    map.dependency 'Mapbox-iOS-SDK', '~> 5.7'
   end	
 
   s.subspec 'Retail' do |ret|	
     ret.vendored_frameworks = "Retail/SIRLRetail.framework"
     ret.dependency 'SIRL/Map'	
+  end
+
+  s.subspec 'User' do |usr|	
+    usr.vendored_frameworks = "User/SIRLUser.framework"
+    usr.dependency 'SIRL/Core'	
   end
 
 end
