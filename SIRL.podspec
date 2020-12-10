@@ -31,6 +31,9 @@ Pod::Spec.new do |s|
   # --- Subspecs --------------------------------------------------------------- #
 
   s.default_subspec = 'Core'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   s.subspec 'Core' do |core|
     core.vendored_frameworks = "Core/SIRLCore.framework"
     core.preserve_paths = "Core/libs/include/module.modulemap"
