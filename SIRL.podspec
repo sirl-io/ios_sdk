@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SIRL"
-  s.version      = "1.2.0"
+  s.version      = "1.3.0"
   s.summary      = "SIRL SDKs"
 
   s.description  = "This is the set of SDKs for the SIRL system."
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  
+
   s.subspec 'Core' do |core|
     core.vendored_frameworks = "Core/SIRLCore.framework"
     core.preserve_paths = "Core/libs/include/module.modulemap"
