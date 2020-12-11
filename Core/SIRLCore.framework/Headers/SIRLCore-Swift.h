@@ -469,13 +469,6 @@ SWIFT_CLASS("_TtC8SIRLCore10SirlLogger")
 @end
 
 
-SWIFT_PROTOCOL("_TtP8SIRLCore16SirlUserDelegate_")
-@protocol SirlUserDelegate
-@optional
-- (void)didChangeLoginStatusWithStatus:(BOOL)status;
-@end
-
-
 SWIFT_CLASS_NAMED("TripData") SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface TripData : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -965,13 +958,6 @@ SWIFT_CLASS("_TtC8SIRLCore10SirlLogger")
 + (void)recordMetaInformation:(NSString * _Nonnull)data;
 + (void)recordCustomEntryWithTag:(NSString * _Nonnull)tag data:(NSString * _Nonnull)data;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_PROTOCOL("_TtP8SIRLCore16SirlUserDelegate_")
-@protocol SirlUserDelegate
-@optional
-- (void)didChangeLoginStatusWithStatus:(BOOL)status;
 @end
 
 
