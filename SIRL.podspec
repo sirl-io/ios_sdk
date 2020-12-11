@@ -50,8 +50,8 @@ Pod::Spec.new do |s|
     map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}	
     map.requires_arc = true
     map.dependency 'SIRL/Core'	
-    map.dependency 'Mapbox-iOS-SDK', '5.7.0'
-    map.dependency 'Floaty', '4.1.0'
+    #map.dependency 'Mapbox-iOS-SDK', '5.7.0'
+    #map.dependency 'Floaty', '4.1.0'
   end	
 
   s.subspec 'Retail' do |ret|	
