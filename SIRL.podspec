@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
     map.requires_arc = true
     map.dependency 'SIRL/Core'	
     #map.dependency 'Mapbox-iOS-SDK', '5.7.0'
-    #map.dependency 'Floaty', '4.1.0'
+    map.dependency 'Floaty', '4.1.0'
   end	
 
   s.subspec 'Retail' do |ret|	
