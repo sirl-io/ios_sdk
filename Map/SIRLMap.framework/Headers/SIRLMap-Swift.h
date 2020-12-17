@@ -191,7 +191,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
-@import Floaty;
 @import QuartzCore;
 @import UIKit;
 #endif
@@ -217,16 +216,6 @@ SWIFT_CLASS("_TtC7SIRLMap17DestinationMarker") SWIFT_AVAILABILITY(ios,introduced
 @interface DestinationMarker : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-@end
-
-
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC7SIRLMap20FloorSelectionButton") SWIFT_AVAILABILITY(ios,introduced=10.0)
-@interface FloorSelectionButton : Floaty
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
@@ -492,7 +481,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
-@import Floaty;
 @import QuartzCore;
 @import UIKit;
 #endif
@@ -518,16 +506,6 @@ SWIFT_CLASS("_TtC7SIRLMap17DestinationMarker") SWIFT_AVAILABILITY(ios,introduced
 @interface DestinationMarker : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-@end
-
-
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC7SIRLMap20FloorSelectionButton") SWIFT_AVAILABILITY(ios,introduced=10.0)
-@interface FloorSelectionButton : Floaty
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
