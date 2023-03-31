@@ -1,30 +1,3 @@
-/*
- Copyright (c) 2019, Wang Labs Inc
- All rights reserved.
- 
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are met:
- 
- 1. Redistributions of source code must retain the above copyright notice, this
- list of conditions and the following disclaimer.
- 
- 2. Redistributions in binary form must reproduce the above copyright notice,
- this list of conditions and the following disclaimer in the documentation
- and/or other materials provided with the distribution.
- 
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
- */
-
 #ifndef WL_API_H
 #define WL_API_H
 
@@ -34,6 +7,8 @@
 
 #ifdef __cplusplus
 extern "C" {
+#else
+typedef short bool;
 #endif
 
 #define PASS	0
@@ -43,18 +18,26 @@ extern "C" {
 #define WL_MAX_DISPLAY_MSG_CHAR		60
 #define WL_MAX_DISPLAY_NODES		10
 #define WL_NUMBER_DBG_MSG			12			
-#define WL_MAX_NODE_SETTING			500
+#define WL_MAX_NODE_SETTING			2000
 #define WL_MAX_ERROR_CNT			10
 #define WL_MAX_ERR_MSG_SIZE			200
-#define WL_MAX_NODES_FOR_AI			10		// alg output info to AI once per sec. for the top 10 srongest nodes 
+#define WL_MAX_NODES_FOR_AI			10		// alg output info to AI once per sec. for the top 10 strongest nodes 
 #define WL_MIN_POINTS_IN_BLOCKED_AREA	3
 #define WL_MAX_POINTS_IN_BLOCKED_AREA	10
 #define WL_MAX_NUM_BLOBKED_AREA			50
 #define WL_MAX_AI_RSSI_NUM				20
-
+#define WL_MAX_SKIP_POWERUP_SEC			5
+#define WL_MAX_MISSED_TIME_THR_MS	3000	// in ms of time. If xyz of api_out is continuesly missed for this value, pips_lib will reset aoa tracking alg
+#define WL_MAX_NUM_REGION_PER_NODE	3	
+#define WL_MAX_REGION_OVERLAP_NODE	25		// 5 meter node distance, 10 meter node rigion, open space: 5 nodes on x * 5 nodes on y => max 25 nodes region overlap
+#define WL_WFD_NUM_PREDICT_POINTS	20
 
 #define WL_ZYX		321
 #define WL_XYZ		123
+
+#define STANDING			1
+#define WALKING				2
+#define RECORDED_WALKING	3
 
 #if defined(__GNUC__) || defined(__clang__)
 #define DEPRECATED __attribute__((deprecated))
@@ -120,6 +103,33 @@ enum  PhoneUsageMode
 	PHONE_USED_IN_POCKET = 1	
 };
 
+enum EngineTuningMode {
+	// ENGINE_TUNE_ALL = -1,
+	ENGINE_TUNE_DEFAULT = 0,
+	ENGINE_TUNE_LOW_LATENCY = 1,
+	ENGINE_TUNE_HIGH_ACCURACY = 2,
+	ENGINE_TUNE_HIGHEST_ACCURACY = 3,
+	ENGINE_TUNE_size
+};
+
+enum WFD_LAG_CNTL_SPEED_T {		// settings to control leg converging speed that how fast the RX blue dot catch up app wfd points moving
+								// quicker on speed, faster converge, but may be bigger on drifting
+	
+	// note: api function requires the continually increased number
+	WFD_LAG_CNTL_NORMAL,		// The same speed as no wayfinding
+	WFD_LAG_CNTL_FAST,			// RX blue dot catch up wfd points faster than no wayfinding
+	WFD_LAG_CNTL_FASTER,		// RX blue dot and wfd point moving in about same speed if RX blue dot not moving to reverse direction
+	WFD_LAG_CNTL_FASTEST		// RX blue dot could moving a head of wfd points
+};
+
+typedef struct
+{
+	int left_node_id;		// room_node_id for left board 
+	double left_rssi;		// rssi value in dBm, 0 = not valid 
+	int right_node_id;		// room_node_id for right board 
+	double right_rssi;		// rssi value in dBm, 0 = not valid 
+} single_node_heatmap;
+
 typedef struct
 {
 	double x, y;
@@ -155,13 +165,15 @@ typedef struct
 	unsigned int room_id;			// room id, range 0x00-0xFF (8-bit, 0-255). for rooms in a building, or aisle/section in a store
 	unsigned int node_id;			// node id, range 0x00-0xFF (8-bit, 0-255). for node in above defined id
 
-	double x, x_min, x_max;			// measured node location and it's walkable range on x-aixs, in meter
-	double y, y_min, y_max;			// measured node location and it's walkable range on y-aixs, in meter
+	int num_region;
+	double x, x_min[WL_MAX_NUM_REGION_PER_NODE], x_max[WL_MAX_NUM_REGION_PER_NODE];	// measured node location and it's walkable range on x-aixs, in meter
+	double y, y_min[WL_MAX_NUM_REGION_PER_NODE], y_max[WL_MAX_NUM_REGION_PER_NODE];	// measured node location and it's walkable range on y-aixs, in meter
 	double z, z_min, z_max;			// measured node location and it's walkable range on z-aixs, in meter
 	double pathloss;				// path loss, in dB
 
 	double xa, ya, za;				// node placement orientation, in degree
 	int rotation_order;				// must be either WL_ZYX, or WL_XYZ, 0 for default (N/A)
+	int gen;						// 1=gen1; 2=gen2
 
 } pips_node_setting;
 
@@ -254,15 +266,17 @@ typedef struct
 	pips_ai_node_info ai_node[WL_MAX_NODES_FOR_AI];		// current ai_node[] output array size = used_num_of_nodes
 	pips_ai_rssi ai_rssi[WL_MAX_NODES_FOR_AI];			// current ai_rssi[] output array size = used_num_of_nodes
 
-	// for debug only
-	unsigned int frame_id;			// current frame id; each measurement (1 sec) is a frame; moduled by %60000
+	unsigned int frame_id;			// current frame id; each measurement (WL_MEASURE_WIN_MS) is a frame; 
+	int pos_credit;					// number of continues xy postions that pass confident metric threshold.
 
 	enum PhoneMovingSpeed ue_speed_by_ble;		// phone moving spped detected by BLE based alg
 	double ue_speed_final;			// final phone speed combined by BLE and app 2 alg, in meter per second
 
 	pips_node_setting node_max_rssi;	// report detected max rssi node to app. App can reconfigure map and node_setting table based on the customer CRN id
     
+	single_node_heatmap node_heatmap;	// report current x location for a single node heatmap application
 } pips_api_out;
+
 
 // interface for app passing cmd to api:
 const char * PIPS_getVersion();
@@ -273,39 +287,80 @@ int PIPS_setDelayCtrl(int delay);		// delay = 0: api default, delay = 1-5
 DEPRECATED int PIPS_set_loop_number(int loop);		// loop=0: api default, loop = 1-4  
 DEPRECATED int PIPS_set_delay_ctrl(int delay);		// delay = 0: api default, delay = 1-5
 
-DEPRECATED int PIPS_set_node_setting(pips_node_setting *node_table[], int size);
-#if TARGET_OS_IPHONE == 1
-int PIPS_set_node_setting2(pips_node_setting node_table[], int size);
+#if TARGET_OS_IPHONE != 1
+int PIPS_addNodeSetting(pips_node_setting& node);
+int PIPS_addBlockedArea(pips_blocked_area_info& area);
 #else
-DEPRECATED int PIPS_set_node_setting2(pips_node_setting node_table[], int size);
+int PIPS_addNodeSettingPtr(pips_node_setting *node_ptr);
 #endif
-
-//int PIPS_addNodeSetting(pips_node_setting& node);
-//int PIPS_addBlockedArea(pips_blocked_area_info& area);        // 1 function call set 1 blocked_area. max WL_MAX_NUM_BLOBKED_AREA per store
-
+    
 const pips_node_setting PIPS_getNodeSetting(int node_id);
+int PIPS_addNodeRegion(int node_id, int x_min, int x_max, int y_min, int y_max);
 void PIPS_clearNodeSetting();
 void PIPS_clearBlockedAreas();
 
 int PIPS_rx_init(pips_api_out *api_out);
 int PIPS_rx_adv_data(const char *adv_data, int len, int rssi, long int time_ms, const char *msg, pips_api_out *api_out);
 
-int PIPS_setApiCommand(pips_api_cmd *api_cmd);
+DEPRECATED int PIPS_api_cmd(pips_api_cmd *api_cmd);
+int PIPS_getApiCommand(pips_api_cmd *api_cmd);
 
-#if TARGET_OS_IPHONE == 1
+#if TARGET_OS_IPHONE != 1
 int PIPS_configCasing(const char* json);
 int PIPS_configPlacement(const char* json);
+
+
+int PIPS_setPhoneSpeed(PhoneMovingSpeed speed_level, double change_direction = 0); // change_direction= -180 to 180 deg
+int PIPS_setAmbientLight(PhoneAmbientLight light_level);
+int PIPS_setPhoneUsageMode(PhoneUsageMode mode);
+
 #endif
-    
-int PIPS_setPhoneSpeed(enum PhoneMovingSpeed speed_level, double change_direction); // change_direction= -180 to 180 deg
-int PIPS_setAmbientLight(enum PhoneAmbientLight light_level);
-int PIPS_setPhoneUsageMode(enum PhoneUsageMode mode);
 
 int PIPS_setZBoundary(double z_bondary_low, double z_boundary_high);	// the default Z boundary for store is (0.6, 1.6) meter
 int PIPS_get_single_node_status(int room_node_id, pips_node_status_report *node_status);
 int PIPS_get_all_node_status(pips_node_status_report *node_status[], int *num_nodes);  // returned number_node = app configured num of nodes
 
-    
+int PIPS_1d_heatmap_post_proc(double* rssi_left, double* rssi_right, double* x_out, int len);
+int PIPS_setDefaultZ(double z);
+int PIPS_setPhoneID(int phone_id);
+void PIPS_setUeTxIntervalMSec(double ue_tx_ms);
+void PIPS_setTimingScaleUePktPerMeasureWinTag(double pkts);
+void PIPS_setNoOutputWhileSearching(bool cmd);
+void PIPS_setEnableDriftFilter(bool cmd);
+
+#if TARGET_OS_IPHONE != 1
+int PIPS_setEngineMode(EngineTuningMode mode);
+
+int PIPS_setSkipPowerUpSec(int skip_power_up_sec, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setSpeedScale(double speed_scale, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMAXMissedTimeMs(unsigned int timeout_thr, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setboundaryMargin(double margin, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setNodeTrackingLockStartWin(int lock_start_win, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setNodeTrackingLockResetWin(int lock_reset_win, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+
+int PIPS_setTopRssiNodeRangeSearch(int top_rssi_node_range_search, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setTopRssiNodeRangeTracking(int top_rssi_node_range_tracking, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxTrackingNodes(int max_tracking_nodes, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxXyToCrtndDist(double max_xy_to_crtnd_dist, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxXyToTrkndDist(double max_xy_to_trknd_dist, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxXyToCrtndDistLockSwitchRegion(double max_xy_to_crtnd_dist_lock_switch_region, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxXyToTrkndDistLockSwitchRegion(double max_xy_to_trknd_dist_lock_switch_region, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxXyToCrtndDistSameAisle(double max_xy_to_crtnd_dist_same_aisle, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxXyToTrkndDistSameAisle(double max_xy_to_trknd_dist_same_aisle, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setNewAisleDetThr(int new_aisle_det_thr, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setNewRegionDistWeight(double new_region_dist_weight, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setNewRegionBrdMargin(double new_region_brd_margin, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxMrcDistWeight(double max_mrc_dist_weight, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxMrcDistFor0Wt(double max_mrc_dist_for_0_wt, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+int PIPS_setMaxDistToKeepTrackingNode(double max_dist_to_keep_tracking_node, EngineTuningMode mode = ENGINE_TUNE_DEFAULT);
+#endif
+
+int PIPS_setWayFindingPredictPoints(int num_points, double *point_array_x, double *point_array_y);
+void PIPS_stopWayFiding();
+int PIPS_setWayFindingLagCntlSpeed(enum WFD_LAG_CNTL_SPEED_T lag_control_speed);
+
+
+
 #ifdef __cplusplus
 }
 #endif

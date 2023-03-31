@@ -1,0 +1,160 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLUser
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import Foundation
+import SIRLCore
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import os.log
+import os
+@available(iOS 10.0, *)
+public struct GetUserInfo : SIRLCore.APIRequest {
+  public typealias Response = SIRLUser.SirlUserMeta
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct UserReset : SIRLCore.APIRequest {
+  public typealias Response = SIRLCore.NULLCodable
+  public typealias RequestBody = SIRLUser.UserReset
+  public var requestBody: SIRLUser.UserReset {
+    get
+  }
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public init(login: Swift.String?)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct UserLogin : SIRLCore.APIRequest {
+  public typealias Response = SIRLUser.User
+  public typealias RequestBody = SIRLUser.UserCredentials
+  public var requestBody: SIRLUser.UserCredentials {
+    get
+  }
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public init(userCredentials: SIRLUser.UserCredentials)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct SimpleEmailRegister : SIRLCore.APIRequest {
+  public typealias Response = SIRLCore.SimpleResponse
+  public typealias RequestBody = SIRLUser.SimpleRegistrationInfo
+  public var requestBody: SIRLUser.SimpleRegistrationInfo {
+    get
+  }
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public init(info: SIRLUser.SimpleRegistrationInfo)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct SimpleUserRegisterationVerify : SIRLCore.APIRequest {
+  public typealias Response = SIRLUser.VerifyResponse
+  public typealias RequestBody = SIRLUser.SimpleUserRegisterationVerify
+  public var requestBody: SIRLUser.SimpleUserRegisterationVerify {
+    get
+  }
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public init(installationUUId: Swift.String, advertiseId: Swift.String?)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct VerifyResponse : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+@available(iOS 10.0, *)
+public class SirlUserMeta : Swift.Codable, SIRLCore.Cachable {
+  public typealias CacheType = SIRLUser.SirlUserMeta
+  public var firstName: Swift.String?
+  public var lastName: Swift.String?
+  public var email: Swift.String?
+  public var mobile: Swift.String?
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, email: Swift.String? = nil, mobile: Swift.String? = nil)
+  public static func decode(_ data: Foundation.Data) -> SIRLUser.SirlUserMeta?
+  public func encode() -> Foundation.Data?
+  public func encode(to encoder: Swift.Encoder) throws
+  required convenience public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+}
+@available(iOS 10.0, *)
+public class User : Swift.Codable, SIRLCore.Cachable {
+  public typealias CacheType = SIRLUser.User
+  public var id: Swift.String?
+  public var ttl: Swift.Int?
+  public var created: Foundation.Date?
+  public var userId: Swift.String?
+  public var principalType: Swift.String?
+  public init(id: Swift.String?, ttl: Swift.Int?, created: Foundation.Date?, userId: Swift.String?, principalType: Swift.String?)
+  public static func decode(_ data: Foundation.Data) -> SIRLUser.User?
+  public func encode() -> Foundation.Data?
+  public func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+}
+public struct UserCredentials : Swift.Encodable {
+  public init(login: Swift.String, password: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct SimpleRegistrationInfo : Swift.Encodable {
+  public init(installationUuid: Swift.String, email: Swift.String, advertisingId: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers @available(iOS 10.0, *)
+public class SirlUser {
+  public var isLoggedIn: Swift.Bool {
+    get
+  }
+  public var accessToken: Swift.String? {
+    get
+  }
+  public var userId: Swift.String? {
+    get
+  }
+  public var sessionToken: SIRLCore.SirlSessionToken?
+  public var userMeta: SIRLUser.SirlUserMeta?
+  weak public var delegate: SIRLUser.SirlUserDelegate?
+  public static let shared: SIRLUser.SirlUser
+  public func restoreUser() -> Swift.Bool
+  public func login(login: Swift.String, password: Swift.String, completion: ((SIRLCore.Result<SIRLUser.User>) -> Swift.Void)? = nil) -> Swift.Bool
+  public func getUserMeta(success: ((SIRLUser.SirlUserMeta) -> Swift.Void)? = nil)
+  public func logout(completion: (() -> Swift.Void)? = nil)
+  public func getSessionToken(mlId: Swift.Int32, pipsLibVer: Swift.String, appVer: Swift.String, completion: ((SIRLCore.SirlSessionToken?, Swift.Error?) -> Swift.Void)? = nil)
+  public func resetPassword(login: Swift.String, completion: ((Swift.Error?) -> Swift.Void)? = nil)
+  public func simpleUserRegister(email: Swift.String, completion: @escaping (Swift.Error?, Swift.Bool) -> Swift.Void)
+  public func simpleUserVerification(completion: @escaping (Swift.Error?, Swift.Bool) -> Swift.Void)
+  @objc deinit
+}
+@objc public protocol SirlUserDelegate {
+  @objc optional func didChangeLoginStatus(status: Swift.Bool)
+}
