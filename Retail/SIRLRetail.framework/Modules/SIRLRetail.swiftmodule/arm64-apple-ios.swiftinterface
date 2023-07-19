@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLRetail
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -27,7 +27,7 @@ public let sirlLightGrey: UIKit.UIColor
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
 @IBDesignable @objc @_Concurrency.MainActor(unsafe) public class SirlSearchBar : UIKit.UIView, UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: SIRLRetail.SirlSearchBarViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any SIRLRetail.SirlSearchBarViewDelegate)?
   @_Concurrency.MainActor(unsafe) public var mapView: SIRLMap.SirlMapView?
   @_Concurrency.MainActor(unsafe) public var menuImage: UIKit.UIImage? {
     get
@@ -80,14 +80,14 @@ public class Coupon : Swift.Decodable {
     get
   }
   public init(id: Swift.Int? = nil, title: Swift.String? = nil, description: Swift.String? = nil, finePrint: Swift.String? = nil, updatedOn: Swift.String? = nil, type: Swift.String? = nil, ttlSeconds: Swift.Int? = nil, code: Swift.String? = nil)
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 public class HelpRequestRespond : Swift.Decodable {
   public var requestStatus: Swift.Bool?
   public init(requestStatus: Swift.Bool = false)
   @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class StoreProduct : ObjectiveC.NSObject, Swift.Codable {
   public var id: Swift.Int?
@@ -102,10 +102,10 @@ public class HelpRequestRespond : Swift.Decodable {
   public var location: SIRLCore.SirlLocation? {
     get
   }
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(mlId: Swift.Int? = nil, productId: Swift.String? = nil, xLoc: Swift.Double? = nil, yLoc: Swift.Double? = nil, zLoc: Swift.Double? = nil)
   @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public struct Product : Swift.Decodable {
   public var id: Swift.String?
@@ -115,14 +115,14 @@ public struct Product : Swift.Decodable {
   public var updatedOn: Swift.String?
   public var sourceId: Swift.String?
   public init(id: Swift.String? = nil, name: Swift.String? = nil, image: Swift.String? = nil, createdOn: Swift.String? = nil, updatedOn: Swift.String? = nil, sourceId: Swift.String?)
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class StorePromotions : Swift.Decodable {
   public var promotions: [SIRLRetail.Promotion]?
-  public func fetchLocations(completion: ((Swift.Error?) -> Swift.Void)?)
+  public func fetchLocations(completion: (((any Swift.Error)?) -> Swift.Void)?)
   public func getPromotion(_ id: Swift.String) -> SIRLRetail.Promotion?
   @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc public class Promotion : SIRLCore.SirlGeoFence, Swift.Decodable {
   public var companyId: Swift.Int?
@@ -134,7 +134,7 @@ public struct Product : Swift.Decodable {
   public var promotionCode: Swift.String?
   public var allowNavigation: Swift.Bool?
   public var promoID: Swift.Int?
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   public init(companyID: Swift.Int, promoID: Swift.Int, expires: Swift.String, image: Swift.String?, storeId: Swift.Int, geoId: Swift.String, requiredDwellDuration: Swift.Int, margin: Swift.Double, title: Swift.String, details: Swift.String, navigate: Swift.Bool?, promotionCode: Swift.String?)
   public func getExpireDate() -> Foundation.Date?
   @objc deinit
@@ -146,13 +146,13 @@ public struct Product : Swift.Decodable {
   public var id: Swift.Int!
   public var location: SIRLRetail.SirlGeoLocation?
   @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class SirlGeoLocation : Swift.Decodable {
   public var lat: Swift.Double!
   public var lng: Swift.Double!
   @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 10.0, *)
 public struct AddStoreProduct : SIRLCore.APIRequest {
@@ -167,13 +167,16 @@ public struct AddStoreProduct : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public init(storeProduct: SIRLRetail.StoreProduct)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
 public class SIRLCouponService {
   public static let shared: SIRLRetail.SIRLCouponService
-  weak public var delegate: SIRLRetail.CouponServiceDelegate?
+  weak public var delegate: (any SIRLRetail.CouponServiceDelegate)?
   public var allowNotificationAnimation: Swift.Bool {
     get
     set
@@ -213,8 +216,11 @@ public struct FindStoreItems : SIRLCore.APIRequest {
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public init(mlId: Swift.Int, productIds: [Swift.String] = [String]())
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetRelaventStoreItems : SIRLCore.APIRequest {
@@ -226,11 +232,14 @@ public struct GetRelaventStoreItems : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
   public init(partialText: Swift.String? = nil, mlId: Swift.Int? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct RequestAssistant : SIRLCore.APIRequest {
@@ -242,11 +251,14 @@ public struct RequestAssistant : SIRLCore.APIRequest {
   public var resourceName: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public var requestMethod: Swift.String {
     get
   }
   public init(ML_ID: Swift.Int, FCM_token: Swift.String, location: SIRLCore.SirlLocation)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct FetchPromotions : SIRLCore.APIRequest {
@@ -261,7 +273,10 @@ public struct FetchPromotions : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
-  public func encode(to encoder: Swift.Encoder) throws
+  public var hasParams: Swift.Bool {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(storeId: Swift.Int)
 }
 @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
@@ -291,7 +306,7 @@ public protocol SirlBarCodeScannerDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
 @IBDesignable @_Concurrency.MainActor(unsafe) open class SirlBarCodeScanner : UIKit.UIView, AVFoundation.AVCaptureMetadataOutputObjectsDelegate {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: SIRLRetail.SirlBarCodeScannerDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any SIRLRetail.SirlBarCodeScannerDelegate)?
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var scanFramColor: UIKit.UIColor {
     @objc get
     @objc set

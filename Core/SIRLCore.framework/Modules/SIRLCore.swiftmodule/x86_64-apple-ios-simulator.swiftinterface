@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -108,7 +108,7 @@ public struct Location : Swift.Decodable {
   public var configId: Swift.UInt32!
   public var id: Swift.UInt32!
   public var description: Swift.String!
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc(NodeConfig) public class NodeConfig : CoreData.NSManagedObject {
   public func convertObject() -> SIRLCore.NodeConfigs
@@ -213,7 +213,7 @@ extension SIRLCore.NodeConfig {
 }
 public class NodeConfigs : Swift.Decodable {
   public init(configuredId: Swift.UInt32?, macAddress: Swift.String, roomId: Swift.UInt32, nodeId: Swift.UInt32, x: Swift.Double, xMinimum: Swift.Double, xMaximum: Swift.Double, y: Swift.Double, yMinimum: Swift.Double, yMaximum: Swift.Double, z: Swift.Double, zMinimum: Swift.Double, zMaximum: Swift.Double, pathLoss: Swift.Double, xa: Swift.Double, ya: Swift.Double, za: Swift.Double, rotationOrder: Swift.Int32, generation: Swift.UInt32?, enabled: Swift.Bool, measured: Swift.Bool)
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(NodeConfigTable) public class NodeConfigTable : CoreData.NSManagedObject {
@@ -263,11 +263,11 @@ extension SIRLCore.NodeConfigTable {
 public class SessionTokenRequestInfo : Swift.Encodable {
   public init(mlId: Swift.Int32, pipsLibVer: Swift.String, appVer: Swift.String, timestamp: Swift.Int64? = nil)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct RelevantNodes : Swift.Decodable {
   public var locations: [SIRLCore.SirlNodeConfigs]
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc(Settings) public class Settings : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
@@ -298,7 +298,7 @@ extension SIRLCore.Settings {
 }
 public class SirlNodeConfigs : Swift.Decodable {
   public init(custID: Swift.UInt32, appID: Swift.UInt32, locID: Swift.UInt32, bldID: Swift.UInt32, mlId: Swift.UInt32? = nil, storeId: Swift.UInt32? = nil, nodeConfig: [SIRLCore.NodeConfigs]? = nil, blackList: [Swift.String]? = nil)
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   public func getNodeConfigTable() -> [pipsAPI.pips_node_setting]
   @available(iOS 10.0, *)
   public func save()
@@ -320,11 +320,14 @@ public struct GetMapLocationID : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
   public init(cust_id: Swift.UInt32, app_id: Swift.UInt32, loc_id: Swift.UInt32, bld_id: Swift.UInt32)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetNodeConfigs : SIRLCore.APIRequest {
@@ -339,8 +342,11 @@ public struct GetNodeConfigs : SIRLCore.APIRequest {
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public init(mlId: Swift.Int)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetRelevantNodes : SIRLCore.APIRequest {
@@ -352,11 +358,14 @@ public struct GetRelevantNodes : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
   public init(macAddress: Swift.String, geoLocation: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetAisleRegionsString : SIRLCore.APIRequest {
@@ -368,12 +377,15 @@ public struct GetAisleRegionsString : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
   public let mlId: Swift.Int!
   public init(mlId: Swift.Int)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol Cachable {
   associatedtype CacheType
@@ -394,7 +406,7 @@ public struct SirlFeatureFlags : Swift.Decodable {
   public var _dictionary: Swift.Dictionary<Swift.String, Swift.String> {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init(dict: Swift.Dictionary<Swift.String, Swift.String>, singleton: Swift.Bool = false)
 }
 @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
@@ -411,7 +423,7 @@ public class CacheManager {
 @available(iOS 10.0, *)
 public class RawStringValue : Swift.Decodable {
   public init(value: Swift.String)
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class SirlGeoFence : ObjectiveC.NSObject {
@@ -431,26 +443,26 @@ public struct SirlSite : Swift.Decodable {
   public var timezone: Swift.String!
   public var channel: Swift.UInt8!
   public var location: SIRLCore.SirlSiteCordinate!
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SirlSiteCordinate : Swift.Decodable {
   public var lng: Swift.Double!
   public var lat: Swift.Double!
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum HTTPParameter : Swift.CustomStringConvertible, Swift.Decodable {
   case string(Swift.String)
   case bool(Swift.Bool)
   case int(Swift.Int)
   case double(Swift.Double)
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public var description: Swift.String {
     get
   }
 }
 public enum Result<Value> {
   case success(Value)
-  case failure(Swift.Error)
+  case failure(any Swift.Error)
 }
 public typealias ResultCallback<Value> = (SIRLCore.Result<Value>) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
@@ -461,8 +473,8 @@ open class SirlCoreImpl : ObjectiveC.NSObject, SIRLCore.PIPSDelegate {
     get
   }
   public static let shared: SIRLCore.SirlCoreImpl
-  weak public var sirlMapAdapter: SIRLCore.SirlCoreMapDelegate?
-  public var dataSource: SIRLCore.SirlCoreDataSource! {
+  weak public var sirlMapAdapter: (any SIRLCore.SirlCoreMapDelegate)?
+  public var dataSource: (any SIRLCore.SirlCoreDataSource)! {
     get
     set
   }
@@ -520,20 +532,22 @@ extension SIRLCore.SirlCoreImpl {
   public static var testTimer: Foundation.Timer?
   @objc dynamic public func setTestLocation(_ mlid: Swift.UInt32)
   public func setTestUserLocation(x: Swift.Double, y: Swift.Double, z: Swift.Double)
+  public func disabelTestUserLocation(x: Swift.Double, y: Swift.Double, z: Swift.Double)
 }
 public struct NULLCodable : Swift.Codable {
   public init()
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SimpleResponse : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol APIRequest : Swift.Encodable {
   associatedtype Response : Swift.Decodable
   associatedtype RequestBody : Swift.Encodable
   var resourceName: Swift.String { get }
   var requestMethod: Swift.String { get }
+  var hasParams: Swift.Bool { get }
   var requestBody: Self.RequestBody { get }
 }
 public enum URLQueryEncoder {
@@ -650,8 +664,11 @@ public struct GetSessionToken : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public init(mlId: Swift.Int32, pipsLibVer: Swift.String, appVer: Swift.String, requestTimeStamp: Swift.Int64? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_inheritsConvenienceInitializers @available(iOS 10.0, *)
 @objc(SessionToken) public class SessionToken : CoreData.NSManagedObject {
@@ -681,7 +698,7 @@ extension SIRLCore.SessionToken {
 @available(iOS 10.0, *)
 public struct SirlSessionToken : Swift.Decodable {
   public var token: Swift.String!
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init(token: Swift.String)
 }
 @_inheritsConvenienceInitializers @available(iOS 10.0, *)
@@ -747,8 +764,8 @@ public class SirlTripDataUploader {
       get
     }
   }
-  public func upload(withUserSessionToken userSessionToken: Swift.String, dataType: SIRLCore.SirlTripDataUploader.dataType, file: Foundation.Data, MIMEType: SIRLCore.SirlTripDataUploader.mimeType, baseURL: Swift.String = "", completion: @escaping (Swift.Error?, Foundation.URLResponse?) -> Swift.Void)
-  public func upload(withUserSessionToken userSessionToken: Swift.String, dataType: Swift.String, file: Foundation.Data, MIMEType: SIRLCore.SirlTripDataUploader.mimeType, baseURL: Swift.String = "", completion: @escaping (Swift.Error?, Foundation.URLResponse?) -> Swift.Void)
+  public func upload(withUserSessionToken userSessionToken: Swift.String, dataType: SIRLCore.SirlTripDataUploader.dataType, file: Foundation.Data, MIMEType: SIRLCore.SirlTripDataUploader.mimeType, baseURL: Swift.String = "", completion: @escaping ((any Swift.Error)?, Foundation.URLResponse?) -> Swift.Void)
+  public func upload(withUserSessionToken userSessionToken: Swift.String, dataType: Swift.String, file: Foundation.Data, MIMEType: SIRLCore.SirlTripDataUploader.mimeType, baseURL: Swift.String = "", completion: @escaping ((any Swift.Error)?, Foundation.URLResponse?) -> Swift.Void)
   public init()
   @objc deinit
 }
@@ -934,11 +951,14 @@ public struct GetNearbySite : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
   public init(lat: Swift.Double, lng: Swift.Double)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public protocol SirlCoreDataSource : AnyObject {
@@ -957,7 +977,7 @@ public protocol SirlCoreDataSource : AnyObject {
   var backgroundModeRunningIfEnabled: Swift.Bool { get set }
   var allowDataReport: Swift.Bool { get }
   var locationServiceEnable: Swift.Bool { get }
-  var delegate: SIRLCore.SirlCoreDataSourceDelegate? { get set }
+  var delegate: (any SIRLCore.SirlCoreDataSourceDelegate)? { get set }
 }
 @available(iOS 10.0, *)
 extension SIRLCore.SirlCoreDataSource {
@@ -980,7 +1000,7 @@ extension SIRLCore.SirlCoreDataSourceDelegate {
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
 public class SirlBLEAdapter : ObjectiveC.NSObject, SIRLCore.SirlCoreDataSource {
-  weak public var delegate: SIRLCore.SirlCoreDataSourceDelegate?
+  weak public var delegate: (any SIRLCore.SirlCoreDataSourceDelegate)?
   public enum backgroundModeType {
     case location
     case backgroundTask
@@ -1038,7 +1058,7 @@ extension SIRLCore.SirlBLEAdapter : CoreBluetooth.CBCentralManagerDelegate {
 @available(iOS 10.0, *)
 extension SIRLCore.SirlBLEAdapter : CoreBluetooth.CBPeripheralManagerDelegate {
   @objc dynamic public func peripheralManagerDidUpdateState(_ peripheral: CoreBluetooth.CBPeripheralManager)
-  @objc dynamic public func peripheralManagerDidStartAdvertising(_ peripheral: CoreBluetooth.CBPeripheralManager, error: Swift.Error?)
+  @objc dynamic public func peripheralManagerDidStartAdvertising(_ peripheral: CoreBluetooth.CBPeripheralManager, error: (any Swift.Error)?)
 }
 @available(iOS 10.0, *)
 extension SIRLCore.SirlBLEAdapter : CoreLocation.CLLocationManagerDelegate {
@@ -1182,7 +1202,7 @@ open class SirlScannerSetting {
   @objc public func updateSetting(backgroundMode: Swift.Bool, regionLocking: Swift.Bool, prediction: Swift.Bool, apiKey: Swift.String)
   public func startScan()
   public func stopScan()
-  @objc public func addDelegate(delegate: SIRLCore.SirlCoreDelegate)
+  @objc public func addDelegate(delegate: any SIRLCore.SirlCoreDelegate)
   @objc public func setTestIds(roomId: Swift.UInt32, nodeId: Swift.UInt32)
   public func getTestIds() -> (roomId: Swift.UInt32, nodeId: Swift.UInt32)
   @objc public func setTestLocation(type: Swift.String = "Tutorial")

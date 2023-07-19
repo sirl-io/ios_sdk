@@ -15571,6 +15571,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail19GetAvailableCouponsV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail19GetAvailableCouponsV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail19GetAvailableCouponsV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail19GetAvailableCouponsV9hasParamsSbvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "resourceName",
             "printedName": "resourceName",
             "children": [
@@ -16494,6 +16534,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail9UseCouponV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail9UseCouponV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail9UseCouponV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail9UseCouponV9hasParamsSbvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -16718,6 +16798,46 @@
                 "declKind": "Accessor",
                 "usr": "s:10SIRLRetail15AddStoreProductV13requestMethodSSvg",
                 "mangledName": "$s10SIRLRetail15AddStoreProductV13requestMethodSSvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail15AddStoreProductV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail15AddStoreProductV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail15AddStoreProductV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail15AddStoreProductV9hasParamsSbvg",
                 "moduleName": "SIRLRetail",
                 "accessorKind": "get"
               }
@@ -18242,6 +18362,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail14FindStoreItemsV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail14FindStoreItemsV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail14FindStoreItemsV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail14FindStoreItemsV9hasParamsSbvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "filter",
             "printedName": "filter",
             "children": [
@@ -18526,6 +18686,46 @@
                 "declKind": "Accessor",
                 "usr": "s:10SIRLRetail21GetRelaventStoreItemsV13requestMethodSSvg",
                 "mangledName": "$s10SIRLRetail21GetRelaventStoreItemsV13requestMethodSSvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail21GetRelaventStoreItemsV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail21GetRelaventStoreItemsV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail21GetRelaventStoreItemsV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail21GetRelaventStoreItemsV9hasParamsSbvg",
                 "moduleName": "SIRLRetail",
                 "accessorKind": "get"
               }
@@ -18925,6 +19125,46 @@
                 "declKind": "Accessor",
                 "usr": "s:10SIRLRetail16RequestAssistantV12resourceNameSSvg",
                 "mangledName": "$s10SIRLRetail16RequestAssistantV12resourceNameSSvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail16RequestAssistantV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail16RequestAssistantV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail16RequestAssistantV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail16RequestAssistantV9hasParamsSbvg",
                 "moduleName": "SIRLRetail",
                 "accessorKind": "get"
               }
@@ -19462,6 +19702,46 @@
                 "declKind": "Accessor",
                 "usr": "s:10SIRLRetail15FetchPromotionsV13requestMethodSSvg",
                 "mangledName": "$s10SIRLRetail15FetchPromotionsV13requestMethodSSvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail15FetchPromotionsV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail15FetchPromotionsV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail15FetchPromotionsV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail15FetchPromotionsV9hasParamsSbvg",
                 "moduleName": "SIRLRetail",
                 "accessorKind": "get"
               }
@@ -20023,6 +20303,46 @@
                 "declKind": "Accessor",
                 "usr": "s:10SIRLRetail16StoreInfoRequestV13requestMethodSSvg",
                 "mangledName": "$s10SIRLRetail16StoreInfoRequestV13requestMethodSSvg",
+                "moduleName": "SIRLRetail",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SIRLRetail16StoreInfoRequestV9hasParamsSbvp",
+            "mangledName": "$s10SIRLRetail16StoreInfoRequestV9hasParamsSbvp",
+            "moduleName": "SIRLRetail",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SIRLRetail16StoreInfoRequestV9hasParamsSbvg",
+                "mangledName": "$s10SIRLRetail16StoreInfoRequestV9hasParamsSbvg",
                 "moduleName": "SIRLRetail",
                 "accessorKind": "get"
               }

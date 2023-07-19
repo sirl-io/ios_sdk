@@ -108,6 +108,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser11GetUserInfoV9hasParamsSbvp",
+            "mangledName": "$s8SIRLUser11GetUserInfoV9hasParamsSbvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11GetUserInfoV9hasParamsSbvg",
+                "mangledName": "$s8SIRLUser11GetUserInfoV9hasParamsSbvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "requestBody",
             "printedName": "requestBody",
             "children": [
@@ -382,6 +422,46 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLUser9UserResetV13requestMethodSSvg",
                 "mangledName": "$s8SIRLUser9UserResetV13requestMethodSSvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser9UserResetV9hasParamsSbvp",
+            "mangledName": "$s8SIRLUser9UserResetV9hasParamsSbvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser9UserResetV9hasParamsSbvg",
+                "mangledName": "$s8SIRLUser9UserResetV9hasParamsSbvg",
                 "moduleName": "SIRLUser",
                 "accessorKind": "get"
               }
@@ -705,6 +785,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser9UserLoginV9hasParamsSbvp",
+            "mangledName": "$s8SIRLUser9UserLoginV9hasParamsSbvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser9UserLoginV9hasParamsSbvg",
+                "mangledName": "$s8SIRLUser9UserLoginV9hasParamsSbvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "mUserCredentials",
             "printedName": "mUserCredentials",
             "children": [
@@ -888,6 +1008,354 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UserLoginWithSAML",
+        "printedName": "UserLoginWithSAML",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "requestBody",
+            "printedName": "requestBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileToken",
+                "printedName": "SIRLUser.MobileToken",
+                "usr": "s:8SIRLUser11MobileTokenV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser17UserLoginWithSAMLV11requestBodyAA11MobileTokenVvp",
+            "mangledName": "$s8SIRLUser17UserLoginWithSAMLV11requestBodyAA11MobileTokenVvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileToken",
+                    "printedName": "SIRLUser.MobileToken",
+                    "usr": "s:8SIRLUser11MobileTokenV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser17UserLoginWithSAMLV11requestBodyAA11MobileTokenVvg",
+                "mangledName": "$s8SIRLUser17UserLoginWithSAMLV11requestBodyAA11MobileTokenVvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resourceName",
+            "printedName": "resourceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser17UserLoginWithSAMLV12resourceNameSSvp",
+            "mangledName": "$s8SIRLUser17UserLoginWithSAMLV12resourceNameSSvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser17UserLoginWithSAMLV12resourceNameSSvg",
+                "mangledName": "$s8SIRLUser17UserLoginWithSAMLV12resourceNameSSvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestMethod",
+            "printedName": "requestMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser17UserLoginWithSAMLV13requestMethodSSvp",
+            "mangledName": "$s8SIRLUser17UserLoginWithSAMLV13requestMethodSSvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser17UserLoginWithSAMLV13requestMethodSSvg",
+                "mangledName": "$s8SIRLUser17UserLoginWithSAMLV13requestMethodSSvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser17UserLoginWithSAMLV9hasParamsSbvp",
+            "mangledName": "$s8SIRLUser17UserLoginWithSAMLV9hasParamsSbvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser17UserLoginWithSAMLV9hasParamsSbvg",
+                "mangledName": "$s8SIRLUser17UserLoginWithSAMLV9hasParamsSbvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "samlToken",
+            "printedName": "samlToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SIRLUser.MobileToken?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileToken",
+                    "printedName": "SIRLUser.MobileToken",
+                    "usr": "s:8SIRLUser11MobileTokenV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser17UserLoginWithSAMLV9samlTokenAA06MobileG0VSgvp",
+            "mangledName": "$s8SIRLUser17UserLoginWithSAMLV9samlTokenAA06MobileG0VSgvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SIRLUser.MobileToken?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileToken",
+                        "printedName": "SIRLUser.MobileToken",
+                        "usr": "s:8SIRLUser11MobileTokenV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser17UserLoginWithSAMLV9samlTokenAA06MobileG0VSgvg",
+                "mangledName": "$s8SIRLUser17UserLoginWithSAMLV9samlTokenAA06MobileG0VSgvg",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserLoginWithSAML",
+                "printedName": "SIRLUser.UserLoginWithSAML",
+                "usr": "s:8SIRLUser17UserLoginWithSAMLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobileToken",
+                "printedName": "SIRLUser.MobileToken",
+                "usr": "s:8SIRLUser11MobileTokenV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SIRLUser17UserLoginWithSAMLV5tokenAcA11MobileTokenV_tcfc",
+            "mangledName": "$s8SIRLUser17UserLoginWithSAMLV5tokenAcA11MobileTokenV_tcfc",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SIRLUser17UserLoginWithSAMLV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8SIRLUser17UserLoginWithSAMLV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SIRLUser",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8SIRLUser17UserLoginWithSAMLV",
+        "mangledName": "$s8SIRLUser17UserLoginWithSAMLV",
+        "moduleName": "SIRLUser",
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "APIRequest",
+            "printedName": "APIRequest",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Response",
+                "printedName": "Response",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "SIRLUser.User",
+                    "usr": "s:8SIRLUser4UserC"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RequestBody",
+                "printedName": "RequestBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileToken",
+                    "printedName": "SIRLUser.MobileToken",
+                    "usr": "s:8SIRLUser11MobileTokenV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:8SIRLCore10APIRequestP",
+            "mangledName": "$s8SIRLCore10APIRequestP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLUser",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SIRLCore",
+        "printedName": "SIRLCore",
+        "declKind": "Import",
+        "moduleName": "SIRLUser"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "SimpleEmailRegister",
         "printedName": "SimpleEmailRegister",
         "children": [
@@ -1006,6 +1474,46 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLUser19SimpleEmailRegisterV13requestMethodSSvg",
                 "mangledName": "$s8SIRLUser19SimpleEmailRegisterV13requestMethodSSvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser19SimpleEmailRegisterV9hasParamsSbvp",
+            "mangledName": "$s8SIRLUser19SimpleEmailRegisterV9hasParamsSbvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser19SimpleEmailRegisterV9hasParamsSbvg",
+                "mangledName": "$s8SIRLUser19SimpleEmailRegisterV9hasParamsSbvg",
                 "moduleName": "SIRLUser",
                 "accessorKind": "get"
               }
@@ -1314,6 +1822,46 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLUser29SimpleUserRegisterationVerifyV13requestMethodSSvg",
                 "mangledName": "$s8SIRLUser29SimpleUserRegisterationVerifyV13requestMethodSSvg",
+                "moduleName": "SIRLUser",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser29SimpleUserRegisterationVerifyV9hasParamsSbvp",
+            "mangledName": "$s8SIRLUser29SimpleUserRegisterationVerifyV9hasParamsSbvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser29SimpleUserRegisterationVerifyV9hasParamsSbvg",
+                "mangledName": "$s8SIRLUser29SimpleUserRegisterationVerifyV9hasParamsSbvg",
                 "moduleName": "SIRLUser",
                 "accessorKind": "get"
               }
@@ -3312,6 +3860,545 @@
             ],
             "usr": "s:8SIRLCore8CachableP",
             "mangledName": "$s8SIRLCore8CachableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLUser",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileToken",
+        "printedName": "MobileToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser11MobileTokenV06accessC0SSSgvp",
+            "mangledName": "$s8SIRLUser11MobileTokenV06accessC0SSSgvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV06accessC0SSSgvg",
+                "mangledName": "$s8SIRLUser11MobileTokenV06accessC0SSSgvg",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV06accessC0SSSgvs",
+                "mangledName": "$s8SIRLUser11MobileTokenV06accessC0SSSgvs",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV06accessC0SSSgvM",
+                "mangledName": "$s8SIRLUser11MobileTokenV06accessC0SSSgvM",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tenantId",
+            "printedName": "tenantId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser11MobileTokenV8tenantIdSSSgvp",
+            "mangledName": "$s8SIRLUser11MobileTokenV8tenantIdSSSgvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV8tenantIdSSSgvg",
+                "mangledName": "$s8SIRLUser11MobileTokenV8tenantIdSSSgvg",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV8tenantIdSSSgvs",
+                "mangledName": "$s8SIRLUser11MobileTokenV8tenantIdSSSgvs",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV8tenantIdSSSgvM",
+                "mangledName": "$s8SIRLUser11MobileTokenV8tenantIdSSSgvM",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uniqueId",
+            "printedName": "uniqueId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser11MobileTokenV8uniqueIdSSSgvp",
+            "mangledName": "$s8SIRLUser11MobileTokenV8uniqueIdSSSgvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV8uniqueIdSSSgvg",
+                "mangledName": "$s8SIRLUser11MobileTokenV8uniqueIdSSSgvg",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV8uniqueIdSSSgvs",
+                "mangledName": "$s8SIRLUser11MobileTokenV8uniqueIdSSSgvs",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV8uniqueIdSSSgvM",
+                "mangledName": "$s8SIRLUser11MobileTokenV8uniqueIdSSSgvM",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idToken",
+            "printedName": "idToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLUser11MobileTokenV02idC0SSSgvp",
+            "mangledName": "$s8SIRLUser11MobileTokenV02idC0SSSgvp",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV02idC0SSSgvg",
+                "mangledName": "$s8SIRLUser11MobileTokenV02idC0SSSgvg",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV02idC0SSSgvs",
+                "mangledName": "$s8SIRLUser11MobileTokenV02idC0SSSgvs",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLUser11MobileTokenV02idC0SSSgvM",
+                "mangledName": "$s8SIRLUser11MobileTokenV02idC0SSSgvM",
+                "moduleName": "SIRLUser",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accessToken:idToken:tenantId:uniqueId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileToken",
+                "printedName": "SIRLUser.MobileToken",
+                "usr": "s:8SIRLUser11MobileTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SIRLUser11MobileTokenV06accessC002idC08tenantId06uniqueG0ACSS_S3Stcfc",
+            "mangledName": "$s8SIRLUser11MobileTokenV06accessC002idC08tenantId06uniqueG0ACSS_S3Stcfc",
+            "moduleName": "SIRLUser",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SIRLUser11MobileTokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8SIRLUser11MobileTokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SIRLUser",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8SIRLUser11MobileTokenV",
+        "mangledName": "$s8SIRLUser11MobileTokenV",
+        "moduleName": "SIRLUser",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -5569,9 +6656,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -5622,8 +6708,70 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLUser8SirlUserC5loginAD8password10completionSbSS_SSy8SIRLCore6ResultOyAA0C0CGcSgtF",
-            "mangledName": "$s8SIRLUser8SirlUserC5loginAD8password10completionSbSS_SSy8SIRLCore6ResultOyAA0C0CGcSgtF",
+            "usr": "s:8SIRLUser8SirlUserC5loginAD8password10completionySS_SSy8SIRLCore6ResultOyAA0C0CGcSgtF",
+            "mangledName": "$s8SIRLUser8SirlUserC5loginAD8password10completionySS_SSy8SIRLCore6ResultOyAA0C0CGcSgtF",
+            "moduleName": "SIRLUser",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(mobileToken:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobileToken",
+                "printedName": "SIRLUser.MobileToken",
+                "usr": "s:8SIRLUser11MobileTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((SIRLCore.Result<SIRLUser.User>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SIRLCore.Result<SIRLUser.User>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "SIRLCore.Result<SIRLUser.User>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "User",
+                            "printedName": "SIRLUser.User",
+                            "usr": "s:8SIRLUser4UserC"
+                          }
+                        ],
+                        "usr": "s:8SIRLCore6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SIRLUser8SirlUserC5login11mobileToken10completionyAA06MobileF0V_y8SIRLCore6ResultOyAA0C0CGcSgtF",
+            "mangledName": "$s8SIRLUser8SirlUserC5login11mobileToken10completionyAA06MobileF0V_y8SIRLCore6ResultOyAA0C0CGcSgtF",
             "moduleName": "SIRLUser",
             "isOpen": true,
             "declAttributes": [

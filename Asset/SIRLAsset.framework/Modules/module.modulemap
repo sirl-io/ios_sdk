@@ -1,0 +1,4 @@
+framework module SIRLAsset {
+  header "SIRLAsset-Swift.h"
+  requires objc
+}

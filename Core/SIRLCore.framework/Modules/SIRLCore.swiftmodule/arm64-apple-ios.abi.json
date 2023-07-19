@@ -15621,6 +15621,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore16GetMapLocationIDV9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore16GetMapLocationIDV9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore16GetMapLocationIDV9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore16GetMapLocationIDV9hasParamsSbvg",
+                "moduleName": "SIRLCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "requestBody",
             "printedName": "requestBody",
             "children": [
@@ -15988,6 +16028,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore14GetNodeConfigsV9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore14GetNodeConfigsV9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore14GetNodeConfigsV9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore14GetNodeConfigsV9hasParamsSbvg",
+                "moduleName": "SIRLCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "mlId",
             "printedName": "mlId",
             "children": [
@@ -16283,6 +16363,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore18ReportUserLocationV9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore18ReportUserLocationV9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore18ReportUserLocationV9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore18ReportUserLocationV9hasParamsSbvg",
+                "moduleName": "SIRLCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "mLocationReport",
             "printedName": "mLocationReport",
             "children": [
@@ -16546,6 +16666,46 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLCore16GetRelevantNodesV13requestMethodSSvg",
                 "mangledName": "$s8SIRLCore16GetRelevantNodesV13requestMethodSSvg",
+                "moduleName": "SIRLCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore16GetRelevantNodesV9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore16GetRelevantNodesV9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore16GetRelevantNodesV9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore16GetRelevantNodesV9hasParamsSbvg",
                 "moduleName": "SIRLCore",
                 "accessorKind": "get"
               }
@@ -16921,6 +17081,46 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLCore21GetAisleRegionsStringV13requestMethodSSvg",
                 "mangledName": "$s8SIRLCore21GetAisleRegionsStringV13requestMethodSSvg",
+                "moduleName": "SIRLCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore21GetAisleRegionsStringV9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore21GetAisleRegionsStringV9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore21GetAisleRegionsStringV9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore21GetAisleRegionsStringV9hasParamsSbvg",
                 "moduleName": "SIRLCore",
                 "accessorKind": "get"
               }
@@ -26961,6 +27161,46 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disabelTestUserLocation",
+            "printedName": "disabelTestUserLocation(x:y:z:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SIRLCore12SirlCoreImplC23disabelTestUserLocation1x1y1zySd_S2dtF",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC23disabelTestUserLocation1x1y1zySd_S2dtF",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -27644,6 +27884,48 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLCore10APIRequestP13requestMethodSSvg",
                 "mangledName": "$s8SIRLCore10APIRequestP13requestMethodSSvg",
+                "moduleName": "SIRLCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : SIRLCore.APIRequest>",
+                "sugared_genericSig": "<Self where Self : SIRLCore.APIRequest>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore10APIRequestP9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore10APIRequestP9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore10APIRequestP9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore10APIRequestP9hasParamsSbvg",
                 "moduleName": "SIRLCore",
                 "genericSig": "<τ_0_0 where τ_0_0 : SIRLCore.APIRequest>",
                 "sugared_genericSig": "<Self where Self : SIRLCore.APIRequest>",
@@ -29837,6 +30119,177 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CustomSessionDelegate",
+        "printedName": "CustomSessionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:didReceive:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLAuthenticationChallenge",
+                "printedName": "Foundation.URLAuthenticationChallenge",
+                "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthChallengeDisposition",
+                        "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                        "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLCredential?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLCredential",
+                            "printedName": "Foundation.URLCredential",
+                            "usr": "c:objc(cs)NSURLCredential"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SIRLCore@objc(cs)CustomSessionDelegate(im)URLSession:didReceiveChallenge:completionHandler:",
+            "mangledName": "$s8SIRLCore21CustomSessionDelegateC03urlC0_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0j4AuthL11DispositionV_So15NSURLCredentialCSgtctF",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "objc_name": "URLSession:didReceiveChallenge:completionHandler:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomSessionDelegate",
+                "printedName": "SIRLCore.CustomSessionDelegate",
+                "usr": "c:@M@SIRLCore@objc(cs)CustomSessionDelegate"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SIRLCore@objc(cs)CustomSessionDelegate(im)init",
+            "mangledName": "$s8SIRLCore21CustomSessionDelegateCACycfc",
+            "moduleName": "SIRLCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SIRLCore@objc(cs)CustomSessionDelegate",
+        "mangledName": "$s8SIRLCore21CustomSessionDelegateC",
+        "moduleName": "SIRLCore",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -30042,6 +30495,46 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLCore15GetSessionTokenV13requestMethodSSvg",
                 "mangledName": "$s8SIRLCore15GetSessionTokenV13requestMethodSSvg",
+                "moduleName": "SIRLCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore15GetSessionTokenV9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore15GetSessionTokenV9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore15GetSessionTokenV9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore15GetSessionTokenV9hasParamsSbvg",
                 "moduleName": "SIRLCore",
                 "accessorKind": "get"
               }
@@ -40413,6 +40906,46 @@
                 "declKind": "Accessor",
                 "usr": "s:8SIRLCore13GetNearbySiteV13requestMethodSSvg",
                 "mangledName": "$s8SIRLCore13GetNearbySiteV13requestMethodSSvg",
+                "moduleName": "SIRLCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore13GetNearbySiteV9hasParamsSbvp",
+            "mangledName": "$s8SIRLCore13GetNearbySiteV9hasParamsSbvp",
+            "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore13GetNearbySiteV9hasParamsSbvg",
+                "mangledName": "$s8SIRLCore13GetNearbySiteV9hasParamsSbvg",
                 "moduleName": "SIRLCore",
                 "accessorKind": "get"
               }
@@ -53599,14 +54132,14 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/Networking\/SirlAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 1255,
+      "offset": 1384,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/Networking\/SirlAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
+      "offset": 1406,
       "length": 2,
       "value": "\"\""
     },

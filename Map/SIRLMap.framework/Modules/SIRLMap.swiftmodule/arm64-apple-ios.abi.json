@@ -3434,6 +3434,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap14GetLocationMapV9hasParamsSbvp",
+            "mangledName": "$s7SIRLMap14GetLocationMapV9hasParamsSbvp",
+            "moduleName": "SIRLMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap14GetLocationMapV9hasParamsSbvg",
+                "mangledName": "$s7SIRLMap14GetLocationMapV9hasParamsSbvg",
+                "moduleName": "SIRLMap",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "mlId",
             "printedName": "mlId",
             "children": [
@@ -3756,6 +3796,46 @@
           },
           {
             "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap17GetLocationGeoMapV9hasParamsSbvp",
+            "mangledName": "$s7SIRLMap17GetLocationGeoMapV9hasParamsSbvp",
+            "moduleName": "SIRLMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap17GetLocationGeoMapV9hasParamsSbvg",
+                "mangledName": "$s7SIRLMap17GetLocationGeoMapV9hasParamsSbvg",
+                "moduleName": "SIRLMap",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "requestBody",
             "printedName": "requestBody",
             "children": [
@@ -4036,6 +4116,46 @@
                 "declKind": "Accessor",
                 "usr": "s:7SIRLMap18GetRouteToLocationV11requestBody8SIRLCore11NULLCodableVvg",
                 "mangledName": "$s7SIRLMap18GetRouteToLocationV11requestBody8SIRLCore11NULLCodableVvg",
+                "moduleName": "SIRLMap",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap18GetRouteToLocationV9hasParamsSbvp",
+            "mangledName": "$s7SIRLMap18GetRouteToLocationV9hasParamsSbvp",
+            "moduleName": "SIRLMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap18GetRouteToLocationV9hasParamsSbvg",
+                "mangledName": "$s7SIRLMap18GetRouteToLocationV9hasParamsSbvg",
                 "moduleName": "SIRLMap",
                 "accessorKind": "get"
               }
@@ -10547,16 +10667,10 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(radius:)",
+            "kind": "Var",
+            "name": "innerCircleRadius",
+            "printedName": "innerCircleRadius",
             "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NavigationMarker",
-                "printedName": "SIRLMap.NavigationMarker",
-                "usr": "c:@M@SIRLMap@objc(cs)NavigationMarker"
-              },
               {
                 "kind": "TypeNominal",
                 "name": "CGFloat",
@@ -10564,12 +10678,186 @@
                 "usr": "s:14CoreFoundation7CGFloatV"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:7SIRLMap16NavigationMarkerC6radiusAC14CoreFoundation7CGFloatV_tcfc",
-            "mangledName": "$s7SIRLMap16NavigationMarkerC6radiusAC12CoreGraphics7CGFloatV_tcfc",
+            "declKind": "Var",
+            "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvp",
             "moduleName": "SIRLMap",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "SIRLMap",
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "SIRLMap",
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "SIRLMap",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outterCircleRadius",
+            "printedName": "outterCircleRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap16NavigationMarkerC18outterCircleRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s7SIRLMap16NavigationMarkerC18outterCircleRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap16NavigationMarkerC18outterCircleRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s7SIRLMap16NavigationMarkerC18outterCircleRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "SIRLMap",
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap16NavigationMarkerC18outterCircleRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s7SIRLMap16NavigationMarkerC18outterCircleRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "SIRLMap",
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap16NavigationMarkerC18outterCircleRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s7SIRLMap16NavigationMarkerC18outterCircleRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "SIRLMap",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationMarker",
+                "printedName": "SIRLMap.NavigationMarker",
+                "usr": "c:@M@SIRLMap@objc(cs)NavigationMarker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SIRLMap@objc(cs)NavigationMarker(im)init",
+            "mangledName": "$s7SIRLMap16NavigationMarkerCACycfc",
+            "moduleName": "SIRLMap",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
             ],
             "init_kind": "Designated"
           },
@@ -10780,32 +11068,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NavigationMarker",
-                "printedName": "SIRLMap.NavigationMarker",
-                "usr": "c:@M@SIRLMap@objc(cs)NavigationMarker"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@SIRLMap@objc(cs)NavigationMarker(im)init",
-            "mangledName": "$s7SIRLMap16NavigationMarkerCACycfc",
-            "moduleName": "SIRLMap",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -10821,6 +11083,7 @@
         ],
         "superclassUsr": "c:objc(cs)CALayer",
         "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "QuartzCore.CALayer",
           "ObjectiveC.NSObject"
@@ -12457,6 +12720,104 @@
           },
           {
             "kind": "Function",
+            "name": "setMarkers",
+            "printedName": "setMarkers(markers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SIRLMap.SirlMarker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlMarker",
+                    "printedName": "SIRLMap.SirlMarker",
+                    "usr": "s:7SIRLMap10SirlMarkerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap19SirlLegacyComponentC10setMarkers7markersySayAA0B6MarkerVG_tF",
+            "mangledName": "$s7SIRLMap19SirlLegacyComponentC10setMarkers7markersySayAA0B6MarkerVG_tF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideMarkers",
+            "printedName": "hideMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap19SirlLegacyComponentC11hideMarkersyyF",
+            "mangledName": "$s7SIRLMap19SirlLegacyComponentC11hideMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMarkers",
+            "printedName": "showMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap19SirlLegacyComponentC11showMarkersyyF",
+            "mangledName": "$s7SIRLMap19SirlLegacyComponentC11showMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearMarkers",
+            "printedName": "clearMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap19SirlLegacyComponentC12clearMarkersyyF",
+            "mangledName": "$s7SIRLMap19SirlLegacyComponentC12clearMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "layoutSubviews",
             "printedName": "layoutSubviews()",
             "children": [
@@ -13470,6 +13831,157 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLMap",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SIRLMap"
+      },
+      {
+        "kind": "Import",
+        "name": "SIRLCore",
+        "printedName": "SIRLCore",
+        "declKind": "Import",
+        "moduleName": "SIRLMap"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SirlMarker",
+        "printedName": "SirlMarker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap10SirlMarkerV5imageSo7UIImageCvp",
+            "mangledName": "$s7SIRLMap10SirlMarkerV5imageSo7UIImageCvp",
+            "moduleName": "SIRLMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap10SirlMarkerV5imageSo7UIImageCvg",
+                "mangledName": "$s7SIRLMap10SirlMarkerV5imageSo7UIImageCvg",
+                "moduleName": "SIRLMap",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SirlLocation",
+                "printedName": "SIRLCore.SirlLocation",
+                "usr": "c:@M@SIRLCore@objc(cs)SirlLocation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap10SirlMarkerV8location8SIRLCore0B8LocationCvp",
+            "mangledName": "$s7SIRLMap10SirlMarkerV8location8SIRLCore0B8LocationCvp",
+            "moduleName": "SIRLMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlLocation",
+                    "printedName": "SIRLCore.SirlLocation",
+                    "usr": "c:@M@SIRLCore@objc(cs)SirlLocation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SIRLMap10SirlMarkerV8location8SIRLCore0B8LocationCvg",
+                "mangledName": "$s7SIRLMap10SirlMarkerV8location8SIRLCore0B8LocationCvg",
+                "moduleName": "SIRLMap",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(location:image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SirlMarker",
+                "printedName": "SIRLMap.SirlMarker",
+                "usr": "s:7SIRLMap10SirlMarkerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SirlLocation",
+                "printedName": "SIRLCore.SirlLocation",
+                "usr": "c:@M@SIRLCore@objc(cs)SirlLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SIRLMap10SirlMarkerV8location5imageAC8SIRLCore0B8LocationC_So7UIImageCtcfc",
+            "mangledName": "$s7SIRLMap10SirlMarkerV8location5imageAC8SIRLCore0B8LocationC_So7UIImageCtcfc",
+            "moduleName": "SIRLMap",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SIRLMap10SirlMarkerV",
+        "mangledName": "$s7SIRLMap10SirlMarkerV",
+        "moduleName": "SIRLMap",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -13588,6 +14100,74 @@
           },
           {
             "kind": "Var",
+            "name": "naviLayer",
+            "printedName": "naviLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap13SirlRouteViewC9naviLayer33_432C92D02E4900BEDB7B0A8F3812FCE5LLSo6UIViewCSgvp",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC9naviLayer33_432C92D02E4900BEDB7B0A8F3812FCE5LLSo6UIViewCSgvp",
+            "moduleName": "SIRLMap",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "markerLayer",
+            "printedName": "markerLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap13SirlRouteViewC11markerLayer33_432C92D02E4900BEDB7B0A8F3812FCE5LLSo6UIViewCSgvp",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC11markerLayer33_432C92D02E4900BEDB7B0A8F3812FCE5LLSo6UIViewCSgvp",
+            "moduleName": "SIRLMap",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "naviMarker",
             "printedName": "naviMarker",
             "children": [
@@ -13617,7 +14197,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 4,
             "hasStorage": true
           },
           {
@@ -13651,7 +14231,75 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "locationMarkers",
+            "printedName": "locationMarkers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SIRLMap.DestinationMarker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DestinationMarker",
+                    "printedName": "SIRLMap.DestinationMarker",
+                    "usr": "c:@M@SIRLMap@objc(cs)DestinationMarker"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap13SirlRouteViewC15locationMarkers33_432C92D02E4900BEDB7B0A8F3812FCE5LLSayAA17DestinationMarkerCGvp",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC15locationMarkers33_432C92D02E4900BEDB7B0A8F3812FCE5LLSayAA17DestinationMarkerCGvp",
+            "moduleName": "SIRLMap",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "outstandingMarkers",
+            "printedName": "outstandingMarkers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SIRLMap.SirlMarker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlMarker",
+                    "printedName": "SIRLMap.SirlMarker",
+                    "usr": "s:7SIRLMap10SirlMarkerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap13SirlRouteViewC18outstandingMarkers33_432C92D02E4900BEDB7B0A8F3812FCE5LLSayAA0B6MarkerVGvp",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC18outstandingMarkers33_432C92D02E4900BEDB7B0A8F3812FCE5LLSayAA0B6MarkerVGvp",
+            "moduleName": "SIRLMap",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
@@ -13693,7 +14341,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
@@ -13727,7 +14375,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 9,
             "hasStorage": true
           },
           {
@@ -13761,7 +14409,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 10,
             "hasStorage": true
           },
           {
@@ -13795,7 +14443,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 11,
             "hasStorage": true
           },
           {
@@ -13829,7 +14477,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 12,
             "hasStorage": true
           },
           {
@@ -13863,7 +14511,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 13,
             "hasStorage": true
           },
           {
@@ -13897,7 +14545,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 14,
             "hasStorage": true
           },
           {
@@ -13923,7 +14571,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 15,
             "hasStorage": true
           },
           {
@@ -13950,7 +14598,35 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 16,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "DEFAULT_NAVI_RAD_METER",
+            "printedName": "DEFAULT_NAVI_RAD_METER",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap13SirlRouteViewC22DEFAULT_NAVI_RAD_METER33_432C92D02E4900BEDB7B0A8F3812FCE5LL14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC22DEFAULT_NAVI_RAD_METER33_432C92D02E4900BEDB7B0A8F3812FCE5LL12CoreGraphics7CGFloatVvp",
+            "moduleName": "SIRLMap",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 17,
             "isLet": true,
             "hasStorage": true
           },
@@ -13976,9 +14652,10 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 18,
             "isLet": true,
             "hasStorage": true
           },
@@ -14004,7 +14681,7 @@
               "HasStorage",
               "ReferenceOwnership"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 19,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -14112,7 +14789,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 20,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -14221,7 +14898,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 21,
             "hasStorage": true,
             "accessors": [
               {
@@ -14312,7 +14989,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 22,
             "hasStorage": true,
             "accessors": [
               {
@@ -14446,7 +15123,7 @@
               "Custom",
               "AccessControl"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 23,
             "hasStorage": true
           },
           {
@@ -14472,7 +15149,7 @@
               "Custom",
               "AccessControl"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 24,
             "hasStorage": true
           },
           {
@@ -14497,7 +15174,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 25,
             "hasStorage": true,
             "accessors": [
               {
@@ -14646,7 +15323,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 26,
             "hasStorage": true,
             "accessors": [
               {
@@ -14748,6 +15425,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SIRLMap@objc(cs)SirlRouteView(im)layoutSubviews",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC14layoutSubviewsyyF",
+            "moduleName": "SIRLMap",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(coder:)",
@@ -14840,14 +15543,66 @@
           },
           {
             "kind": "Function",
+            "name": "adjustNavigationMarkerSize",
+            "printedName": "adjustNavigationMarkerSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap13SirlRouteViewC26adjustNavigationMarkerSizeyyF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC26adjustNavigationMarkerSizeyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processOutstandingMarkers",
+            "printedName": "processOutstandingMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap13SirlRouteViewC25processOutstandingMarkersyyF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC25processOutstandingMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "convertToPXLocation",
             "printedName": "convertToPXLocation(location:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "CGPoint",
-                "printedName": "CoreFoundation.CGPoint",
-                "usr": "c:@S@CGPoint"
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -14857,13 +15612,139 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SIRLMap13SirlRouteViewC19convertToPXLocation8locationSo7CGPointV8SIRLCore0B8LocationC_tF",
-            "mangledName": "$s7SIRLMap13SirlRouteViewC19convertToPXLocation8locationSo7CGPointV8SIRLCore0B8LocationC_tF",
+            "usr": "s:7SIRLMap13SirlRouteViewC19convertToPXLocation8locationSo7CGPointVSg8SIRLCore0B8LocationC_tF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC19convertToPXLocation8locationSo7CGPointVSg8SIRLCore0B8LocationC_tF",
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
               "Custom",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLocationMarkers",
+            "printedName": "setLocationMarkers(markers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SIRLMap.SirlMarker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlMarker",
+                    "printedName": "SIRLMap.SirlMarker",
+                    "usr": "s:7SIRLMap10SirlMarkerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap13SirlRouteViewC18setLocationMarkers7markersySayAA0B6MarkerVG_tF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC18setLocationMarkers7markersySayAA0B6MarkerVG_tF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addLocationMarker",
+            "printedName": "addLocationMarker(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SirlMarker",
+                "printedName": "SIRLMap.SirlMarker",
+                "usr": "s:7SIRLMap10SirlMarkerV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap13SirlRouteViewC17addLocationMarkeryyAA0bG0VF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC17addLocationMarkeryyAA0bG0VF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearLocationMarkers",
+            "printedName": "clearLocationMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap13SirlRouteViewC20clearLocationMarkersyyF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC20clearLocationMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideLocationMarkers",
+            "printedName": "hideLocationMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap13SirlRouteViewC19hideLocationMarkersyyF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC19hideLocationMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showLocationMarkers",
+            "printedName": "showLocationMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap13SirlRouteViewC19showLocationMarkersyyF",
+            "mangledName": "$s7SIRLMap13SirlRouteViewC19showLocationMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -15687,6 +16568,104 @@
           },
           {
             "kind": "Function",
+            "name": "setMarkers",
+            "printedName": "setMarkers(markers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SIRLMap.SirlMarker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlMarker",
+                    "printedName": "SIRLMap.SirlMarker",
+                    "usr": "s:7SIRLMap10SirlMarkerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap16SirlMapComponentP10setMarkers7markersySayAA0B6MarkerVG_tF",
+            "mangledName": "$s7SIRLMap16SirlMapComponentP10setMarkers7markersySayAA0B6MarkerVG_tF",
+            "moduleName": "SIRLMap",
+            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapComponent>",
+            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideMarkers",
+            "printedName": "hideMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap16SirlMapComponentP11hideMarkersyyF",
+            "mangledName": "$s7SIRLMap16SirlMapComponentP11hideMarkersyyF",
+            "moduleName": "SIRLMap",
+            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapComponent>",
+            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMarkers",
+            "printedName": "showMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap16SirlMapComponentP11showMarkersyyF",
+            "mangledName": "$s7SIRLMap16SirlMapComponentP11showMarkersyyF",
+            "moduleName": "SIRLMap",
+            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapComponent>",
+            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearMarkers",
+            "printedName": "clearMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap16SirlMapComponentP12clearMarkersyyF",
+            "mangledName": "$s7SIRLMap16SirlMapComponentP12clearMarkersyyF",
+            "moduleName": "SIRLMap",
+            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapComponent>",
+            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "allocateButtonAction",
             "printedName": "allocateButtonAction()",
             "children": [
@@ -16325,9 +17304,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "SirlRouteView",
-                "printedName": "SIRLMap.SirlRouteView",
-                "usr": "c:@M@SIRLMap@objc(cs)SirlRouteView"
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
               },
               {
                 "kind": "TypeNominal",
@@ -16337,8 +17316,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SIRLMap17DestinationMarkerC03addC02to2atyAA13SirlRouteViewC_So7CGPointVtF",
-            "mangledName": "$s7SIRLMap17DestinationMarkerC03addC02to2atyAA13SirlRouteViewC_So7CGPointVtF",
+            "usr": "s:7SIRLMap17DestinationMarkerC03addC02to2atySo6UIViewC_So7CGPointVtF",
+            "mangledName": "$s7SIRLMap17DestinationMarkerC03addC02to2atySo6UIViewC_So7CGPointVtF",
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
@@ -16991,6 +17970,33 @@
           },
           {
             "kind": "Function",
+            "name": "maploadingComplete",
+            "printedName": "maploadingComplete(succeed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap15SirlMapDelegateP18maploadingComplete7succeedySb_tF",
+            "mangledName": "$s7SIRLMap15SirlMapDelegateP18maploadingComplete7succeedySb_tF",
+            "moduleName": "SIRLMap",
+            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapDelegate>",
+            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "detinationApproached",
             "printedName": "detinationApproached(distance:)",
             "children": [
@@ -17009,6 +18015,35 @@
             "declKind": "Func",
             "usr": "s:7SIRLMap15SirlMapDelegatePAAE20detinationApproached8distanceySd_tF",
             "mangledName": "$s7SIRLMap15SirlMapDelegatePAAE20detinationApproached8distanceySd_tF",
+            "moduleName": "SIRLMap",
+            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapDelegate>",
+            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "maploadingComplete",
+            "printedName": "maploadingComplete(succeed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap15SirlMapDelegatePAAE18maploadingComplete7succeedySb_tF",
+            "mangledName": "$s7SIRLMap15SirlMapDelegatePAAE18maploadingComplete7succeedySb_tF",
             "moduleName": "SIRLMap",
             "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapDelegate>",
             "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapDelegate>",
@@ -18047,6 +19082,112 @@
             "declKind": "Func",
             "usr": "s:7SIRLMap11SirlMapViewC16resetDestinationyyF",
             "mangledName": "$s7SIRLMap11SirlMapViewC16resetDestinationyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMarkers",
+            "printedName": "setMarkers(markers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SIRLMap.SirlMarker]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlMarker",
+                    "printedName": "SIRLMap.SirlMarker",
+                    "usr": "s:7SIRLMap10SirlMarkerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap11SirlMapViewC10setMarkers7markersySayAA0B6MarkerVG_tF",
+            "mangledName": "$s7SIRLMap11SirlMapViewC10setMarkers7markersySayAA0B6MarkerVG_tF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearMarkers",
+            "printedName": "clearMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap11SirlMapViewC12clearMarkersyyF",
+            "mangledName": "$s7SIRLMap11SirlMapViewC12clearMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideMarkers",
+            "printedName": "hideMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap11SirlMapViewC11hideMarkersyyF",
+            "mangledName": "$s7SIRLMap11SirlMapViewC11hideMarkersyyF",
+            "moduleName": "SIRLMap",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMarkers",
+            "printedName": "showMarkers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap11SirlMapViewC11showMarkersyyF",
+            "mangledName": "$s7SIRLMap11SirlMapViewC11showMarkersyyF",
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
@@ -19196,7 +20337,7 @@
       "kind": "FloatLiteral",
       "offset": 753,
       "length": 3,
-      "value": "0.4"
+      "value": "0.8"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
@@ -19204,13 +20345,6 @@
       "offset": 705,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
-      "kind": "StringLiteral",
-      "offset": 205,
-      "length": 16,
-      "value": "\"SIRLMap.NavigationMarker\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
@@ -19340,162 +20474,211 @@
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "kind": "Array",
+      "offset": 623,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "kind": "Array",
+      "offset": 677,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "BooleanLiteral",
-      "offset": 767,
+      "offset": 961,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 817,
+      "offset": 1011,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1069,
+      "length": 5,
+      "value": "0.914"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1631,
+      "offset": 2043,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1637,
+      "offset": 2048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1643,
+      "offset": 1916,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1820,
+      "offset": 1922,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1826,
+      "offset": 1928,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1832,
+      "offset": 2260,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2084,
+      "offset": 2265,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2090,
+      "offset": 2127,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2312,
+      "offset": 2133,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2341,
+      "offset": 2139,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2419,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2641,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2670,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2390,
+      "offset": 2719,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2245,
+      "offset": 2574,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2251,
+      "offset": 2580,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2710,
+      "offset": 3147,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2761,
+      "offset": 3198,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "FloatLiteral",
-      "offset": 2821,
+      "offset": 3258,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "FloatLiteral",
-      "offset": 2839,
+      "offset": 3276,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2538,
+      "offset": 2867,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3078,
+      "offset": 3515,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3104,
+      "offset": 3541,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3000,
+      "offset": 3437,
       "length": 5,
       "value": "false"
     },
@@ -19635,112 +20818,112 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 577,
+      "offset": 671,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 668,
+      "offset": 762,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 808,
       "length": 22,
       "value": "\"com.sirl.map_manager\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 842,
       "length": 10,
       "value": "\"Sirl_Map\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
-      "offset": 845,
+      "offset": 939,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
-      "offset": 850,
+      "offset": 944,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
-      "offset": 855,
+      "offset": 949,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
-      "offset": 860,
+      "offset": 954,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1578,
+      "offset": 1672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1723,
+      "offset": 1817,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1426,
+      "offset": 1520,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2016,
+      "offset": 2110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2077,
+      "offset": 2171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2440,
+      "offset": 2534,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2500,
+      "offset": 2594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9147,
+      "offset": 9304,
       "length": 4,
       "value": "true"
     }

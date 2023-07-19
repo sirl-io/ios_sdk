@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SIRL"
-  s.version      = "2.0.1"
+  s.version      = "2.0.2"
   s.summary      = "SIRL SDKs"
 
   s.description  = "This is the set of SDKs for the SIRL system."
@@ -62,6 +62,11 @@ Pod::Spec.new do |s|
   s.subspec 'User' do |usr|	
     usr.vendored_frameworks = "User/SIRLUser.framework"
     usr.dependency 'SIRL/Core'	
+  end
+
+  s.subspec 'Asset' do |asset|	
+    asset.vendored_frameworks = "Asset/SIRLAsset.framework"
+    asset.dependency 'SIRL/Core'	
   end
 
 end

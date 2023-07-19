@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLMap
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
@@ -27,11 +27,11 @@ public struct TileManager {
   public func resolutionForImage(in url: Foundation.URL) throws -> CoreFoundation.CGSize
   public func destinationResolutionForImage(in url: Foundation.URL) throws -> CoreFoundation.CGSize
   public func totalMBForImage(in url: Foundation.URL) throws -> CoreFoundation.CGFloat
-  public func makeTiledImage(for url: Foundation.URL, placeholderCompletion: @escaping (Foundation.URL?, Swift.Error?) -> Swift.Void, tilingCompletion: @escaping (Swift.String?, CoreFoundation.CGSize?, Swift.Error?) -> Swift.Void)
+  public func makeTiledImage(for url: Foundation.URL, placeholderCompletion: @escaping (Foundation.URL?, (any Swift.Error)?) -> Swift.Void, tilingCompletion: @escaping (Swift.String?, CoreFoundation.CGSize?, (any Swift.Error)?) -> Swift.Void)
 }
 public class SirlMapObject : Swift.Decodable {
   public init(mapID: Swift.Int, x_max: Swift.Double, y_max: Swift.Double, x_min: Swift.Double, y_min: Swift.Double, mapPixcelSize: CoreFoundation.CGSize, tileSet: Swift.String)
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 public struct RouteNode : Swift.Decodable {
@@ -39,7 +39,7 @@ public struct RouteNode : Swift.Decodable {
     get
   }
   public init(x: Swift.Double, y: Swift.Double)
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetLocationMap : SIRLCore.APIRequest {
@@ -54,8 +54,11 @@ public struct GetLocationMap : SIRLCore.APIRequest {
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public init(mapId: Swift.Int? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct GetLocationGeoMap : SIRLCore.APIRequest {
   public typealias Response = SIRLMap.SirlGeoMapObject
@@ -64,11 +67,14 @@ public struct GetLocationGeoMap : SIRLCore.APIRequest {
   public var requestMethod: Swift.String {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
   public init(map_id: Swift.Int)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetRouteToLocation : SIRLCore.APIRequest {
@@ -83,18 +89,21 @@ public struct GetRouteToLocation : SIRLCore.APIRequest {
   public var requestBody: SIRLCore.NULLCodable {
     get
   }
+  public var hasParams: Swift.Bool {
+    get
+  }
   public let mlId: Swift.Int?
   public let routeTo: Swift.String?
   public let xCurrent: Swift.Double?
   public let yCurrent: Swift.Double?
   public init(mlId: Swift.Int? = nil, destinations: [SIRLCore.SirlLocation]? = nil, currentLocation: SIRLCore.SirlLocation? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class SirlFloorObject : Swift.Decodable {
   public init(x: Swift.Double, y: Swift.Double, name: Swift.String, shortName: Swift.String)
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   @_hasMissingDesignatedInitializers public class Layer : Swift.Decodable {
-    required convenience public init(from decoder: Swift.Decoder) throws
+    required convenience public init(from decoder: any Swift.Decoder) throws
     @objc deinit
   }
   @objc deinit
@@ -143,14 +152,21 @@ open class RoutingButtonLayer : QuartzCore.CALayer {
 }
 public class SirlGeoMapObject : Swift.Decodable {
   public init(ml_id: Swift.Int, x_max: Swift.Double, y_max: Swift.Double, x_min: Swift.Double, y_min: Swift.Double, angleOffset: Swift.Double, origin: CoreLocation.CLLocationCoordinate2D, defaultZoom: Swift.Double, geoJson: Swift.String, floors: [SIRLMap.SirlFloorObject])
-  required convenience public init(from decoder: Swift.Decoder) throws
+  required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
-@objc @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
 open class NavigationMarker : QuartzCore.CALayer {
   open var lightBlue: UIKit.UIColor
   open var dakBlue: UIKit.UIColor
-  public init(radius: CoreFoundation.CGFloat)
+  public var innerCircleRadius: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  public var outterCircleRadius: CoreFoundation.CGFloat {
+    get
+    set
+  }
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc override dynamic open var bounds: CoreFoundation.CGRect {
     @objc get
@@ -171,17 +187,24 @@ open class NavigationMarker : QuartzCore.CALayer {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public struct SirlMarker {
+  public init(location: SIRLCore.SirlLocation, image: UIKit.UIImage)
+}
 @available(iOS 10.0, *)
 public protocol SirlMapComponent : UIKit.UIView {
   var allocateMode: Swift.Bool { get set }
   var dataSource: SIRLCore.SirlCoreImpl { get }
   var destinationMarker: SIRLMap.DestinationMarker? { get }
   var routingMode: Swift.Bool { get set }
-  var mapDelegate: SIRLMap.SirlMapDelegate? { get set }
+  var mapDelegate: (any SIRLMap.SirlMapDelegate)? { get set }
   var currentLocation: SIRLCore.SirlLocation { get set }
   func loadMap(mapID: Swift.Int, client: SIRLCore.SirlAPIClient, ttl: Foundation.TimeInterval, completion: ((Swift.Bool) -> Swift.Void)?)
   func setMaxCord(xmax: CoreFoundation.CGFloat, ymax: CoreFoundation.CGFloat, xmin: CoreFoundation.CGFloat, ymin: CoreFoundation.CGFloat)
   func setDestination(destination: SIRLCore.SirlLocation, description: Swift.String)
+  func setMarkers(markers: [SIRLMap.SirlMarker])
+  func hideMarkers()
+  func showMarkers()
+  func clearMarkers()
   func allocateButtonAction()
   func resetDestination()
   func displayRoute(_ route: [SIRLMap.RouteNode])
@@ -223,14 +246,16 @@ public protocol SirlMapComponent : UIKit.UIView {
 @available(iOS 10.0, *)
 public protocol SirlMapDelegate : AnyObject {
   func detinationApproached(distance: Swift.Double)
+  func maploadingComplete(succeed: Swift.Bool)
 }
 @available(iOS 10.0, *)
 extension SIRLMap.SirlMapDelegate {
   public func detinationApproached(distance: Swift.Double)
+  public func maploadingComplete(succeed: Swift.Bool)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
 @IBDesignable @objc @_Concurrency.MainActor(unsafe) open class SirlMapView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var delegate: SIRLMap.SirlMapDelegate? {
+  @_Concurrency.MainActor(unsafe) public var delegate: (any SIRLMap.SirlMapDelegate)? {
     get
     set
   }
@@ -263,7 +288,11 @@ extension SIRLMap.SirlMapDelegate {
 extension SIRLMap.SirlMapView {
   @_Concurrency.MainActor(unsafe) open func updateCurrentLocation(location: SIRLCore.SirlLocation)
   @_Concurrency.MainActor(unsafe) open func updateDestination(destination: SIRLCore.SirlLocation, allowRouting: Swift.Bool = true, destinationDescription: Swift.String? = nil)
-  @_Concurrency.MainActor(unsafe) open func resetDestination()
+  @_Concurrency.MainActor(unsafe) public func resetDestination()
+  @_Concurrency.MainActor(unsafe) public func setMarkers(markers: [SIRLMap.SirlMarker])
+  @_Concurrency.MainActor(unsafe) public func clearMarkers()
+  @_Concurrency.MainActor(unsafe) public func hideMarkers()
+  @_Concurrency.MainActor(unsafe) public func showMarkers()
 }
 @available(iOS 10.0, *)
 extension SIRLMap.SirlMapView : SIRLCore.SirlCoreMapDelegate {
