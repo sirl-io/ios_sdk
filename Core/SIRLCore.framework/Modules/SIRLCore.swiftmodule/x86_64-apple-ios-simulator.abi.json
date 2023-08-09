@@ -55518,21 +55518,21 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 3627,
+      "offset": 3518,
       "length": 4,
       "value": "11.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 3647,
+      "offset": 3538,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 3666,
+      "offset": 3557,
       "length": 1,
       "value": "1"
     }
