@@ -493,6 +493,9 @@ open class SirlCoreImpl : ObjectiveC.NSObject, SIRLCore.PIPSDelegate {
   public var ML_ID: Swift.UInt32? {
     get
   }
+  public var siteName: Swift.String? {
+    get
+  }
   public func executionLogConfig(pips: Swift.Bool? = nil, ble: Swift.Bool? = nil, debug: Swift.Bool? = nil, info: Swift.Bool? = nil, imu: Swift.Bool? = nil, speed: Swift.Bool? = nil, event: Swift.Bool? = nil)
   public var executionLog: SIRLCore.SirlTripExecutionLogRecorder? {
     get
@@ -1191,6 +1194,9 @@ open class SirlScannerSetting {
 @_inheritsConvenienceInitializers @objc open class SirlCore : ObjectiveC.NSObject {
   @objc public static let shared: SIRLCore.SirlCore
   public var ML_ID: Swift.UInt32? {
+    get
+  }
+  public var siteName: Swift.String? {
     get
   }
   @objc public func setSingleLocation(mlID: Swift.UInt32)

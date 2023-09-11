@@ -25901,6 +25901,64 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "siteName",
+            "printedName": "siteName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore12SirlCoreImplC8siteNameSSSgvp",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC8siteNameSSSgvp",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore12SirlCoreImplC8siteNameSSSgvg",
+                "mangledName": "$s8SIRLCore12SirlCoreImplC8siteNameSSSgvg",
+                "moduleName": "SIRLCore",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "getTestIds",
             "printedName": "getTestIds()",
@@ -49471,6 +49529,64 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "siteName",
+            "printedName": "siteName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore8SirlCoreC8siteNameSSSgvp",
+            "mangledName": "$s8SIRLCore8SirlCoreC8siteNameSSSgvp",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore8SirlCoreC8siteNameSSSgvg",
+                "mangledName": "$s8SIRLCore8SirlCoreC8siteNameSSSgvg",
+                "moduleName": "SIRLCore",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setSingleLocation",
             "printedName": "setSingleLocation(mlID:)",
@@ -54027,28 +54143,28 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3459,
+      "offset": 3650,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3505,
+      "offset": 3696,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 7451,
+      "offset": 7642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "StringLiteral",
-      "offset": 14785,
+      "offset": 14976,
       "length": 2,
       "value": "\"\""
     },
@@ -55504,35 +55620,35 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1296,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3356,
       "length": 10,
       "value": "\"Tutorial\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 3518,
+      "offset": 3695,
       "length": 4,
       "value": "11.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 3538,
+      "offset": 3715,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 3557,
+      "offset": 3734,
       "length": 1,
       "value": "1"
     }
