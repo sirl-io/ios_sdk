@@ -20335,14 +20335,14 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 753,
+      "offset": 841,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 705,
+      "offset": 793,
       "length": 1,
       "value": "1"
     },
