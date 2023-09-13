@@ -10668,91 +10668,6 @@
           },
           {
             "kind": "Var",
-            "name": "innerCircleRadius",
-            "printedName": "innerCircleRadius",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvp",
-            "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvp",
-            "moduleName": "SIRLMap",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvg",
-                "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvg",
-                "moduleName": "SIRLMap",
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvs",
-                "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvs",
-                "moduleName": "SIRLMap",
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7SIRLMap16NavigationMarkerC17innerCircleRadius14CoreFoundation7CGFloatVvM",
-                "mangledName": "$s7SIRLMap16NavigationMarkerC17innerCircleRadius12CoreGraphics7CGFloatVvM",
-                "moduleName": "SIRLMap",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "outterCircleRadius",
             "printedName": "outterCircleRadius",
             "children": [
@@ -20334,15 +20249,29 @@
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 684,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
-      "offset": 841,
+      "offset": 962,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "IntegerLiteral",
-      "offset": 793,
+      "offset": 914,
       "length": 1,
       "value": "1"
     },

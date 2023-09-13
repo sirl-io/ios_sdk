@@ -159,10 +159,6 @@ public class SirlGeoMapObject : Swift.Decodable {
 open class NavigationMarker : QuartzCore.CALayer {
   open var lightBlue: UIKit.UIColor
   open var dakBlue: UIKit.UIColor
-  public var innerCircleRadius: CoreFoundation.CGFloat {
-    get
-    set
-  }
   public var outterCircleRadius: CoreFoundation.CGFloat {
     get
     set
