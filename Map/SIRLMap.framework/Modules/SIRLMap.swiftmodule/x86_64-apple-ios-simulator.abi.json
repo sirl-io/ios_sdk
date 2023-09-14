@@ -13183,9 +13183,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -20362,21 +20362,21 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 701,
+      "offset": 959,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1054,
+      "offset": 1312,
       "length": 1,
       "value": "1"
     },
