@@ -12329,6 +12329,73 @@
           },
           {
             "kind": "Function",
+            "name": "preDownloadMap",
+            "printedName": "preDownloadMap(mapID:client:ttl:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SirlAPIClient",
+                "printedName": "SIRLCore.SirlAPIClient",
+                "usr": "s:8SIRLCore13SirlAPIClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap19SirlLegacyComponentC14preDownloadMap5mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
+            "mangledName": "$s7SIRLMap19SirlLegacyComponentC14preDownloadMap5mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
+            "moduleName": "SIRLMap",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "loadMap",
             "printedName": "loadMap(mapID:client:ttl:completion:)",
             "children": [
@@ -12942,6 +13009,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLMap"
+      },
+      {
+        "kind": "Import",
         "name": "os.log",
         "printedName": "os.log",
         "declKind": "Import",
@@ -13010,6 +13084,40 @@
           },
           {
             "kind": "Var",
+            "name": "tileLevelMap",
+            "printedName": "tileLevelMap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SIRLMap16SirlMapTiledViewC09tileLevelC033_3B03907436428808AF1A7362408F559BLLSaySiGvp",
+            "mangledName": "$s7SIRLMap16SirlMapTiledViewC09tileLevelC033_3B03907436428808AF1A7362408F559BLLSaySiGvp",
+            "moduleName": "SIRLMap",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "url",
             "printedName": "url",
             "children": [
@@ -13038,7 +13146,7 @@
               "HasStorage",
               "Custom"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 3,
             "hasStorage": true,
             "accessors": [
               {
@@ -13154,7 +13262,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "hasStorage": true
           },
           {
@@ -13183,12 +13291,12 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "hasStorage": true
           },
           {
@@ -13255,7 +13363,7 @@
               "HasStorage",
               "Custom"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -16405,6 +16513,72 @@
           },
           {
             "kind": "Function",
+            "name": "preDownloadMap",
+            "printedName": "preDownloadMap(mapID:client:ttl:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SirlAPIClient",
+                "printedName": "SIRLCore.SirlAPIClient",
+                "usr": "s:8SIRLCore13SirlAPIClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap16SirlMapComponentP011preDownloadC05mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
+            "mangledName": "$s7SIRLMap16SirlMapComponentP011preDownloadC05mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
+            "moduleName": "SIRLMap",
+            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapComponent>",
+            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setMaxCord",
             "printedName": "setMaxCord(xmax:ymax:xmin:ymin:)",
             "children": [
@@ -18523,6 +18697,67 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "preDownloadMap",
+            "printedName": "preDownloadMap(mapID:client:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SirlAPIClient",
+                "printedName": "SIRLCore.SirlAPIClient",
+                "usr": "s:8SIRLCore13SirlAPIClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap11SirlMapViewC011preDownloadC05mapID6client10completionySi_8SIRLCore0B9APIClientCySbcSgtFZ",
+            "mangledName": "$s7SIRLMap11SirlMapViewC011preDownloadC05mapID6client10completionySi_8SIRLCore0B9APIClientCySbcSgtFZ",
+            "moduleName": "SIRLMap",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "desinationMarker",
             "printedName": "desinationMarker",
@@ -20348,35 +20583,42 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
-      "offset": 264,
+      "offset": 282,
       "length": 25,
       "value": "\"com.sirl.Map_Tiled_View\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 319,
       "length": 10,
       "value": "\"Sirl_Map\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "kind": "Array",
+      "offset": 479,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 906,
+      "offset": 882,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 917,
+      "offset": 893,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 1275,
       "length": 1,
       "value": "1"
     },
@@ -20852,7 +21094,7 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9304,
+      "offset": 9614,
       "length": 4,
       "value": "true"
     }

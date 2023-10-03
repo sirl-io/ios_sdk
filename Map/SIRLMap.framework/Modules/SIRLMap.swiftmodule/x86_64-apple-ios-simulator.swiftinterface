@@ -195,6 +195,7 @@ public protocol SirlMapComponent : UIKit.UIView {
   var mapDelegate: (any SIRLMap.SirlMapDelegate)? { get set }
   var currentLocation: SIRLCore.SirlLocation { get set }
   func loadMap(mapID: Swift.Int, client: SIRLCore.SirlAPIClient, ttl: Foundation.TimeInterval, completion: ((Swift.Bool) -> Swift.Void)?)
+  static func preDownloadMap(mapID: Swift.Int, client: SIRLCore.SirlAPIClient, ttl: Foundation.TimeInterval, completion: ((Swift.Bool) -> Swift.Void)?)
   func setMaxCord(xmax: CoreFoundation.CGFloat, ymax: CoreFoundation.CGFloat, xmin: CoreFoundation.CGFloat, ymin: CoreFoundation.CGFloat)
   func setDestination(destination: SIRLCore.SirlLocation, description: Swift.String)
   func setMarkers(markers: [SIRLMap.SirlMarker])
@@ -264,6 +265,7 @@ extension SIRLMap.SirlMapDelegate {
   }
   @_Concurrency.MainActor(unsafe) open var navigationModeButton: SIRLMap.LocateUserButton
   @_Concurrency.MainActor(unsafe) open var routingButton: SIRLMap.RouteButton
+  @_Concurrency.MainActor(unsafe) public static func preDownloadMap(mapID: Swift.Int, client: SIRLCore.SirlAPIClient, completion: ((Swift.Bool) -> Swift.Void)?)
   @_Concurrency.MainActor(unsafe) public var desinationMarker: SIRLMap.DestinationMarker? {
     get
   }
