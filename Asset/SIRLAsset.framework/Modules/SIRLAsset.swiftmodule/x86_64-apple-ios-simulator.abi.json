@@ -385,9 +385,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SirlAssetTag",
-                    "printedName": "SIRLAsset.SirlAssetTag",
-                    "usr": "s:9SIRLAsset12SirlAssetTagC"
+                    "name": "SirlAssetTagMapping",
+                    "printedName": "SIRLAsset.SirlAssetTagMapping",
+                    "usr": "s:9SIRLAsset19SirlAssetTagMappingC"
                   }
                 ]
               },
@@ -6795,8 +6795,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "DiassociateAssetWithTag",
-        "printedName": "DiassociateAssetWithTag",
+        "name": "DisassociateAssetWithTag",
+        "printedName": "DisassociateAssetWithTag",
         "children": [
           {
             "kind": "Var",
@@ -6811,8 +6811,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvp",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvp",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV12resourceNameSSvp",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV12resourceNameSSvp",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "AccessControl"
@@ -6831,8 +6831,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvg",
-                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvg",
+                "usr": "s:9SIRLAsset24DisassociateAssetWithTagV12resourceNameSSvg",
+                "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV12resourceNameSSvg",
                 "moduleName": "SIRLAsset",
                 "accessorKind": "get"
               }
@@ -6851,8 +6851,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvp",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvp",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV13requestMethodSSvp",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV13requestMethodSSvp",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "AccessControl"
@@ -6871,8 +6871,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvg",
-                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvg",
+                "usr": "s:9SIRLAsset24DisassociateAssetWithTagV13requestMethodSSvg",
+                "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV13requestMethodSSvg",
                 "moduleName": "SIRLAsset",
                 "accessorKind": "get"
               }
@@ -6891,8 +6891,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "AccessControl"
@@ -6911,8 +6911,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
-                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
+                "usr": "s:9SIRLAsset24DisassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
+                "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
                 "moduleName": "SIRLAsset",
                 "accessorKind": "get"
               }
@@ -6931,8 +6931,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvp",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvp",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV9hasParamsSbvp",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV9hasParamsSbvp",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "AccessControl"
@@ -6951,8 +6951,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvg",
-                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvg",
+                "usr": "s:9SIRLAsset24DisassociateAssetWithTagV9hasParamsSbvg",
+                "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV9hasParamsSbvg",
                 "moduleName": "SIRLAsset",
                 "accessorKind": "get"
               }
@@ -6979,8 +6979,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvp",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvp",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV2ids5Int32VSgvp",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV2ids5Int32VSgvp",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "HasStorage"
@@ -7009,8 +7009,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvg",
-                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvg",
+                "usr": "s:9SIRLAsset24DisassociateAssetWithTagV2ids5Int32VSgvg",
+                "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV2ids5Int32VSgvg",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7038,8 +7038,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvp",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvp",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV10identifierSSSgvp",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV10identifierSSSgvp",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "HasStorage"
@@ -7068,8 +7068,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvg",
-                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvg",
+                "usr": "s:9SIRLAsset24DisassociateAssetWithTagV10identifierSSSgvg",
+                "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV10identifierSSSgvg",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7083,9 +7083,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "DiassociateAssetWithTag",
-                "printedName": "SIRLAsset.DiassociateAssetWithTag",
-                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV"
+                "name": "DisassociateAssetWithTag",
+                "printedName": "SIRLAsset.DisassociateAssetWithTag",
+                "usr": "s:9SIRLAsset24DisassociateAssetWithTagV"
               },
               {
                 "kind": "TypeNominal",
@@ -7101,8 +7101,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "AccessControl"
@@ -7127,8 +7127,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV6encode2toys7Encoder_p_tKF",
+            "usr": "s:9SIRLAsset24DisassociateAssetWithTagV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV6encode2toys7Encoder_p_tKF",
             "moduleName": "SIRLAsset",
             "implicit": true,
             "throwing": true,
@@ -7136,8 +7136,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:9SIRLAsset23DiassociateAssetWithTagV",
-        "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV",
+        "usr": "s:9SIRLAsset24DisassociateAssetWithTagV",
+        "mangledName": "$s9SIRLAsset24DisassociateAssetWithTagV",
         "moduleName": "SIRLAsset",
         "intro_iOS": "10.0",
         "declAttributes": [
@@ -7157,9 +7157,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SirlAssetTag",
-                    "printedName": "SIRLAsset.SirlAssetTag",
-                    "usr": "s:9SIRLAsset12SirlAssetTagC"
+                    "name": "SirlAssetTagMapping",
+                    "printedName": "SIRLAsset.SirlAssetTagMapping",
+                    "usr": "s:9SIRLAsset19SirlAssetTagMappingC"
                   }
                 ]
               },
@@ -11032,6 +11032,124 @@
             "declKind": "Func",
             "usr": "s:9SIRLAsset16SirlAssetServiceC03getC8TagByMac10macAddress10completionySS_yAA0bcF0CSgctF",
             "mangledName": "$s9SIRLAsset16SirlAssetServiceC03getC8TagByMac10macAddress10completionySS_yAA0bcF0CSgctF",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "associateAssetWithTag",
+            "printedName": "associateAssetWithTag(assetId:macaddress:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SIRLAsset.SirlAssetTagMapping?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SIRLAsset.SirlAssetTagMapping?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SirlAssetTagMapping",
+                        "printedName": "SIRLAsset.SirlAssetTagMapping",
+                        "usr": "s:9SIRLAsset19SirlAssetTagMappingC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC09associateC7WithTag7assetId10macaddress10completionys5Int32V_SSyAA0bcG7MappingCSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC09associateC7WithTag7assetId10macaddress10completionys5Int32V_SSyAA0bcG7MappingCSgctF",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disassociateAssetWithTag",
+            "printedName": "disassociateAssetWithTag(assetId:macaddress:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SIRLAsset.SirlAssetTagMapping?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SIRLAsset.SirlAssetTagMapping?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SirlAssetTagMapping",
+                        "printedName": "SIRLAsset.SirlAssetTagMapping",
+                        "usr": "s:9SIRLAsset19SirlAssetTagMappingC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC012disassociateC7WithTag7assetId10macaddress10completionys5Int32V_SSyAA0bcG7MappingCSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC012disassociateC7WithTag7assetId10macaddress10completionys5Int32V_SSyAA0bcG7MappingCSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [

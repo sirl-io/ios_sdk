@@ -13,7 +13,7 @@ import os.log
 import os
 @available(iOS 10.0, *)
 public struct AssociateAssetWithTag : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTag
+  public typealias Response = SIRLAsset.SirlAssetTagMapping
   public typealias RequestBody = SIRLCore.NULLCodable
   public var resourceName: Swift.String {
     get
@@ -210,8 +210,8 @@ public class AssetFilter {
   @objc deinit
 }
 @available(iOS 10.0, *)
-public struct DiassociateAssetWithTag : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTag
+public struct DisassociateAssetWithTag : SIRLCore.APIRequest {
+  public typealias Response = SIRLAsset.SirlAssetTagMapping
   public typealias RequestBody = SIRLCore.NULLCodable
   public var resourceName: Swift.String {
     get
@@ -317,6 +317,8 @@ public struct GetAssetByExternalId : SIRLCore.APIRequest {
   public func getAssetBySKUs(asseTypeId: Swift.Int32, skus: [Swift.Int32], accessToken: Swift.String? = nil, mlid: Swift.Int32? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
   public func getAssetAlerts(mlid: Swift.Int32, alert_code: SIRLAsset.SIRLAssetAlertCode, completion: @escaping (_ alerts: [SIRLAsset.SirlAssetAlert]) -> Swift.Void)
   public func getAssetTagByMac(macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
+  public func associateAssetWithTag(assetId: Swift.Int32, macaddress: Swift.String, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
+  public func disassociateAssetWithTag(assetId: Swift.Int32, macaddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   @objc deinit
 }
 @available(iOS 10.0, *)
