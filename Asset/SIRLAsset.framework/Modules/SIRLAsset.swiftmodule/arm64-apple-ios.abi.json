@@ -23,6 +23,419 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "AssociateAssetWithTag",
+        "printedName": "AssociateAssetWithTag",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "resourceName",
+            "printedName": "resourceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV12resourceNameSSvp",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV12resourceNameSSvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset21AssociateAssetWithTagV12resourceNameSSvg",
+                "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV12resourceNameSSvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestMethod",
+            "printedName": "requestMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV13requestMethodSSvp",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV13requestMethodSSvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset21AssociateAssetWithTagV13requestMethodSSvg",
+                "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV13requestMethodSSvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestBody",
+            "printedName": "requestBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NULLCodable",
+                "printedName": "SIRLCore.NULLCodable",
+                "usr": "s:8SIRLCore11NULLCodableV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NULLCodable",
+                    "printedName": "SIRLCore.NULLCodable",
+                    "usr": "s:8SIRLCore11NULLCodableV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset21AssociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
+                "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV9hasParamsSbvp",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV9hasParamsSbvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset21AssociateAssetWithTagV9hasParamsSbvg",
+                "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV9hasParamsSbvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV2ids5Int32VSgvp",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV2ids5Int32VSgvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset21AssociateAssetWithTagV2ids5Int32VSgvg",
+                "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV2ids5Int32VSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV10identifierSSSgvp",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV10identifierSSSgvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset21AssociateAssetWithTagV10identifierSSSgvg",
+                "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV10identifierSSSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(assetId:macaddress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssociateAssetWithTag",
+                "printedName": "SIRLAsset.AssociateAssetWithTag",
+                "usr": "s:9SIRLAsset21AssociateAssetWithTagV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SIRLAsset21AssociateAssetWithTagV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SIRLAsset",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9SIRLAsset21AssociateAssetWithTagV",
+        "mangledName": "$s9SIRLAsset21AssociateAssetWithTagV",
+        "moduleName": "SIRLAsset",
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "APIRequest",
+            "printedName": "APIRequest",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Response",
+                "printedName": "Response",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlAssetTag",
+                    "printedName": "SIRLAsset.SirlAssetTag",
+                    "usr": "s:9SIRLAsset12SirlAssetTagC"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RequestBody",
+                "printedName": "RequestBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NULLCodable",
+                    "printedName": "SIRLCore.NULLCodable",
+                    "usr": "s:8SIRLCore11NULLCodableV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:8SIRLCore10APIRequestP",
+            "mangledName": "$s8SIRLCore10APIRequestP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SIRLCore",
+        "printedName": "SIRLCore",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GetSkuList",
         "printedName": "GetSkuList",
         "children": [
@@ -1123,6 +1536,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1237,6 +1654,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1351,6 +1772,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1440,6 +1865,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1529,6 +1958,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1618,6 +2051,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -1748,6 +2185,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2228,8 +2669,10 @@
                     "mangledName": "$s9SIRLAsset9SirlAssetC10CoordinateV1xSdvM",
                     "moduleName": "SIRLAsset",
                     "implicit": true,
+                    "intro_iOS": "10.0",
                     "declAttributes": [
-                      "Transparent"
+                      "Transparent",
+                      "Available"
                     ],
                     "accessorKind": "_modify"
                   }
@@ -2322,8 +2765,10 @@
                     "mangledName": "$s9SIRLAsset9SirlAssetC10CoordinateV1ySdvM",
                     "moduleName": "SIRLAsset",
                     "implicit": true,
+                    "intro_iOS": "10.0",
                     "declAttributes": [
-                      "Transparent"
+                      "Transparent",
+                      "Available"
                     ],
                     "accessorKind": "_modify"
                   }
@@ -2416,8 +2861,10 @@
                     "mangledName": "$s9SIRLAsset9SirlAssetC10CoordinateV9timestamp10Foundation4DateVvM",
                     "moduleName": "SIRLAsset",
                     "implicit": true,
+                    "intro_iOS": "10.0",
                     "declAttributes": [
-                      "Transparent"
+                      "Transparent",
+                      "Available"
                     ],
                     "accessorKind": "_modify"
                   }
@@ -2874,6 +3321,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2987,6 +3438,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3100,6 +3555,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3213,6 +3672,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3326,6 +3789,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3726,6 +4193,10 @@
                 "mangledName": "$s9SIRLAsset13GetAssetAreasV9hasParamsSbvM",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4146,6 +4617,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4260,6 +4735,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4350,6 +4829,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4464,6 +4947,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4578,6 +5065,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5531,6 +6022,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5640,6 +6135,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5749,6 +6248,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5858,6 +6361,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5943,6 +6450,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6284,6 +6795,419 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "DiassociateAssetWithTag",
+        "printedName": "DiassociateAssetWithTag",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "resourceName",
+            "printedName": "resourceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvp",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvg",
+                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV12resourceNameSSvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestMethod",
+            "printedName": "requestMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvp",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvg",
+                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV13requestMethodSSvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestBody",
+            "printedName": "requestBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NULLCodable",
+                "printedName": "SIRLCore.NULLCodable",
+                "usr": "s:8SIRLCore11NULLCodableV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NULLCodable",
+                    "printedName": "SIRLCore.NULLCodable",
+                    "usr": "s:8SIRLCore11NULLCodableV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
+                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV11requestBody8SIRLCore11NULLCodableVvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvp",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvg",
+                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV9hasParamsSbvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvp",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvg",
+                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV2ids5Int32VSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvp",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvg",
+                "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV10identifierSSSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(assetId:macaddress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DiassociateAssetWithTag",
+                "printedName": "SIRLAsset.DiassociateAssetWithTag",
+                "usr": "s:9SIRLAsset23DiassociateAssetWithTagV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV7assetId10macaddressACs5Int32V_SStcfc",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SIRLAsset23DiassociateAssetWithTagV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SIRLAsset",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9SIRLAsset23DiassociateAssetWithTagV",
+        "mangledName": "$s9SIRLAsset23DiassociateAssetWithTagV",
+        "moduleName": "SIRLAsset",
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "APIRequest",
+            "printedName": "APIRequest",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Response",
+                "printedName": "Response",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlAssetTag",
+                    "printedName": "SIRLAsset.SirlAssetTag",
+                    "usr": "s:9SIRLAsset12SirlAssetTagC"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RequestBody",
+                "printedName": "RequestBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NULLCodable",
+                    "printedName": "SIRLCore.NULLCodable",
+                    "usr": "s:8SIRLCore11NULLCodableV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:8SIRLCore10APIRequestP",
+            "mangledName": "$s8SIRLCore10APIRequestP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SIRLCore",
+        "printedName": "SIRLCore",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "SirlTagStatus",
         "printedName": "SirlTagStatus",
         "children": [
@@ -6396,6 +7320,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6971,6 +7899,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7085,6 +8017,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7199,6 +8135,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7355,6 +8295,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7498,6 +8442,1592 @@
         "declKind": "Class",
         "usr": "s:9SIRLAsset12SirlAssetSkuC",
         "mangledName": "$s9SIRLAsset12SirlAssetSkuC",
+        "moduleName": "SIRLAsset",
+        "isOpen": true,
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SIRLCore",
+        "printedName": "SIRLCore",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetAssetTagByMac",
+        "printedName": "GetAssetTagByMac",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "resourceName",
+            "printedName": "resourceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset16GetAssetTagByMacV12resourceNameSSvp",
+            "mangledName": "$s9SIRLAsset16GetAssetTagByMacV12resourceNameSSvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset16GetAssetTagByMacV12resourceNameSSvg",
+                "mangledName": "$s9SIRLAsset16GetAssetTagByMacV12resourceNameSSvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestMethod",
+            "printedName": "requestMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset16GetAssetTagByMacV13requestMethodSSvp",
+            "mangledName": "$s9SIRLAsset16GetAssetTagByMacV13requestMethodSSvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset16GetAssetTagByMacV13requestMethodSSvg",
+                "mangledName": "$s9SIRLAsset16GetAssetTagByMacV13requestMethodSSvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestBody",
+            "printedName": "requestBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NULLCodable",
+                "printedName": "SIRLCore.NULLCodable",
+                "usr": "s:8SIRLCore11NULLCodableV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset16GetAssetTagByMacV11requestBody8SIRLCore11NULLCodableVvp",
+            "mangledName": "$s9SIRLAsset16GetAssetTagByMacV11requestBody8SIRLCore11NULLCodableVvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NULLCodable",
+                    "printedName": "SIRLCore.NULLCodable",
+                    "usr": "s:8SIRLCore11NULLCodableV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset16GetAssetTagByMacV11requestBody8SIRLCore11NULLCodableVvg",
+                "mangledName": "$s9SIRLAsset16GetAssetTagByMacV11requestBody8SIRLCore11NULLCodableVvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasParams",
+            "printedName": "hasParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset16GetAssetTagByMacV9hasParamsSbvp",
+            "mangledName": "$s9SIRLAsset16GetAssetTagByMacV9hasParamsSbvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset16GetAssetTagByMacV9hasParamsSbvg",
+                "mangledName": "$s9SIRLAsset16GetAssetTagByMacV9hasParamsSbvg",
+                "moduleName": "SIRLAsset",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mac",
+            "printedName": "mac",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset16GetAssetTagByMacV3macSSSgvp",
+            "mangledName": "$s9SIRLAsset16GetAssetTagByMacV3macSSSgvp",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset16GetAssetTagByMacV3macSSSgvg",
+                "mangledName": "$s9SIRLAsset16GetAssetTagByMacV3macSSSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(macaddress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetAssetTagByMac",
+                "printedName": "SIRLAsset.GetAssetTagByMac",
+                "usr": "s:9SIRLAsset16GetAssetTagByMacV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SIRLAsset16GetAssetTagByMacV10macaddressACSS_tcfc",
+            "mangledName": "$s9SIRLAsset16GetAssetTagByMacV10macaddressACSS_tcfc",
+            "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SIRLAsset16GetAssetTagByMacV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9SIRLAsset16GetAssetTagByMacV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SIRLAsset",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9SIRLAsset16GetAssetTagByMacV",
+        "mangledName": "$s9SIRLAsset16GetAssetTagByMacV",
+        "moduleName": "SIRLAsset",
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "APIRequest",
+            "printedName": "APIRequest",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Response",
+                "printedName": "Response",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SirlAssetTag",
+                    "printedName": "SIRLAsset.SirlAssetTag",
+                    "usr": "s:9SIRLAsset12SirlAssetTagC"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RequestBody",
+                "printedName": "RequestBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NULLCodable",
+                    "printedName": "SIRLCore.NULLCodable",
+                    "usr": "s:8SIRLCore11NULLCodableV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:8SIRLCore10APIRequestP",
+            "mangledName": "$s8SIRLCore10APIRequestP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SIRLCore",
+        "printedName": "SIRLCore",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SirlAssetTagMapping",
+        "printedName": "SirlAssetTagMapping",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC2idSivp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC2idSivp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC2idSivg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC2idSivg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC2idSivs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC2idSivs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC2idSivM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC2idSivM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5start10Foundation4DateVSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stop",
+            "printedName": "stop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC4stop10Foundation4DateVSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastTimestamp",
+            "printedName": "lastTimestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC13lastTimestamp10Foundation4DateVSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastX",
+            "printedName": "lastX",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastXSdSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastY",
+            "printedName": "lastY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastYSdSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastZ",
+            "printedName": "lastZ",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5lastZSdSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastMlId",
+            "printedName": "lastMlId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC8lastMlIdSiSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tagId",
+            "printedName": "tagId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC5tagIdSiSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetId",
+            "printedName": "assetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvg",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvs",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC7assetIds5Int32VSgvM",
+                "moduleName": "SIRLAsset",
+                "implicit": true,
+                "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SirlAssetTagMapping",
+                "printedName": "SIRLAsset.SirlAssetTagMapping",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingCACycfc",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingCACycfc",
+            "moduleName": "SIRLAsset",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SirlAssetTagMapping",
+                "printedName": "SIRLAsset.SirlAssetTagMapping",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SIRLAsset",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9SIRLAsset19SirlAssetTagMappingC",
+        "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC",
         "moduleName": "SIRLAsset",
         "isOpen": true,
         "intro_iOS": "10.0",
@@ -8457,6 +10987,59 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getAssetTagByMac",
+            "printedName": "getAssetTagByMac(macAddress:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SIRLAsset.SirlAssetTag?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SIRLAsset.SirlAssetTag?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SirlAssetTag",
+                        "printedName": "SIRLAsset.SirlAssetTag",
+                        "usr": "s:9SIRLAsset12SirlAssetTagC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC03getC8TagByMac10macAddress10completionySS_yAA0bcF0CSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC03getC8TagByMac10macAddress10completionySS_yAA0bcF0CSgctF",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -8593,6 +11176,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8681,6 +11268,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8794,6 +11385,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9374,6 +11969,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SIRLCore",
+        "printedName": "SIRLCore",
+        "declKind": "Import",
+        "moduleName": "SIRLAsset"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SirlAssetTag",
         "printedName": "SirlAssetTag",
@@ -9385,14 +11987,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset12SirlAssetTagC2idSivp",
-            "mangledName": "$s9SIRLAsset12SirlAssetTagC2idSivp",
+            "usr": "s:9SIRLAsset12SirlAssetTagC2ids5Int32Vvp",
+            "mangledName": "$s9SIRLAsset12SirlAssetTagC2ids5Int32Vvp",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -9408,14 +12010,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset12SirlAssetTagC2idSivg",
-                "mangledName": "$s9SIRLAsset12SirlAssetTagC2idSivg",
+                "usr": "s:9SIRLAsset12SirlAssetTagC2ids5Int32Vvg",
+                "mangledName": "$s9SIRLAsset12SirlAssetTagC2ids5Int32Vvg",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
@@ -9433,14 +12035,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset12SirlAssetTagC2idSivs",
-                "mangledName": "$s9SIRLAsset12SirlAssetTagC2idSivs",
+                "usr": "s:9SIRLAsset12SirlAssetTagC2ids5Int32Vvs",
+                "mangledName": "$s9SIRLAsset12SirlAssetTagC2ids5Int32Vvs",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
@@ -9458,11 +12060,15 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset12SirlAssetTagC2idSivM",
-                "mangledName": "$s9SIRLAsset12SirlAssetTagC2idSivM",
+                "usr": "s:9SIRLAsset12SirlAssetTagC2ids5Int32VvM",
+                "mangledName": "$s9SIRLAsset12SirlAssetTagC2ids5Int32VvM",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9552,6 +12158,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9665,6 +12275,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9754,6 +12368,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9843,6 +12461,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9932,6 +12554,10 @@
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10329,6 +12955,34 @@
       "value": "-1"
     },
     {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTagMapping.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTagMapping.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTagMapping.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTagMapping.swift",
+      "kind": "IntegerLiteral",
+      "offset": 448,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Service\/SirlAssetService.swift",
       "kind": "StringLiteral",
       "offset": 395,
@@ -10394,35 +13048,35 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "IntegerLiteral",
-      "offset": 233,
+      "offset": 286,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "BooleanLiteral",
-      "offset": 259,
+      "offset": 312,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "IntegerLiteral",
-      "offset": 322,
+      "offset": 375,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "IntegerLiteral",
-      "offset": 353,
+      "offset": 406,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "IntegerLiteral",
-      "offset": 386,
+      "offset": 439,
       "length": 2,
       "value": "-1"
     }
