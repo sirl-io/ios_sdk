@@ -12563,6 +12563,106 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "assetId",
+            "printedName": "assetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvp",
+            "mangledName": "$s9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvg",
+                "mangledName": "$s9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvg",
+                "moduleName": "SIRLAsset",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mac",
+            "printedName": "mac",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset12SirlAssetTagC3macSSSgvp",
+            "mangledName": "$s9SIRLAsset12SirlAssetTagC3macSSSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset12SirlAssetTagC3macSSSgvg",
+                "mangledName": "$s9SIRLAsset12SirlAssetTagC3macSSSgvg",
+                "moduleName": "SIRLAsset",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",

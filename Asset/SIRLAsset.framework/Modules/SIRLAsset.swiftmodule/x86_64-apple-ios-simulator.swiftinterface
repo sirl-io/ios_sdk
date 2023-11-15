@@ -345,6 +345,12 @@ public struct GetAssets : SIRLCore.APIRequest {
 }
 @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
 public class SirlAssetTag : Swift.Decodable {
+  public var assetId: Swift.Int32 {
+    get
+  }
+  public var mac: Swift.String? {
+    get
+  }
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }
