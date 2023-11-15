@@ -343,7 +343,7 @@ public struct GetAssets : SIRLCore.APIRequest {
   public init(mlid: Swift.Int32, filter: SIRLAsset.AssetFilter? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @available(iOS 10.0, *)
+@available(iOS 10.0, *)
 public class SirlAssetTag : Swift.Decodable {
   public var assetId: Swift.Int32 {
     get
@@ -351,8 +351,9 @@ public class SirlAssetTag : Swift.Decodable {
   public var mac: Swift.String? {
     get
   }
+  public init(id: Swift.Int32, lgId: Swift.Int32? = nil, gpsId: Swift.Int32? = nil, deviceId: Swift.Int32? = nil, macAddress: Swift.String? = nil, active: Swift.Bool? = nil, transmitRate: Swift.Int? = -1, transmitPower: Swift.Int? = -1, typeId: Swift.Int = 0, createdOn: Foundation.Date? = nil, location: Swift.Dictionary<Swift.String, Swift.String>? = nil)
+  required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  required public init(from decoder: any Swift.Decoder) throws
 }
 extension SIRLAsset.SIRLAssetAlertCode : Swift.Equatable {}
 extension SIRLAsset.SIRLAssetAlertCode : Swift.Hashable {}
