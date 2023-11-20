@@ -27,7 +27,7 @@ public struct AssociateAssetWithTag : SIRLCore.APIRequest {
   public var hasParams: Swift.Bool {
     get
   }
-  public init(assetId: Swift.Int32, macaddress: Swift.String)
+  public init(assetId: Swift.Int32, tagId: Swift.Int32)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
@@ -178,6 +178,25 @@ public struct GetAssetAlerts : SIRLCore.APIRequest {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
+public struct AssociateAssetWithArea : SIRLCore.APIRequest {
+  public typealias Response = SIRLAsset.SirlAsset
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public var hasParams: Swift.Bool {
+    get
+  }
+  public init(assetId: Swift.Int32, areaName: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
 public class AssetFilter {
   public var id: Swift.Int32? {
     get
@@ -225,7 +244,7 @@ public struct DisassociateAssetWithTag : SIRLCore.APIRequest {
   public var hasParams: Swift.Bool {
     get
   }
-  public init(assetId: Swift.Int32, macaddress: Swift.String)
+  public init(assetId: Swift.Int32, tagId: Swift.Int32)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
@@ -308,6 +327,25 @@ public struct GetAssetByExternalId : SIRLCore.APIRequest {
   public init(mlId: Swift.Int32, externalId: Swift.String, params: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
+@available(iOS 10.0, *)
+public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
+  public typealias Response = SIRLAsset.SirlAsset
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public var hasParams: Swift.Bool {
+    get
+  }
+  public init(assetId: Swift.Int32, areaName: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 @_hasMissingDesignatedInitializers public class SirlAssetService {
   public static let shared: SIRLAsset.SirlAssetService
   public func getAssetForLocation(mlid: Swift.UInt32, filter: SIRLAsset.AssetFilter? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
@@ -317,8 +355,10 @@ public struct GetAssetByExternalId : SIRLCore.APIRequest {
   public func getAssetBySKUs(asseTypeId: Swift.Int32, skus: [Swift.Int32], accessToken: Swift.String? = nil, mlid: Swift.Int32? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
   public func getAssetAlerts(mlid: Swift.Int32, alert_code: SIRLAsset.SIRLAssetAlertCode, completion: @escaping (_ alerts: [SIRLAsset.SirlAssetAlert]) -> Swift.Void)
   public func getAssetTagByMac(macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
-  public func associateAssetWithTag(assetId: Swift.Int32, macaddress: Swift.String, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func disassociateAssetWithTag(assetId: Swift.Int32, macaddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
+  public func associateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
+  public func disassociateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
+  public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
+  public func disassociateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAsset?) -> Swift.Void)
   @objc deinit
 }
 @available(iOS 10.0, *)
