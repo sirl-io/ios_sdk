@@ -387,7 +387,7 @@ public struct GetAssets : SIRLCore.APIRequest {
 }
 @available(iOS 10.0, *)
 public class SirlAssetTag : Swift.Decodable {
-  public var assetId: Swift.Int32 {
+  public var tagId: Swift.Int32 {
     get
   }
   public var mac: Swift.String? {

@@ -14301,8 +14301,8 @@
           },
           {
             "kind": "Var",
-            "name": "assetId",
-            "printedName": "assetId",
+            "name": "tagId",
+            "printedName": "tagId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14312,8 +14312,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvp",
-            "mangledName": "$s9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvp",
+            "usr": "s:9SIRLAsset12SirlAssetTagC5tagIds5Int32Vvp",
+            "mangledName": "$s9SIRLAsset12SirlAssetTagC5tagIds5Int32Vvp",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -14333,8 +14333,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvg",
-                "mangledName": "$s9SIRLAsset12SirlAssetTagC7assetIds5Int32Vvg",
+                "usr": "s:9SIRLAsset12SirlAssetTagC5tagIds5Int32Vvg",
+                "mangledName": "$s9SIRLAsset12SirlAssetTagC5tagIds5Int32Vvg",
                 "moduleName": "SIRLAsset",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -15084,21 +15084,21 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "IntegerLiteral",
-      "offset": 1049,
+      "offset": 1047,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "IntegerLiteral",
-      "offset": 1090,
+      "offset": 1088,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/asset\/Models\/SirlAssetTag.swift",
       "kind": "IntegerLiteral",
-      "offset": 1123,
+      "offset": 1121,
       "length": 1,
       "value": "0"
     }
