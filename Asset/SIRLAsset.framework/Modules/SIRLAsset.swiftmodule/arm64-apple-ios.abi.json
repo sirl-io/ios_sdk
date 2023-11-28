@@ -10530,7 +10530,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -10647,7 +10648,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
