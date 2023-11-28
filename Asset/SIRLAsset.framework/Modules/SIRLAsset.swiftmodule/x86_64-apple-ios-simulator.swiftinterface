@@ -304,7 +304,7 @@ public class SirlAssetSku : Swift.Decodable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 10.0, *)
-public struct GetAssetTagByMac : SIRLCore.APIRequest {
+public struct GetAssetTagById : SIRLCore.APIRequest {
   public typealias Response = SIRLAsset.SirlAssetTag
   public typealias RequestBody = SIRLCore.NULLCodable
   public var resourceName: Swift.String {
@@ -319,7 +319,7 @@ public struct GetAssetTagByMac : SIRLCore.APIRequest {
   public var hasParams: Swift.Bool {
     get
   }
-  public init(macaddress: Swift.String)
+  public init(id: Swift.Int32)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
@@ -374,12 +374,32 @@ public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
   public func getAssetBySKUs(asseTypeId: Swift.Int32, skus: [Swift.Int32], accessToken: Swift.String? = nil, mlid: Swift.Int32? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
   public func getAssetAlerts(mlid: Swift.Int32, alert_code: SIRLAsset.SIRLAssetAlertCode, completion: @escaping (_ alerts: [SIRLAsset.SirlAssetAlert]) -> Swift.Void)
   public func getAssetTagByMac(macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
+  public func getAssetTagById(id: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
   public func getActiveAssetMapping(id: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   public func associateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   public func disassociateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
   public func disassociateAssetWithArea(assetId: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAsset?) -> Swift.Void)
   @objc deinit
+}
+@available(iOS 10.0, *)
+public struct GetAssetTagByMac : SIRLCore.APIRequest {
+  public typealias Response = SIRLAsset.SirlAssetTag
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public var hasParams: Swift.Bool {
+    get
+  }
+  public init(macaddress: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public class SirlAssetStatus {
