@@ -5436,7 +5436,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(assetId:tagId:)",
+            "printedName": "init(assetId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5449,17 +5449,11 @@
                 "name": "Int32",
                 "printedName": "Swift.Int32",
                 "usr": "s:s5Int32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9SIRLAsset21GetActiveAssetMappingV7assetId03tagG0ACs5Int32V_AGtcfc",
-            "mangledName": "$s9SIRLAsset21GetActiveAssetMappingV7assetId03tagG0ACs5Int32V_AGtcfc",
+            "usr": "s:9SIRLAsset21GetActiveAssetMappingV7assetIdACs5Int32V_tcfc",
+            "mangledName": "$s9SIRLAsset21GetActiveAssetMappingV7assetIdACs5Int32V_tcfc",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "AccessControl"
@@ -12147,6 +12141,59 @@
             "declKind": "Func",
             "usr": "s:9SIRLAsset16SirlAssetServiceC03getC8TagByMac10macAddress10completionySS_yAA0bcF0CSgctF",
             "mangledName": "$s9SIRLAsset16SirlAssetServiceC03getC8TagByMac10macAddress10completionySS_yAA0bcF0CSgctF",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getActiveAssetMapping",
+            "printedName": "getActiveAssetMapping(id:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SIRLAsset.SirlAssetTagMapping?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SIRLAsset.SirlAssetTagMapping?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SirlAssetTagMapping",
+                        "printedName": "SIRLAsset.SirlAssetTagMapping",
+                        "usr": "s:9SIRLAsset19SirlAssetTagMappingC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC09getActiveC7Mapping2id10completionys5Int32V_yAA0bc3TagG0CSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC09getActiveC7Mapping2id10completionys5Int32V_yAA0bc3TagG0CSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
