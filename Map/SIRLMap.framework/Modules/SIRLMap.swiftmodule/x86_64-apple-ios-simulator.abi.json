@@ -116,6 +116,10 @@
                 "mangledName": "$s7SIRLMap11TileManagerV19downSizeSourceImageSbvM",
                 "moduleName": "SIRLMap",
                 "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2883,8 +2887,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
                 "declAttributes": [
-                  "Transparent"
+                  "Transparent",
+                  "Available"
                 ],
                 "accessorKind": "_modify"
               }
@@ -6660,6 +6666,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6908,6 +6918,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6998,6 +7012,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7089,6 +7107,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7568,6 +7590,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7658,6 +7684,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7748,6 +7778,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10483,6 +10517,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10573,6 +10611,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10662,6 +10704,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10747,6 +10793,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11381,6 +11431,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -11618,6 +11675,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11885,6 +11946,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12012,6 +12077,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12155,6 +12224,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12326,73 +12399,6 @@
               "Required"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "preDownloadMap",
-            "printedName": "preDownloadMap(mapID:client:ttl:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SirlAPIClient",
-                "printedName": "SIRLCore.SirlAPIClient",
-                "usr": "s:8SIRLCore13SirlAPIClientC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Bool) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Bool) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SIRLMap19SirlLegacyComponentC14preDownloadMap5mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
-            "mangledName": "$s7SIRLMap19SirlLegacyComponentC14preDownloadMap5mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
-            "moduleName": "SIRLMap",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -12983,6 +12989,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -13227,6 +13240,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13428,6 +13445,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13835,6 +13856,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -14786,6 +14814,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -14986,6 +15018,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -15077,6 +15113,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -15262,6 +15302,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -15411,6 +15455,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -15922,6 +15970,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -16044,6 +16099,10 @@
                 "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
                 "protocolReq": true,
                 "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "_modify"
               }
@@ -16235,6 +16294,10 @@
                 "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
                 "protocolReq": true,
                 "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "_modify"
               }
@@ -16350,6 +16413,10 @@
                 "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
                 "protocolReq": true,
                 "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "_modify"
               }
@@ -16441,6 +16508,10 @@
                 "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
                 "protocolReq": true,
                 "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "_modify"
               }
@@ -16507,72 +16578,6 @@
             "moduleName": "SIRLMap",
             "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapComponent>",
             "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "preDownloadMap",
-            "printedName": "preDownloadMap(mapID:client:ttl:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SirlAPIClient",
-                "printedName": "SIRLCore.SirlAPIClient",
-                "usr": "s:8SIRLCore13SirlAPIClientC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Bool) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Bool) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SIRLMap16SirlMapComponentP011preDownloadC05mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
-            "mangledName": "$s7SIRLMap16SirlMapComponentP011preDownloadC05mapID6client3ttl10completionySi_8SIRLCore0B9APIClientCSdySbcSgtFZ",
-            "moduleName": "SIRLMap",
-            "genericSig": "<τ_0_0 where τ_0_0 : SIRLMap.SirlMapComponent>",
-            "sugared_genericSig": "<Self where Self : SIRLMap.SirlMapComponent>",
-            "static": true,
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -16976,6 +16981,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -17086,6 +17095,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -17201,6 +17214,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -17291,6 +17308,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -17602,6 +17623,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -17718,6 +17746,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -17981,6 +18013,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -18266,6 +18305,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -18352,6 +18395,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -18509,6 +18556,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -18600,6 +18651,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -18692,70 +18747,13 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "preDownloadMap",
-            "printedName": "preDownloadMap(mapID:client:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SirlAPIClient",
-                "printedName": "SIRLCore.SirlAPIClient",
-                "usr": "s:8SIRLCore13SirlAPIClientC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Bool) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Bool) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SIRLMap11SirlMapViewC011preDownloadC05mapID6client10completionySi_8SIRLCore0B9APIClientCySbcSgtFZ",
-            "mangledName": "$s7SIRLMap11SirlMapViewC011preDownloadC05mapID6client10completionySi_8SIRLCore0B9APIClientCySbcSgtFZ",
-            "moduleName": "SIRLMap",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -18898,6 +18896,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -18984,6 +18986,10 @@
                 "moduleName": "SIRLMap",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -19483,6 +19489,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -21094,7 +21107,7 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9614,
+      "offset": 9304,
       "length": 4,
       "value": "true"
     }

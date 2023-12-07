@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLMap
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
@@ -9,6 +9,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os.log
 import os
 @available(iOS 10.0, *)
@@ -195,7 +196,6 @@ public protocol SirlMapComponent : UIKit.UIView {
   var mapDelegate: (any SIRLMap.SirlMapDelegate)? { get set }
   var currentLocation: SIRLCore.SirlLocation { get set }
   func loadMap(mapID: Swift.Int, client: SIRLCore.SirlAPIClient, ttl: Foundation.TimeInterval, completion: ((Swift.Bool) -> Swift.Void)?)
-  static func preDownloadMap(mapID: Swift.Int, client: SIRLCore.SirlAPIClient, ttl: Foundation.TimeInterval, completion: ((Swift.Bool) -> Swift.Void)?)
   func setMaxCord(xmax: CoreFoundation.CGFloat, ymax: CoreFoundation.CGFloat, xmin: CoreFoundation.CGFloat, ymin: CoreFoundation.CGFloat)
   func setDestination(destination: SIRLCore.SirlLocation, description: Swift.String)
   func setMarkers(markers: [SIRLMap.SirlMarker])
@@ -265,7 +265,6 @@ extension SIRLMap.SirlMapDelegate {
   }
   @_Concurrency.MainActor(unsafe) open var navigationModeButton: SIRLMap.LocateUserButton
   @_Concurrency.MainActor(unsafe) open var routingButton: SIRLMap.RouteButton
-  @_Concurrency.MainActor(unsafe) public static func preDownloadMap(mapID: Swift.Int, client: SIRLCore.SirlAPIClient, completion: ((Swift.Bool) -> Swift.Void)?)
   @_Concurrency.MainActor(unsafe) public var desinationMarker: SIRLMap.DestinationMarker? {
     get
   }

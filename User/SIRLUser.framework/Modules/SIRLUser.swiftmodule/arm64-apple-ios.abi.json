@@ -2449,6 +2449,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2563,6 +2567,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2677,6 +2685,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2791,6 +2803,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4534,6 +4550,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4648,6 +4668,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4762,6 +4786,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4876,6 +4904,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4990,6 +5022,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6312,6 +6348,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6426,6 +6466,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6533,6 +6577,10 @@
                 "moduleName": "SIRLUser",
                 "implicit": true,
                 "isOpen": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
