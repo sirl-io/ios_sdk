@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -517,7 +517,7 @@ open class SirlCoreImpl : ObjectiveC.NSObject, SIRLCore.PIPSDelegate {
   public func didGetNewPosition(_ position: SIRLCore.SirlLocation, _ velocity: SIRLCore.SirlLocation, _ confidence: Swift.Double)
   public func didGetNewAIInfo(_ aiInfo: [pipsAPI.pips_ai_node_info])
   public func didSendDebugMessage(_ msg: Swift.String)
-  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = "", endPoint: Swift.String? = nil)
+  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = nil, endPoint: Swift.String? = nil)
 }
 @available(iOS 10.0, *)
 extension SIRLCore.SirlCoreImpl : SIRLCore.SirlCoreDataSourceDelegate, SIRLCore.SirlMapLocationListenerDelegate {
@@ -1204,10 +1204,11 @@ open class SirlScannerSetting {
   }
   @objc public func setSingleLocation(mlID: Swift.UInt32)
   @objc public func setAutoDetectLocation()
-  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = "", endPoint: Swift.String? = nil)
+  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = nil, endPoint: Swift.String? = nil)
   @objc public func updateSetting(backgroundMode: Swift.Bool, apiKey: Swift.String)
   @objc public func updateSetting(autoWakeup: Swift.Bool)
   @objc public func updateSetting(apiKey: Swift.String)
+  @objc public func updateSetting(backgroundMode: Swift.Bool)
   @objc public func updateSetting(backgroundMode: Swift.Bool, regionLocking: Swift.Bool, prediction: Swift.Bool, apiKey: Swift.String)
   public func startScan()
   public func stopScan()

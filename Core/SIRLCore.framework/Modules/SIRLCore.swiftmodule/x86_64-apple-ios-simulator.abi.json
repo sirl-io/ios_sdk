@@ -50032,6 +50032,35 @@
           {
             "kind": "Function",
             "name": "updateSetting",
+            "printedName": "updateSetting(backgroundMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SIRLCore@objc(cs)SirlCore(im)updateSettingWithBackgroundMode:",
+            "mangledName": "$s8SIRLCore8SirlCoreC13updateSetting14backgroundModeySb_tF",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "objc_name": "updateSettingWithBackgroundMode:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSetting",
             "printedName": "updateSetting(backgroundMode:regionLocking:prediction:apiKey:)",
             "children": [
               {
@@ -55861,13 +55890,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 14976,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/Networking\/Utils\/SirlNETRequest.swift",
       "kind": "StringLiteral",
       "offset": 437,
@@ -57319,35 +57341,28 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
-      "kind": "StringLiteral",
-      "offset": 3356,
+      "offset": 3488,
       "length": 10,
       "value": "\"Tutorial\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 3695,
+      "offset": 3827,
       "length": 4,
       "value": "11.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 3715,
+      "offset": 3847,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 3734,
+      "offset": 3866,
       "length": 1,
       "value": "1"
     },
