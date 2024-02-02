@@ -13610,7 +13610,7 @@
           {
             "kind": "Function",
             "name": "associateNewAssetAndTagWithSKU",
-            "printedName": "associateNewAssetAndTagWithSKU(skuId:tagIdentifier:completion:)",
+            "printedName": "associateNewAssetAndTagWithSKU(skuId:tagIdentifier:accessToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13628,6 +13628,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -13657,8 +13672,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC012associateNewC13AndTagWithSKU5skuId13tagIdentifier10completionys5Int32V_SSyAA0bcH7MappingCSgctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC012associateNewC13AndTagWithSKU5skuId13tagIdentifier10completionys5Int32V_SSyAA0bcH7MappingCSgctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC012associateNewC13AndTagWithSKU5skuId13tagIdentifier11accessToken10completionys5Int32V_S2SSgyAA0bcH7MappingCSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC012associateNewC13AndTagWithSKU5skuId13tagIdentifier11accessToken10completionys5Int32V_S2SSgyAA0bcH7MappingCSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
