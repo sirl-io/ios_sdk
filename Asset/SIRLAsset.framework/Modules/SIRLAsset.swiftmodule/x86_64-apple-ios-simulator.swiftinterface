@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLAsset
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -139,6 +139,25 @@ public class SirlAssetArea : Swift.Decodable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 10.0, *)
+public struct GetCompanySKUs : SIRLCore.APIRequest {
+  public typealias Response = [SIRLAsset.SirlAssetSku]
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public var hasParams: Swift.Bool {
+    get
+  }
+  public init(companyId: Swift.Int32, filter: [Swift.String : Swift.String]?)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
 public struct GetAssetAreas : SIRLCore.APIRequest {
   public var hasParams: Swift.Bool
   public typealias Response = [SIRLAsset.SirlAssetArea]
@@ -153,6 +172,25 @@ public struct GetAssetAreas : SIRLCore.APIRequest {
     get
   }
   public init(mlid: Swift.Int32)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@available(iOS 10.0, *)
+public struct AssociateNewAssetAndTagWithSKU : SIRLCore.APIRequest {
+  public typealias Response = SIRLAsset.SirlAssetTagMapping
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public var hasParams: Swift.Bool {
+    get
+  }
+  public init(sku_id: Swift.Int32, tag_identifier: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
@@ -396,7 +434,9 @@ public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
   public func getAssetAlerts(mlid: Swift.Int32, alert_code: SIRLAsset.SIRLAssetAlertCode, completion: @escaping (_ alerts: [SIRLAsset.SirlAssetAlert]) -> Swift.Void)
   public func getAssetTagByMac(macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
   public func getAssetTagById(id: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
+  public func getCompanySKUs(companyId: Swift.Int32, filter: [Swift.String : Swift.String]? = nil, completion: @escaping (_ skus: [SIRLAsset.SirlAssetSku]) -> Swift.Void)
   public func getActiveAssetMapping(id: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
+  public func associateNewAssetAndTagWithSKU(skuId: Swift.Int32, tagIdentifier: Swift.String, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   public func associateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   public func disassociateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
