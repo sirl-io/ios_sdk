@@ -383,7 +383,7 @@ public struct GetAssetTagById : SIRLCore.APIRequest {
 public class SirlAssetTagMapping : Swift.Decodable {
   public var tagId: Swift.Int?
   public var assetId: Swift.Int32?
-  public var assetTag: Swift.Dictionary<Swift.String, Swift.String>?
+  public var assetTag: SIRLAsset.SirlAssetTag?
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }

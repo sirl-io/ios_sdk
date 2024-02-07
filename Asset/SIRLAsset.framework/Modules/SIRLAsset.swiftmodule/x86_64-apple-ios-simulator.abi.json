@@ -11614,35 +11614,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
+                "printedName": "SIRLAsset.SirlAssetTag?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
+                    "name": "SirlAssetTag",
+                    "printedName": "SIRLAsset.SirlAssetTag",
+                    "usr": "s:9SIRLAsset12SirlAssetTagC"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvp",
-            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvp",
+            "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvp",
+            "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvp",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -11660,35 +11646,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "printedName": "SIRLAsset.SirlAssetTag?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
+                        "name": "SirlAssetTag",
+                        "printedName": "SIRLAsset.SirlAssetTag",
+                        "usr": "s:9SIRLAsset12SirlAssetTagC"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvg",
-                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvg",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvg",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvg",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
@@ -11707,35 +11679,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "printedName": "SIRLAsset.SirlAssetTag?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
+                        "name": "SirlAssetTag",
+                        "printedName": "SIRLAsset.SirlAssetTag",
+                        "usr": "s:9SIRLAsset12SirlAssetTagC"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvs",
-                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvs",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvs",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvs",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
@@ -11753,8 +11711,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvM",
-                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0SDyS2SGSgvM",
+                "usr": "s:9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvM",
+                "mangledName": "$s9SIRLAsset19SirlAssetTagMappingC05assetD0AA0bcD0CSgvM",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "isOpen": true,
