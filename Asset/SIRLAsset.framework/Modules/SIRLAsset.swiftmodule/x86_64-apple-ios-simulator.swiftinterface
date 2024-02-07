@@ -110,10 +110,10 @@ public class SirlAsset : Swift.Decodable {
   public var location: SIRLCore.SirlLocation? {
     get
   }
-  public var batteryLevel: Swift.Int? {
+  public var timestamp: Foundation.Date? {
     get
   }
-  public var timestamp: Foundation.Date? {
+  public var assetTag: SIRLAsset.SirlAssetTag? {
     get
   }
   public init(id: Swift.Int32, lgId: Swift.Int32, type: SIRLAsset.SirlAssetType?, typeId: Swift.Int32? = nil, companyId: Swift.Int32, externalId: Swift.String, meta: Swift.Dictionary<Swift.String, Swift.String>?, sku: SIRLAsset.SirlAssetSku? = nil, tagMappings: Swift.Array<SIRLAsset.SirlAssetTagMapping>? = nil)
