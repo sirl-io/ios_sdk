@@ -116,7 +116,7 @@ public class SirlAsset : Swift.Decodable {
   public var timestamp: Foundation.Date? {
     get
   }
-  public init(id: Swift.Int32, lgId: Swift.Int32, type: SIRLAsset.SirlAssetType?, typeId: Swift.Int32? = nil, companyId: Swift.Int32, externalId: Swift.String, meta: Swift.Dictionary<Swift.String, Swift.String>?, status: SIRLAsset.SirlAssetStatus? = nil, sku: SIRLAsset.SirlAssetSku? = nil, tag: SIRLAsset.SirlTagStatus? = nil)
+  public init(id: Swift.Int32, lgId: Swift.Int32, type: SIRLAsset.SirlAssetType?, typeId: Swift.Int32? = nil, companyId: Swift.Int32, externalId: Swift.String, meta: Swift.Dictionary<Swift.String, Swift.String>?, sku: SIRLAsset.SirlAssetSku? = nil, tagMappings: Swift.Array<SIRLAsset.SirlAssetTagMapping>? = nil)
   required convenience public init(from decoder: any Swift.Decoder) throws
   public func getMetaField(_ field: Swift.String) -> Swift.String?
   @objc deinit
@@ -383,6 +383,7 @@ public struct GetAssetTagById : SIRLCore.APIRequest {
 public class SirlAssetTagMapping : Swift.Decodable {
   public var tagId: Swift.Int?
   public var assetId: Swift.Int32?
+  public var assetTag: Swift.Dictionary<Swift.String, Swift.String>?
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }
