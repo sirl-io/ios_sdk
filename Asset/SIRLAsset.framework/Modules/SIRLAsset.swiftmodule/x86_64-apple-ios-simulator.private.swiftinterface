@@ -443,6 +443,7 @@ public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
   public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
   public func disassociateAssetWithArea(assetId: Swift.Int32, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
   public func programAssetTag(mlId: Swift.Int32, macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
+  public func getAssetTagMappingHistory(tagIds: [Swift.Int32], completion: @escaping (_ history: Swift.Dictionary<Swift.String, SIRLAsset.SirlAssetTagMapping>?) -> Swift.Void)
   @objc deinit
 }
 @available(iOS 10.0, *)
@@ -468,6 +469,25 @@ public struct GetAssetTagByMac : SIRLCore.APIRequest {
 public class SirlAssetStatus {
   public init(isMissing: Swift.Bool = true, x: Swift.Double = 0.0, y: Swift.Double = 0.0, z: Swift.Double = 0.0, timestamp: Foundation.Date? = Date())
   @objc deinit
+}
+@available(iOS 10.0, *)
+public struct GetAssetTagHistory : SIRLCore.APIRequest {
+  public typealias Response = Swift.Dictionary<Swift.String, SIRLAsset.SirlAssetTagMapping>
+  public typealias RequestBody = SIRLCore.NULLCodable
+  public var resourceName: Swift.String {
+    get
+  }
+  public var requestMethod: Swift.String {
+    get
+  }
+  public var requestBody: SIRLCore.NULLCodable {
+    get
+  }
+  public var hasParams: Swift.Bool {
+    get
+  }
+  public init(tagIds: [Swift.Int32])
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetAssets : SIRLCore.APIRequest {
