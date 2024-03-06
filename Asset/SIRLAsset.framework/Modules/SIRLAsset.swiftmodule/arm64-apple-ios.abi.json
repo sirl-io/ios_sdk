@@ -14729,29 +14729,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.Int32]?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.Int32]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int32",
-                        "printedName": "Swift.Int32",
-                        "usr": "s:s5Int32V"
-                      }
-                    ],
-                    "usr": "s:Sa"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9SIRLAsset18GetAssetTagHistoryV6tagIdsSays5Int32VGSgvp",
-            "mangledName": "$s9SIRLAsset18GetAssetTagHistoryV6tagIdsSays5Int32VGSgvp",
+            "usr": "s:9SIRLAsset18GetAssetTagHistoryV6tagIdsSSSgvp",
+            "mangledName": "$s9SIRLAsset18GetAssetTagHistoryV6tagIdsSSSgvp",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "HasStorage"
@@ -14767,29 +14759,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.Int32]?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.Int32]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int32",
-                            "printedName": "Swift.Int32",
-                            "usr": "s:s5Int32V"
-                          }
-                        ],
-                        "usr": "s:Sa"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9SIRLAsset18GetAssetTagHistoryV6tagIdsSays5Int32VGSgvg",
-                "mangledName": "$s9SIRLAsset18GetAssetTagHistoryV6tagIdsSays5Int32VGSgvg",
+                "usr": "s:9SIRLAsset18GetAssetTagHistoryV6tagIdsSSSgvg",
+                "mangledName": "$s9SIRLAsset18GetAssetTagHistoryV6tagIdsSSSgvg",
                 "moduleName": "SIRLAsset",
                 "implicit": true,
                 "accessorKind": "get"
