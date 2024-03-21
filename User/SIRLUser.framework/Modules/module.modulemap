@@ -1,4 +1,0 @@
-framework module SIRLUser {
-  header "SIRLUser-Swift.h"
-  requires objc
-}

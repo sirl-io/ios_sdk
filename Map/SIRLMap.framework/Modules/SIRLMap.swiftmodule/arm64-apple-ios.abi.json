@@ -547,7 +547,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Foundation.URL?, Swift.Error?) -> ()",
+                "printedName": "(Foundation.URL?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -557,7 +557,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Foundation.URL?, Swift.Error?)",
+                    "printedName": "(Foundation.URL?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -576,12 +576,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -594,7 +594,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String?, CoreFoundation.CGSize?, Swift.Error?) -> ()",
+                "printedName": "(Swift.String?, CoreFoundation.CGSize?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -604,7 +604,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.String?, CoreFoundation.CGSize?, Swift.Error?)",
+                    "printedName": "(Swift.String?, CoreFoundation.CGSize?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -637,12 +637,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -2565,7 +2565,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2709,7 +2709,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2778,12 +2778,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SIRLMap.SirlMapDelegate?",
+                "printedName": "(any SIRLMap.SirlMapDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlMapDelegate",
-                    "printedName": "SIRLMap.SirlMapDelegate",
+                    "printedName": "any SIRLMap.SirlMapDelegate",
                     "usr": "s:7SIRLMap15SirlMapDelegateP"
                   }
                 ],
@@ -2811,12 +2811,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -2847,12 +2847,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -3034,12 +3034,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SIRLMap.SirlMapDelegate?",
+                "printedName": "(any SIRLMap.SirlMapDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlMapDelegate",
-                    "printedName": "SIRLMap.SirlMapDelegate",
+                    "printedName": "any SIRLMap.SirlMapDelegate",
                     "usr": "s:7SIRLMap15SirlMapDelegateP"
                   }
                 ],
@@ -3098,7 +3098,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?, [SIRLMap.RouteNode]?, Swift.Bool) -> ()",
+                "printedName": "((any Swift.Error)?, [SIRLMap.RouteNode]?, Swift.Bool) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3108,17 +3108,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Error?, [SIRLMap.RouteNode]?, Swift.Bool)",
+                    "printedName": "((any Swift.Error)?, [SIRLMap.RouteNode]?, Swift.Bool)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3586,7 +3586,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3920,7 +3920,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4494,7 +4494,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5815,7 +5815,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6361,7 +6361,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -10374,7 +10374,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11137,10 +11137,10 @@
             "mangledName": "$s7SIRLMap11RouteButtonC11buttonLayerAA07RoutingcE0Cvp",
             "moduleName": "SIRLMap",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -11492,10 +11492,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -11520,9 +11520,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -11546,9 +11546,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -11580,9 +11580,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -11606,9 +11606,9 @@
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 4,
             "hasStorage": true,
@@ -11710,9 +11710,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 5,
@@ -11745,9 +11745,9 @@
             "implicit": true,
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "Final"
             ],
             "fixedbinaryorder": 6,
@@ -11771,10 +11771,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -11800,8 +11800,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -11834,8 +11834,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 9,
@@ -11849,12 +11849,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SIRLMap.SirlMapDelegate?",
+                "printedName": "(any SIRLMap.SirlMapDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlMapDelegate",
-                    "printedName": "SIRLMap.SirlMapDelegate",
+                    "printedName": "any SIRLMap.SirlMapDelegate",
                     "usr": "s:7SIRLMap15SirlMapDelegateP"
                   }
                 ],
@@ -11878,12 +11878,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -11910,12 +11910,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -13057,10 +13057,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -13085,10 +13085,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -13121,9 +13121,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -13274,9 +13274,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -13308,9 +13308,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -13514,7 +13514,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13547,7 +13547,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14105,10 +14105,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -14141,9 +14141,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -14175,9 +14175,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -14209,9 +14209,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -14243,9 +14243,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -14277,9 +14277,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -14311,9 +14311,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -14345,9 +14345,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -14387,9 +14387,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -14421,9 +14421,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 9,
@@ -14455,9 +14455,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 10,
@@ -14489,9 +14489,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 11,
@@ -14523,9 +14523,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 12,
@@ -14557,9 +14557,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 13,
@@ -14591,9 +14591,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 14,
@@ -14617,9 +14617,9 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 15,
@@ -14643,10 +14643,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 16,
@@ -14671,10 +14671,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 17,
@@ -14699,10 +14699,10 @@
             "moduleName": "SIRLMap",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -14718,7 +14718,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLMap.SirlMapDelegate?"
+                "printedName": "(any SIRLMap.SirlMapDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -14727,9 +14727,9 @@
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership"
             ],
             "fixedbinaryorder": 19,
@@ -14744,12 +14744,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -14777,12 +14777,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -14839,10 +14839,10 @@
             "mangledName": "$s7SIRLMap13SirlRouteViewC10dataSource8SIRLCore0B8CoreImplCvp",
             "moduleName": "SIRLMap",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 20,
             "isLet": true,
@@ -14950,8 +14950,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 21,
             "hasStorage": true,
@@ -15045,8 +15045,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 22,
             "hasStorage": true,
@@ -15234,8 +15234,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 25,
             "hasStorage": true,
@@ -15387,8 +15387,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 26,
             "hasStorage": true,
@@ -16311,12 +16311,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SIRLMap.SirlMapDelegate?",
+                "printedName": "(any SIRLMap.SirlMapDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlMapDelegate",
-                    "printedName": "SIRLMap.SirlMapDelegate",
+                    "printedName": "any SIRLMap.SirlMapDelegate",
                     "usr": "s:7SIRLMap15SirlMapDelegateP"
                   }
                 ],
@@ -16337,12 +16337,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -16372,12 +16372,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -16897,8 +16897,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -17130,8 +17130,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -17677,9 +17677,9 @@
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -18207,12 +18207,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SIRLMap.SirlMapDelegate?",
+                "printedName": "(any SIRLMap.SirlMapDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlMapDelegate",
-                    "printedName": "SIRLMap.SirlMapDelegate",
+                    "printedName": "any SIRLMap.SirlMapDelegate",
                     "usr": "s:7SIRLMap15SirlMapDelegateP"
                   }
                 ],
@@ -18237,12 +18237,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -18269,12 +18269,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLMap.SirlMapDelegate?",
+                    "printedName": "(any SIRLMap.SirlMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapDelegate",
-                        "printedName": "SIRLMap.SirlMapDelegate",
+                        "printedName": "any SIRLMap.SirlMapDelegate",
                         "usr": "s:7SIRLMap15SirlMapDelegateP"
                       }
                     ],
@@ -18454,12 +18454,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "SIRLMap.SirlMapComponent?",
+                "printedName": "(any SIRLMap.SirlMapComponent)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlMapComponent",
-                    "printedName": "SIRLMap.SirlMapComponent",
+                    "printedName": "any SIRLMap.SirlMapComponent",
                     "usr": "s:7SIRLMap16SirlMapComponentP"
                   }
                 ],
@@ -18472,9 +18472,9 @@
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -18486,12 +18486,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "SIRLMap.SirlMapComponent?",
+                    "printedName": "(any SIRLMap.SirlMapComponent)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapComponent",
-                        "printedName": "SIRLMap.SirlMapComponent",
+                        "printedName": "any SIRLMap.SirlMapComponent",
                         "usr": "s:7SIRLMap16SirlMapComponentP"
                       }
                     ],
@@ -18519,12 +18519,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "SIRLMap.SirlMapComponent?",
+                    "printedName": "(any SIRLMap.SirlMapComponent)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapComponent",
-                        "printedName": "SIRLMap.SirlMapComponent",
+                        "printedName": "any SIRLMap.SirlMapComponent",
                         "usr": "s:7SIRLMap16SirlMapComponentP"
                       }
                     ],
@@ -18677,9 +18677,9 @@
             "moduleName": "SIRLMap",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],

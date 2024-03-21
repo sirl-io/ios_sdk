@@ -312,8 +312,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -431,8 +431,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -482,10 +482,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -538,10 +538,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -566,10 +566,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -593,10 +593,10 @@
             "mangledName": "$s10SIRLRetail10RaffleCellC19registerEmailButtonSo8UIButtonCvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 7,
@@ -645,10 +645,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -701,10 +701,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 10,
@@ -729,10 +729,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 11,
@@ -757,10 +757,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 12,
@@ -1069,8 +1069,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -1163,9 +1163,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -1286,10 +1286,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -1314,10 +1314,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -1351,8 +1351,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -1633,9 +1633,9 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -1667,9 +1667,9 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -1702,8 +1702,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -1821,8 +1821,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -1872,10 +1872,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -1956,10 +1956,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 8,
@@ -1984,10 +1984,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 9,
@@ -2011,10 +2011,10 @@
             "mangledName": "$s10SIRLRetail10CouponCellC12dismissButonSo8UIButtonCvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 10,
@@ -2063,10 +2063,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 11,
@@ -2119,10 +2119,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 13,
@@ -2147,10 +2147,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 14,
@@ -2175,10 +2175,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 15,
@@ -2203,10 +2203,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 16,
@@ -2231,10 +2231,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 17,
@@ -2631,10 +2631,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -2659,10 +2659,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -2687,10 +2687,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -2705,12 +2705,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SIRLRetail.CouponViewDelegate?",
+                "printedName": "(any SIRLRetail.CouponViewDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CouponViewDelegate",
-                    "printedName": "SIRLRetail.CouponViewDelegate",
+                    "printedName": "any SIRLRetail.CouponViewDelegate",
                     "usr": "c:@M@SIRLRetail@objc(pl)CouponViewDelegate"
                   }
                 ],
@@ -2723,9 +2723,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -2739,12 +2739,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.CouponViewDelegate?",
+                    "printedName": "(any SIRLRetail.CouponViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CouponViewDelegate",
-                        "printedName": "SIRLRetail.CouponViewDelegate",
+                        "printedName": "any SIRLRetail.CouponViewDelegate",
                         "usr": "c:@M@SIRLRetail@objc(pl)CouponViewDelegate"
                       }
                     ],
@@ -2772,12 +2772,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.CouponViewDelegate?",
+                    "printedName": "(any SIRLRetail.CouponViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CouponViewDelegate",
-                        "printedName": "SIRLRetail.CouponViewDelegate",
+                        "printedName": "any SIRLRetail.CouponViewDelegate",
                         "usr": "c:@M@SIRLRetail@objc(pl)CouponViewDelegate"
                       }
                     ],
@@ -2834,10 +2834,10 @@
             "mangledName": "$s10SIRLRetail10CouponViewC33DEVICE_REGISTER_BUTTON_HIDDEN_KEYSSvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -2938,8 +2938,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -3717,10 +3717,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -3744,10 +3744,10 @@
             "mangledName": "$s10SIRLRetail12SubviewAlertC11alertButtonSo8UIButtonCvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "isLet": true,
@@ -3795,10 +3795,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -3822,10 +3822,10 @@
             "mangledName": "$s10SIRLRetail12SubviewAlertC11messageViewAC022VerticallyCenteredTextE0Cvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 3,
             "isLet": true,
@@ -3882,8 +3882,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 4,
             "hasStorage": true,
@@ -4528,7 +4528,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLRetail.SirlSearchBarViewDelegate?"
+                "printedName": "(any SIRLRetail.SirlSearchBarViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4537,9 +4537,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -4554,12 +4554,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.SirlSearchBarViewDelegate?",
+                    "printedName": "(any SIRLRetail.SirlSearchBarViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlSearchBarViewDelegate",
-                        "printedName": "SIRLRetail.SirlSearchBarViewDelegate",
+                        "printedName": "any SIRLRetail.SirlSearchBarViewDelegate",
                         "usr": "c:@M@SIRLRetail@objc(pl)SirlSearchBarViewDelegate"
                       }
                     ],
@@ -4587,12 +4587,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.SirlSearchBarViewDelegate?",
+                    "printedName": "(any SIRLRetail.SirlSearchBarViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlSearchBarViewDelegate",
-                        "printedName": "SIRLRetail.SirlSearchBarViewDelegate",
+                        "printedName": "any SIRLRetail.SirlSearchBarViewDelegate",
                         "usr": "c:@M@SIRLRetail@objc(pl)SirlSearchBarViewDelegate"
                       }
                     ],
@@ -4658,9 +4658,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5016,8 +5016,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5420,9 +5420,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5524,8 +5524,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6108,9 +6108,9 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
@@ -6134,10 +6134,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 1,
@@ -6162,9 +6162,9 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 2,
@@ -6188,10 +6188,10 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 3,
@@ -6206,7 +6206,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLRetail.SirlSearchResultDelegate?"
+                "printedName": "(any SIRLRetail.SirlSearchResultDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -6215,9 +6215,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -6233,12 +6233,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.SirlSearchResultDelegate?",
+                    "printedName": "(any SIRLRetail.SirlSearchResultDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlSearchResultDelegate",
-                        "printedName": "SIRLRetail.SirlSearchResultDelegate",
+                        "printedName": "any SIRLRetail.SirlSearchResultDelegate",
                         "usr": "s:10SIRLRetail24SirlSearchResultDelegateP"
                       }
                     ],
@@ -6266,12 +6266,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.SirlSearchResultDelegate?",
+                    "printedName": "(any SIRLRetail.SirlSearchResultDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlSearchResultDelegate",
-                        "printedName": "SIRLRetail.SirlSearchResultDelegate",
+                        "printedName": "any SIRLRetail.SirlSearchResultDelegate",
                         "usr": "s:10SIRLRetail24SirlSearchResultDelegateP"
                       }
                     ],
@@ -6325,9 +6325,9 @@
             "moduleName": "SIRLRetail",
             "isInternal": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
@@ -6360,8 +6360,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 6,
@@ -6394,8 +6394,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 7,
             "hasStorage": true,
@@ -6640,8 +6640,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 9,
@@ -6740,8 +6740,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 10,
@@ -6774,8 +6774,8 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "fixedbinaryorder": 11,
@@ -7139,10 +7139,10 @@
             "mangledName": "$s10SIRLRetail20SirlSearchResultCellC15resultImageViewSo07UIImageH0Cvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 0,
             "isLet": true,
@@ -7189,10 +7189,10 @@
             "mangledName": "$s10SIRLRetail20SirlSearchResultCellC10resultTextSo7UILabelCvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "isLet": true,
@@ -9677,7 +9677,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9882,7 +9882,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11035,7 +11035,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -11186,7 +11186,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12080,7 +12080,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12283,12 +12283,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12298,12 +12298,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -12394,7 +12394,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -14241,7 +14241,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15129,7 +15129,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15430,7 +15430,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15825,7 +15825,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16281,7 +16281,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -16715,7 +16715,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -17071,7 +17071,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -17282,7 +17282,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLRetail.CouponServiceDelegate?"
+                "printedName": "(any SIRLRetail.CouponServiceDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -17307,12 +17307,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.CouponServiceDelegate?",
+                    "printedName": "(any SIRLRetail.CouponServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CouponServiceDelegate",
-                        "printedName": "SIRLRetail.CouponServiceDelegate",
+                        "printedName": "any SIRLRetail.CouponServiceDelegate",
                         "usr": "c:@M@SIRLRetail@objc(pl)CouponServiceDelegate"
                       }
                     ],
@@ -17340,12 +17340,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.CouponServiceDelegate?",
+                    "printedName": "(any SIRLRetail.CouponServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CouponServiceDelegate",
-                        "printedName": "SIRLRetail.CouponServiceDelegate",
+                        "printedName": "any SIRLRetail.CouponServiceDelegate",
                         "usr": "c:@M@SIRLRetail@objc(pl)CouponServiceDelegate"
                       }
                     ],
@@ -18659,7 +18659,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -19098,7 +19098,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -19643,7 +19643,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -19905,7 +19905,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -20608,7 +20608,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -20984,10 +20984,10 @@
             "mangledName": "$s10SIRLRetail18SirlBarCodeScannerC4mLogSo9OS_os_logCvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -21042,9 +21042,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21160,9 +21160,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21278,9 +21278,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21388,9 +21388,9 @@
             "moduleName": "SIRLRetail",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "hasStorage": true,
             "accessors": [
@@ -21472,7 +21472,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLRetail.SirlBarCodeScannerDelegate?"
+                "printedName": "(any SIRLRetail.SirlBarCodeScannerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -21498,12 +21498,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.SirlBarCodeScannerDelegate?",
+                    "printedName": "(any SIRLRetail.SirlBarCodeScannerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlBarCodeScannerDelegate",
-                        "printedName": "SIRLRetail.SirlBarCodeScannerDelegate",
+                        "printedName": "any SIRLRetail.SirlBarCodeScannerDelegate",
                         "usr": "s:10SIRLRetail26SirlBarCodeScannerDelegateP"
                       }
                     ],
@@ -21531,12 +21531,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLRetail.SirlBarCodeScannerDelegate?",
+                    "printedName": "(any SIRLRetail.SirlBarCodeScannerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlBarCodeScannerDelegate",
-                        "printedName": "SIRLRetail.SirlBarCodeScannerDelegate",
+                        "printedName": "any SIRLRetail.SirlBarCodeScannerDelegate",
                         "usr": "s:10SIRLRetail26SirlBarCodeScannerDelegateP"
                       }
                     ],
@@ -21595,8 +21595,8 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "Custom",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "IBInspectable",
               "ObjC"

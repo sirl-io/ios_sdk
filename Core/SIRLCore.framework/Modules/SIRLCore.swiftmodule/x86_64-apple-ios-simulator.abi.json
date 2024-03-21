@@ -3561,7 +3561,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4455,7 +4455,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9951,7 +9951,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12113,7 +12113,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12417,7 +12417,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12625,7 +12625,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15292,7 +15292,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15816,7 +15816,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16165,7 +16165,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16504,7 +16504,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16924,7 +16924,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -17266,7 +17266,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -17795,12 +17795,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -17826,12 +17826,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -17861,12 +17861,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -18067,12 +18067,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -18506,7 +18506,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?, [CoreData.NSManagedObject]?) -> ()",
+                "printedName": "((any Swift.Error)?, [CoreData.NSManagedObject]?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -18516,17 +18516,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Error?, [CoreData.NSManagedObject]?)",
+                    "printedName": "((any Swift.Error)?, [CoreData.NSManagedObject]?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -19724,7 +19724,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -21227,7 +21227,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -22186,7 +22186,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -22813,7 +22813,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -23789,7 +23789,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -24126,7 +24126,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -24385,7 +24385,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -24550,12 +24550,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "GenericFunction",
-                "printedName": "<τ_0_0> (SIRLCore.Result<τ_0_0>.Type) -> (Swift.Error) -> SIRLCore.Result<τ_0_0>",
+                "printedName": "<τ_0_0> (SIRLCore.Result<τ_0_0>.Type) -> (any Swift.Error) -> SIRLCore.Result<τ_0_0>",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> SIRLCore.Result<τ_0_0>",
+                    "printedName": "(any Swift.Error) -> SIRLCore.Result<τ_0_0>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -24573,7 +24573,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -25236,17 +25236,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[SIRLCore.SirlCoreDelegate]?",
+                "printedName": "[any SIRLCore.SirlCoreDelegate]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[SIRLCore.SirlCoreDelegate]",
+                    "printedName": "[any SIRLCore.SirlCoreDelegate]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreDelegate",
-                        "printedName": "SIRLCore.SirlCoreDelegate",
+                        "printedName": "any SIRLCore.SirlCoreDelegate",
                         "usr": "c:@M@SIRLCore@objc(pl)SirlCoreDelegate"
                       }
                     ],
@@ -25277,17 +25277,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[SIRLCore.SirlCoreDelegate]?",
+                    "printedName": "[any SIRLCore.SirlCoreDelegate]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[SIRLCore.SirlCoreDelegate]",
+                        "printedName": "[any SIRLCore.SirlCoreDelegate]",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "SirlCoreDelegate",
-                            "printedName": "SIRLCore.SirlCoreDelegate",
+                            "printedName": "any SIRLCore.SirlCoreDelegate",
                             "usr": "c:@M@SIRLCore@objc(pl)SirlCoreDelegate"
                           }
                         ],
@@ -25318,17 +25318,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[SIRLCore.SirlCoreDelegate]?",
+                    "printedName": "[any SIRLCore.SirlCoreDelegate]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[SIRLCore.SirlCoreDelegate]",
+                        "printedName": "[any SIRLCore.SirlCoreDelegate]",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "SirlCoreDelegate",
-                            "printedName": "SIRLCore.SirlCoreDelegate",
+                            "printedName": "any SIRLCore.SirlCoreDelegate",
                             "usr": "c:@M@SIRLCore@objc(pl)SirlCoreDelegate"
                           }
                         ],
@@ -25379,7 +25379,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLCore.SirlCoreMapDelegate?"
+                "printedName": "(any SIRLCore.SirlCoreMapDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -25404,12 +25404,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlCoreMapDelegate?",
+                    "printedName": "(any SIRLCore.SirlCoreMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreMapDelegate",
-                        "printedName": "SIRLCore.SirlCoreMapDelegate",
+                        "printedName": "any SIRLCore.SirlCoreMapDelegate",
                         "usr": "s:8SIRLCore19SirlCoreMapDelegateP"
                       }
                     ],
@@ -25437,12 +25437,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlCoreMapDelegate?",
+                    "printedName": "(any SIRLCore.SirlCoreMapDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreMapDelegate",
-                        "printedName": "SIRLCore.SirlCoreMapDelegate",
+                        "printedName": "any SIRLCore.SirlCoreMapDelegate",
                         "usr": "s:8SIRLCore19SirlCoreMapDelegateP"
                       }
                     ],
@@ -25490,12 +25490,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "SIRLCore.SirlCoreDataSource?",
+                "printedName": "(any SIRLCore.SirlCoreDataSource)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlCoreDataSource",
-                    "printedName": "SIRLCore.SirlCoreDataSource",
+                    "printedName": "any SIRLCore.SirlCoreDataSource",
                     "usr": "s:8SIRLCore18SirlCoreDataSourceP"
                   }
                 ],
@@ -25522,12 +25522,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "SIRLCore.SirlCoreDataSource?",
+                    "printedName": "(any SIRLCore.SirlCoreDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreDataSource",
-                        "printedName": "SIRLCore.SirlCoreDataSource",
+                        "printedName": "any SIRLCore.SirlCoreDataSource",
                         "usr": "s:8SIRLCore18SirlCoreDataSourceP"
                       }
                     ],
@@ -25555,12 +25555,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "SIRLCore.SirlCoreDataSource?",
+                    "printedName": "(any SIRLCore.SirlCoreDataSource)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreDataSource",
-                        "printedName": "SIRLCore.SirlCoreDataSource",
+                        "printedName": "any SIRLCore.SirlCoreDataSource",
                         "usr": "s:8SIRLCore18SirlCoreDataSourceP"
                       }
                     ],
@@ -27615,7 +27615,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -27640,7 +27640,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -27858,7 +27858,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -30731,7 +30731,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -32164,7 +32164,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -34861,7 +34861,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?, Foundation.URLResponse?) -> ()",
+                "printedName": "((any Swift.Error)?, Foundation.URLResponse?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -34871,17 +34871,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Error?, Foundation.URLResponse?)",
+                    "printedName": "((any Swift.Error)?, Foundation.URLResponse?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -34960,7 +34960,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?, Foundation.URLResponse?) -> ()",
+                "printedName": "((any Swift.Error)?, Foundation.URLResponse?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -34970,17 +34970,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Error?, Foundation.URLResponse?)",
+                    "printedName": "((any Swift.Error)?, Foundation.URLResponse?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -38212,7 +38212,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLCore.SirlMapLocationListenerDelegate?"
+                "printedName": "(any SIRLCore.SirlMapLocationListenerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -38238,12 +38238,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlMapLocationListenerDelegate?",
+                    "printedName": "(any SIRLCore.SirlMapLocationListenerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapLocationListenerDelegate",
-                        "printedName": "SIRLCore.SirlMapLocationListenerDelegate",
+                        "printedName": "any SIRLCore.SirlMapLocationListenerDelegate",
                         "usr": "s:8SIRLCore31SirlMapLocationListenerDelegateP"
                       }
                     ],
@@ -38271,12 +38271,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlMapLocationListenerDelegate?",
+                    "printedName": "(any SIRLCore.SirlMapLocationListenerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlMapLocationListenerDelegate",
-                        "printedName": "SIRLCore.SirlMapLocationListenerDelegate",
+                        "printedName": "any SIRLCore.SirlMapLocationListenerDelegate",
                         "usr": "s:8SIRLCore31SirlMapLocationListenerDelegateP"
                       }
                     ],
@@ -39764,7 +39764,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLCore.PIPSDelegate?"
+                "printedName": "(any SIRLCore.PIPSDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -39788,12 +39788,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.PIPSDelegate?",
+                    "printedName": "(any SIRLCore.PIPSDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PIPSDelegate",
-                        "printedName": "SIRLCore.PIPSDelegate",
+                        "printedName": "any SIRLCore.PIPSDelegate",
                         "usr": "s:8SIRLCore12PIPSDelegateP"
                       }
                     ],
@@ -39821,12 +39821,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.PIPSDelegate?",
+                    "printedName": "(any SIRLCore.PIPSDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PIPSDelegate",
-                        "printedName": "SIRLCore.PIPSDelegate",
+                        "printedName": "any SIRLCore.PIPSDelegate",
                         "usr": "s:8SIRLCore12PIPSDelegateP"
                       }
                     ],
@@ -41345,7 +41345,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -41661,12 +41661,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Dispatch.DispatchSourceTimer?",
+                "printedName": "(any Dispatch.DispatchSourceTimer)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "DispatchSourceTimer",
-                    "printedName": "Dispatch.DispatchSourceTimer",
+                    "printedName": "any Dispatch.DispatchSourceTimer",
                     "usr": "c:objc(pl)OS_dispatch_source_timer"
                   }
                 ],
@@ -42737,12 +42737,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SIRLCore.SirlCoreDataSourceDelegate?",
+                "printedName": "(any SIRLCore.SirlCoreDataSourceDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SirlCoreDataSourceDelegate",
-                    "printedName": "SIRLCore.SirlCoreDataSourceDelegate",
+                    "printedName": "any SIRLCore.SirlCoreDataSourceDelegate",
                     "usr": "s:8SIRLCore26SirlCoreDataSourceDelegateP"
                   }
                 ],
@@ -42763,12 +42763,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlCoreDataSourceDelegate?",
+                    "printedName": "(any SIRLCore.SirlCoreDataSourceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreDataSourceDelegate",
-                        "printedName": "SIRLCore.SirlCoreDataSourceDelegate",
+                        "printedName": "any SIRLCore.SirlCoreDataSourceDelegate",
                         "usr": "s:8SIRLCore26SirlCoreDataSourceDelegateP"
                       }
                     ],
@@ -42798,12 +42798,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlCoreDataSourceDelegate?",
+                    "printedName": "(any SIRLCore.SirlCoreDataSourceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreDataSourceDelegate",
-                        "printedName": "SIRLCore.SirlCoreDataSourceDelegate",
+                        "printedName": "any SIRLCore.SirlCoreDataSourceDelegate",
                         "usr": "s:8SIRLCore26SirlCoreDataSourceDelegateP"
                       }
                     ],
@@ -43226,7 +43226,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLCore.SirlCoreDataSourceDelegate?"
+                "printedName": "(any SIRLCore.SirlCoreDataSourceDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -43251,12 +43251,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlCoreDataSourceDelegate?",
+                    "printedName": "(any SIRLCore.SirlCoreDataSourceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreDataSourceDelegate",
-                        "printedName": "SIRLCore.SirlCoreDataSourceDelegate",
+                        "printedName": "any SIRLCore.SirlCoreDataSourceDelegate",
                         "usr": "s:8SIRLCore26SirlCoreDataSourceDelegateP"
                       }
                     ],
@@ -43284,12 +43284,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlCoreDataSourceDelegate?",
+                    "printedName": "(any SIRLCore.SirlCoreDataSourceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlCoreDataSourceDelegate",
-                        "printedName": "SIRLCore.SirlCoreDataSourceDelegate",
+                        "printedName": "any SIRLCore.SirlCoreDataSourceDelegate",
                         "usr": "s:8SIRLCore26SirlCoreDataSourceDelegateP"
                       }
                     ],
@@ -44557,12 +44557,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -47713,7 +47713,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "SIRLCore.SirlRegionDetectorDelegate?"
+                "printedName": "(any SIRLCore.SirlRegionDetectorDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -47739,12 +47739,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlRegionDetectorDelegate?",
+                    "printedName": "(any SIRLCore.SirlRegionDetectorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlRegionDetectorDelegate",
-                        "printedName": "SIRLCore.SirlRegionDetectorDelegate",
+                        "printedName": "any SIRLCore.SirlRegionDetectorDelegate",
                         "usr": "s:8SIRLCore26SirlRegionDetectorDelegateP"
                       }
                     ],
@@ -47772,12 +47772,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SIRLCore.SirlRegionDetectorDelegate?",
+                    "printedName": "(any SIRLCore.SirlRegionDetectorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SirlRegionDetectorDelegate",
-                        "printedName": "SIRLCore.SirlRegionDetectorDelegate",
+                        "printedName": "any SIRLCore.SirlRegionDetectorDelegate",
                         "usr": "s:8SIRLCore26SirlRegionDetectorDelegateP"
                       }
                     ],
@@ -48485,7 +48485,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -50160,7 +50160,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SirlCoreDelegate",
-                "printedName": "SIRLCore.SirlCoreDelegate",
+                "printedName": "any SIRLCore.SirlCoreDelegate",
                 "usr": "c:@M@SIRLCore@objc(pl)SirlCoreDelegate"
               }
             ],
@@ -52952,10 +52952,10 @@
             "moduleName": "SIRLCore",
             "static": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,

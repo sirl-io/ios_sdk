@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SIRLAsset
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name SIRLAsset
 import Foundation
 import SIRLCore
 import Swift
@@ -443,7 +442,7 @@ public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
   public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
   public func disassociateAssetWithArea(assetId: Swift.Int32, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
   public func programAssetTag(mlId: Swift.Int32, macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
-  public func getAssetTagMappingHistory(tagIds: [Swift.Int32], completion: @escaping (_ history: Swift.Dictionary<Swift.String, SIRLAsset.SirlAssetTagMapping>?) -> Swift.Void)
+  public func getAssetTagMappingHistory(tagId: Swift.Int32, completion: @escaping (_ history: [SIRLAsset.SirlAssetTagMapping]?) -> Swift.Void)
   @objc deinit
 }
 @available(iOS 10.0, *)
@@ -472,7 +471,7 @@ public class SirlAssetStatus {
 }
 @available(iOS 10.0, *)
 public struct GetAssetTagHistory : SIRLCore.APIRequest {
-  public typealias Response = Swift.Dictionary<Swift.String, SIRLAsset.SirlAssetTagMapping>
+  public typealias Response = [SIRLAsset.SirlAssetTagMapping]
   public typealias RequestBody = SIRLCore.NULLCodable
   public var resourceName: Swift.String {
     get
@@ -486,7 +485,7 @@ public struct GetAssetTagHistory : SIRLCore.APIRequest {
   public var hasParams: Swift.Bool {
     get
   }
-  public init(tagIds: [Swift.Int32])
+  public init(tagId: Swift.Int32)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
