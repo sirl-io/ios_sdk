@@ -383,6 +383,15 @@ public class SirlAssetTagMapping : Swift.Decodable {
   public var tagId: Swift.Int?
   public var assetId: Swift.Int32?
   public var assetTag: SIRLAsset.SirlAssetTag?
+  public var stopDate: Foundation.Date? {
+    get
+  }
+  public var startDate: Foundation.Date? {
+    get
+  }
+  public var timestamp: Foundation.Date? {
+    get
+  }
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }
