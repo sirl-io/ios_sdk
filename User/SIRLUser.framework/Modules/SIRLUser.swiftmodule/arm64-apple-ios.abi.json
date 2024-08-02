@@ -7282,21 +7282,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/user\/SirlUser.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/user\/SirlUser.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 15,
       "value": "\"com.sirl.user\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/user\/SirlUser.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/user\/SirlUser.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 9,
       "value": "\"Network\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/user\/SirlUser.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/user\/SirlUser.swift",
       "kind": "BooleanLiteral",
       "offset": 922,
       "length": 5,

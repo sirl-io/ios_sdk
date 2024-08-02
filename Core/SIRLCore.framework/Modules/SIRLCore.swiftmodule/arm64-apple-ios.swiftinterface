@@ -516,7 +516,7 @@ open class SirlCoreImpl : ObjectiveC.NSObject, SIRLCore.PIPSDelegate {
   public func didGetNewPosition(_ position: SIRLCore.SirlLocation, _ velocity: SIRLCore.SirlLocation, _ confidence: Swift.Double)
   public func didGetNewAIInfo(_ aiInfo: [pipsAPI.pips_ai_node_info])
   public func didSendDebugMessage(_ msg: Swift.String)
-  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = nil, endPoint: Swift.String? = nil)
+  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = "", endPoint: Swift.String? = nil)
 }
 @available(iOS 10.0, *)
 extension SIRLCore.SirlCoreImpl : SIRLCore.SirlCoreDataSourceDelegate, SIRLCore.SirlMapLocationListenerDelegate {
@@ -1203,11 +1203,10 @@ open class SirlScannerSetting {
   }
   @objc public func setSingleLocation(mlID: Swift.UInt32)
   @objc public func setAutoDetectLocation()
-  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = nil, endPoint: Swift.String? = nil)
+  public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = "", endPoint: Swift.String? = nil)
   @objc public func updateSetting(backgroundMode: Swift.Bool, apiKey: Swift.String)
   @objc public func updateSetting(autoWakeup: Swift.Bool)
   @objc public func updateSetting(apiKey: Swift.String)
-  @objc public func updateSetting(backgroundMode: Swift.Bool)
   @objc public func updateSetting(backgroundMode: Swift.Bool, regionLocking: Swift.Bool, prediction: Swift.Bool, apiKey: Swift.String)
   public func startScan()
   public func stopScan()

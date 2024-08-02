@@ -484,7 +484,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _
 - (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode apiKey:(NSString * _Nonnull)apiKey;
 - (void)updateSettingWithAutoWakeup:(BOOL)autoWakeup;
 - (void)updateSettingWithApiKey:(NSString * _Nonnull)apiKey;
-- (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode;
 - (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode regionLocking:(BOOL)regionLocking prediction:(BOOL)prediction apiKey:(NSString * _Nonnull)apiKey;
 - (void)addDelegateWithDelegate:(id <SirlCoreDelegate> _Nonnull)delegate;
 - (void)setTestIdsWithRoomId:(uint32_t)roomId nodeId:(uint32_t)nodeId;

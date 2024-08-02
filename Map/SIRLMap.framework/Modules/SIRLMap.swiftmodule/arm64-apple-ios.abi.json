@@ -19719,1393 +19719,1393 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 27,
       "value": "\"com.sirl.map_tile_manager\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 10,
       "value": "\"Sirl_Map\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1073,
       "length": 9,
       "value": "1048576"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1121,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1481,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1854,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "IntegerLiteral",
       "offset": 3356,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "IntegerLiteral",
       "offset": 3397,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/dependencies\/TileManager.swift",
       "kind": "IntegerLiteral",
       "offset": 3417,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 9,
       "value": "\"sirlMap\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 9,
       "value": "\"sirlMap\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 894,
       "length": 10,
       "value": "\"xMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 926,
       "length": 10,
       "value": "\"yMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 10,
       "value": "\"xMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 990,
       "length": 10,
       "value": "\"yMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1028,
       "length": 12,
       "value": "\"pixelWidth\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 13,
       "value": "\"pixelHeight\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 894,
       "length": 10,
       "value": "\"xMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 926,
       "length": 10,
       "value": "\"yMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 10,
       "value": "\"xMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 990,
       "length": 10,
       "value": "\"yMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1028,
       "length": 12,
       "value": "\"pixelWidth\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 13,
       "value": "\"pixelHeight\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1151,
       "length": 6,
       "value": "\"mlId\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1180,
       "length": 10,
       "value": "\"mapParam\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1213,
       "length": 9,
       "value": "\"tileSet\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1247,
       "length": 10,
       "value": "\"mapBound\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1151,
       "length": 6,
       "value": "\"mlId\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1180,
       "length": 10,
       "value": "\"mapParam\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1213,
       "length": 9,
       "value": "\"tileSet\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1247,
       "length": 10,
       "value": "\"mapBound\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
       "kind": "StringLiteral",
       "offset": 590,
       "length": 6,
       "value": "\"xLoc\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 6,
       "value": "\"yLoc\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
       "kind": "StringLiteral",
       "offset": 590,
       "length": 6,
       "value": "\"xLoc\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/RouteNode.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 6,
       "value": "\"yLoc\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Services\/SirlRoutingEngine.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Services\/SirlRoutingEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Services\/SirlRoutingEngine.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Services\/SirlRoutingEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 495,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 3,
       "value": "\"x\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 3,
       "value": "\"y\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 3,
       "value": "\"x\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 3,
       "value": "\"y\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 986,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 1018,
       "length": 11,
       "value": "\"shortName\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 1052,
       "length": 8,
       "value": "\"layers\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 1093,
       "length": 18,
       "value": "\"coordinateOffset\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 986,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 1018,
       "length": 11,
       "value": "\"shortName\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 1052,
       "length": 8,
       "value": "\"layers\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 1093,
       "length": 18,
       "value": "\"coordinateOffset\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 2063,
       "length": 11,
       "value": "\"startZoom\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 2103,
       "length": 10,
       "value": "\"filePath\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 2063,
       "length": 11,
       "value": "\"startZoom\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlFloorObject.swift",
       "kind": "StringLiteral",
       "offset": 2103,
       "length": 10,
       "value": "\"filePath\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 756,
       "length": 5,
       "value": "0.964"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 770,
       "length": 5,
       "value": "0.964"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 783,
       "length": 5,
       "value": "0.964"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 797,
       "length": 5,
       "value": "0.828"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 933,
       "length": 4,
       "value": "0.98"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 946,
       "length": 4,
       "value": "0.73"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 958,
       "length": 4,
       "value": "0.51"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 971,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Common\/Layers\/LocateUserButtonLayer.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 21,
       "value": "\"SIRLMap.LocateUserButtonLayer\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 448,
       "length": 5,
       "value": "0.964"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 462,
       "length": 5,
       "value": "0.964"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 475,
       "length": 5,
       "value": "0.964"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 489,
       "length": 5,
       "value": "0.828"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 531,
       "length": 4,
       "value": "1.00"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 544,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 556,
       "length": 4,
       "value": "0.24"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 569,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 609,
       "length": 4,
       "value": "0.98"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 622,
       "length": 4,
       "value": "0.73"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 634,
       "length": 4,
       "value": "0.51"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "FloatLiteral",
       "offset": 647,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/RoutingButtonLayer.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 18,
       "value": "\"SIRLMap.RoutingButtonLayer\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 10,
       "value": "\"xMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1167,
       "length": 10,
       "value": "\"yMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1199,
       "length": 10,
       "value": "\"xMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1231,
       "length": 10,
       "value": "\"yMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 10,
       "value": "\"xMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1167,
       "length": 10,
       "value": "\"yMaximum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1199,
       "length": 10,
       "value": "\"xMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1231,
       "length": 10,
       "value": "\"yMinimum\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1314,
       "length": 5,
       "value": "\"lat\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1340,
       "length": 5,
       "value": "\"lng\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1314,
       "length": 5,
       "value": "\"lat\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1340,
       "length": 5,
       "value": "\"lng\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 6,
       "value": "\"mlId\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1443,
       "length": 8,
       "value": "\"origin\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1474,
       "length": 8,
       "value": "\"bounds\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1505,
       "length": 9,
       "value": "\"tileSet\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1537,
       "length": 8,
       "value": "\"floors\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1568,
       "length": 13,
       "value": "\"angleOffset\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1604,
       "length": 13,
       "value": "\"defaultZoom\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1640,
       "length": 12,
       "value": "\"geoJsonUrl\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 6,
       "value": "\"mlId\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1443,
       "length": 8,
       "value": "\"origin\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1474,
       "length": 8,
       "value": "\"bounds\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1505,
       "length": 9,
       "value": "\"tileSet\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1537,
       "length": 8,
       "value": "\"floors\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1568,
       "length": 13,
       "value": "\"angleOffset\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1604,
       "length": 13,
       "value": "\"defaultZoom\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Models\/SirlGeoMapObject.swift",
       "kind": "StringLiteral",
       "offset": 1640,
       "length": 12,
       "value": "\"geoJsonUrl\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 368,
       "length": 4,
       "value": "0.70"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 381,
       "length": 4,
       "value": "0.89"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 393,
       "length": 4,
       "value": "1.00"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 406,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 447,
       "length": 4,
       "value": "0.27"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 460,
       "length": 4,
       "value": "0.70"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 472,
       "length": 4,
       "value": "0.94"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 485,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 631,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 962,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/Layers\/NavigationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 914,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 14,
       "value": "\"com.sirl.map\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 22,
       "value": "\"Legacy Map Component\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 541,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 584,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "BooleanLiteral",
       "offset": 657,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 1122,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "BooleanLiteral",
       "offset": 1284,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "BooleanLiteral",
       "offset": 1344,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 1430,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlLegacyComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 1441,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 25,
       "value": "\"com.sirl.Map_Tiled_View\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 10,
       "value": "\"Sirl_Map\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "Array",
       "offset": 479,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
       "offset": 882,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
       "offset": 893,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
       "offset": 1275,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Services\/UIImage+Resize.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Services\/UIImage+Resize.swift",
       "kind": "BooleanLiteral",
       "offset": 273,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "StringLiteral",
       "offset": 308,
       "length": 22,
       "value": "\"com.sirl.map_manager\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "StringLiteral",
       "offset": 342,
       "length": 10,
       "value": "\"Sirl_Map\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "Array",
       "offset": 623,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "Array",
       "offset": 677,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "BooleanLiteral",
       "offset": 961,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 1011,
       "length": 2,
       "value": "35"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "FloatLiteral",
       "offset": 1069,
       "length": 5,
       "value": "0.914"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2043,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2048,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 1916,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 1922,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 1928,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2260,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2265,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2127,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2133,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2139,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2413,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2419,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2641,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2670,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "BooleanLiteral",
       "offset": 2719,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2574,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2580,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 3147,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 3198,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "FloatLiteral",
       "offset": 3258,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "FloatLiteral",
       "offset": 3276,
       "length": 5,
       "value": "100.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 2867,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 3515,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "IntegerLiteral",
       "offset": 3541,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlRouteView.swift",
       "kind": "BooleanLiteral",
       "offset": 3437,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 15,
       "value": "\"productmarker\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "BooleanLiteral",
       "offset": 535,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 695,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 740,
       "length": 4,
       "value": "1.00"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 753,
       "length": 4,
       "value": "1.00"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 765,
       "length": 4,
       "value": "1.00"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "FloatLiteral",
       "offset": 778,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "BooleanLiteral",
       "offset": 805,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "BooleanLiteral",
       "offset": 959,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 1204,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 1473,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 1508,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 1573,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 1798,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 2722,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 2855,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 3075,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 3110,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/DestinationMarker.swift",
       "kind": "IntegerLiteral",
       "offset": 2346,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 671,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 762,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "StringLiteral",
       "offset": 808,
       "length": 22,
       "value": "\"com.sirl.map_manager\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 10,
       "value": "\"Sirl_Map\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
       "offset": 939,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
       "offset": 944,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
       "offset": 949,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "IntegerLiteral",
       "offset": 954,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 1672,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 1817,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 1520,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 2110,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 2171,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 2534,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 2594,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
       "offset": 9304,
       "length": 4,

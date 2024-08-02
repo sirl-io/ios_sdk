@@ -11,44 +11,6 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 @available(iOS 10.0, *)
-public struct ProgramAssetTag : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTag
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(mlId: Swift.Int32, mac: Swift.String)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@available(iOS 10.0, *)
-public struct AssociateAssetWithTag : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTagMapping
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(assetId: Swift.Int32, tagId: Swift.Int32)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@available(iOS 10.0, *)
 public struct GetSkuList : SIRLCore.APIRequest {
   public typealias Response = [SIRLAsset.SirlAssetSku]
   public typealias RequestBody = SIRLCore.NULLCodable
@@ -109,13 +71,13 @@ public class SirlAsset : Swift.Decodable {
   public var location: SIRLCore.SirlLocation? {
     get
   }
+  public var batteryLevel: Swift.Int? {
+    get
+  }
   public var timestamp: Foundation.Date? {
     get
   }
-  public var assetTag: SIRLAsset.SirlAssetTag? {
-    get
-  }
-  public init(id: Swift.Int32, lgId: Swift.Int32, type: SIRLAsset.SirlAssetType?, typeId: Swift.Int32? = nil, companyId: Swift.Int32, externalId: Swift.String, meta: Swift.Dictionary<Swift.String, Swift.String>?, sku: SIRLAsset.SirlAssetSku? = nil, tagMappings: Swift.Array<SIRLAsset.SirlAssetTagMapping>? = nil)
+  public init(id: Swift.Int32, lgId: Swift.Int32, type: SIRLAsset.SirlAssetType?, companyId: Swift.Int32, externalId: Swift.String, meta: Swift.Dictionary<Swift.String, Swift.String>?, status: SIRLAsset.SirlAssetStatus? = nil, sku: SIRLAsset.SirlAssetSku? = nil, tag: SIRLAsset.SirlTagStatus? = nil)
   required convenience public init(from decoder: any Swift.Decoder) throws
   public func getMetaField(_ field: Swift.String) -> Swift.String?
   @objc deinit
@@ -138,25 +100,6 @@ public class SirlAssetArea : Swift.Decodable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 10.0, *)
-public struct GetCompanySKUs : SIRLCore.APIRequest {
-  public typealias Response = [SIRLAsset.SirlAssetSku]
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(companyId: Swift.Int32, filter: [Swift.String : Swift.String]?)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@available(iOS 10.0, *)
 public struct GetAssetAreas : SIRLCore.APIRequest {
   public var hasParams: Swift.Bool
   public typealias Response = [SIRLAsset.SirlAssetArea]
@@ -174,25 +117,6 @@ public struct GetAssetAreas : SIRLCore.APIRequest {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
-public struct AssociateNewAssetAndTagWithSKU : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTagMapping
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(sku_id: Swift.Int32, tag_identifier: Swift.String)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@available(iOS 10.0, *)
 public class SirlAssetAlert : Swift.Decodable {
   public var code: Swift.Int32
   public var name: Swift.String?
@@ -202,25 +126,6 @@ public class SirlAssetAlert : Swift.Decodable {
   public init(code: Swift.Int32, name: Swift.String?, level: Swift.String, message: Swift.String, asset: SIRLAsset.SirlAsset? = nil)
   required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-}
-@available(iOS 10.0, *)
-public struct GetActiveAssetMapping : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTagMapping
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(assetId: Swift.Int32)
-  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum SIRLAssetAlertCode : Swift.Int32, Swift.Encodable {
   case _UNKOWN
@@ -250,25 +155,6 @@ public struct GetAssetAlerts : SIRLCore.APIRequest {
     get
   }
   public init(mlid: Swift.Int32, alert_code: SIRLAsset.SIRLAssetAlertCode? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@available(iOS 10.0, *)
-public struct AssociateAssetWithArea : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAsset
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(assetId: Swift.Int32, areaName: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
@@ -302,25 +188,6 @@ public class AssetFilter {
   public func addSkuList(_ list: [Swift.Int])
   public func getSkuList() -> [Swift.Int]
   @objc deinit
-}
-@available(iOS 10.0, *)
-public struct DisassociateAssetWithTag : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTagMapping
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(assetId: Swift.Int32, tagId: Swift.Int32)
-  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public class SirlTagStatus {
@@ -360,42 +227,6 @@ public class SirlAssetSku : Swift.Decodable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 10.0, *)
-public struct GetAssetTagById : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTag
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(id: Swift.Int32)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@_hasMissingDesignatedInitializers @available(iOS 10.0, *)
-public class SirlAssetTagMapping : Swift.Decodable {
-  public var tagId: Swift.Int?
-  public var assetId: Swift.Int32?
-  public var assetTag: SIRLAsset.SirlAssetTag?
-  public var stopDate: Foundation.Date? {
-    get
-  }
-  public var startDate: Foundation.Date? {
-    get
-  }
-  public var timestamp: Foundation.Date? {
-    get
-  }
-  @objc deinit
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@available(iOS 10.0, *)
 public struct GetAssetByExternalId : SIRLCore.APIRequest {
   public typealias Response = SIRLAsset.SirlAsset
   public typealias RequestBody = SIRLCore.NULLCodable
@@ -414,25 +245,6 @@ public struct GetAssetByExternalId : SIRLCore.APIRequest {
   public init(mlId: Swift.Int32, externalId: Swift.String, params: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@available(iOS 10.0, *)
-public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAsset
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(assetId: Swift.Int32)
-  public func encode(to encoder: any Swift.Encoder) throws
-}
 @_hasMissingDesignatedInitializers public class SirlAssetService {
   public static let shared: SIRLAsset.SirlAssetService
   public func getAssetForLocation(mlid: Swift.UInt32, filter: SIRLAsset.AssetFilter? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
@@ -441,61 +253,12 @@ public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
   public func getAssetSKUList(asseTypeId: Swift.Int32, mlid: Swift.Int32? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAssetSku]) -> Swift.Void)
   public func getAssetBySKUs(asseTypeId: Swift.Int32, skus: [Swift.Int32], accessToken: Swift.String? = nil, mlid: Swift.Int32? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
   public func getAssetAlerts(mlid: Swift.Int32, alert_code: SIRLAsset.SIRLAssetAlertCode, completion: @escaping (_ alerts: [SIRLAsset.SirlAssetAlert]) -> Swift.Void)
-  public func getAssetTagByMac(macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
-  public func getAssetTagById(id: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
-  public func getCompanySKUs(companyId: Swift.Int32, filter: [Swift.String : Swift.String]? = nil, completion: @escaping (_ skus: [SIRLAsset.SirlAssetSku]) -> Swift.Void)
-  public func getActiveAssetMapping(id: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func associateNewAssetAndTagWithSKU(skuId: Swift.Int32, tagIdentifier: Swift.String, accessToken: Swift.String? = nil, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func associateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func disassociateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
-  public func disassociateAssetWithArea(assetId: Swift.Int32, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
-  public func programAssetTag(mlId: Swift.Int32, macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
-  public func getAssetTagMappingHistory(tagId: Swift.Int32, completion: @escaping (_ history: [SIRLAsset.SirlAssetTagMapping]?) -> Swift.Void)
   @objc deinit
-}
-@available(iOS 10.0, *)
-public struct GetAssetTagByMac : SIRLCore.APIRequest {
-  public typealias Response = SIRLAsset.SirlAssetTag
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(macaddress: Swift.String)
-  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public class SirlAssetStatus {
   public init(isMissing: Swift.Bool = true, x: Swift.Double = 0.0, y: Swift.Double = 0.0, z: Swift.Double = 0.0, timestamp: Foundation.Date? = Date())
   @objc deinit
-}
-@available(iOS 10.0, *)
-public struct GetAssetTagHistory : SIRLCore.APIRequest {
-  public typealias Response = [SIRLAsset.SirlAssetTagMapping]
-  public typealias RequestBody = SIRLCore.NULLCodable
-  public var resourceName: Swift.String {
-    get
-  }
-  public var requestMethod: Swift.String {
-    get
-  }
-  public var requestBody: SIRLCore.NULLCodable {
-    get
-  }
-  public var hasParams: Swift.Bool {
-    get
-  }
-  public init(tagId: Swift.Int32)
-  public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 10.0, *)
 public struct GetAssets : SIRLCore.APIRequest {
@@ -516,17 +279,10 @@ public struct GetAssets : SIRLCore.APIRequest {
   public init(mlid: Swift.Int32, filter: SIRLAsset.AssetFilter? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@available(iOS 10.0, *)
+@_hasMissingDesignatedInitializers @available(iOS 10.0, *)
 public class SirlAssetTag : Swift.Decodable {
-  public var tagId: Swift.Int32 {
-    get
-  }
-  public var mac: Swift.String? {
-    get
-  }
-  public init(id: Swift.Int32, lgId: Swift.Int32? = nil, gpsId: Swift.Int32? = nil, deviceId: Swift.Int32? = nil, macAddress: Swift.String? = nil, active: Swift.Bool? = nil, transmitRate: Swift.Int? = -1, transmitPower: Swift.Int? = -1, typeId: Swift.Int = 0, createdOn: Foundation.Date? = nil, location: Swift.Dictionary<Swift.String, Swift.String>? = nil)
-  required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
 }
 extension SIRLAsset.SIRLAssetAlertCode : Swift.Equatable {}
 extension SIRLAsset.SIRLAssetAlertCode : Swift.Hashable {}

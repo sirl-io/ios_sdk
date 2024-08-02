@@ -22645,1421 +22645,1421 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 211,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 224,
       "length": 4,
       "value": "0.31"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 236,
       "length": 4,
       "value": "0.41"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 249,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 298,
       "length": 4,
       "value": "0.31"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 311,
       "length": 4,
       "value": "0.38"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 323,
       "length": 4,
       "value": "0.50"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 336,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 376,
       "length": 4,
       "value": "0.99"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 388,
       "length": 4,
       "value": "0.99"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 399,
       "length": 4,
       "value": "0.99"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 411,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 451,
       "length": 4,
       "value": "0.03"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 463,
       "length": 4,
       "value": "0.03"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 474,
       "length": 4,
       "value": "0.03"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 486,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 530,
       "length": 4,
       "value": "0.78"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 542,
       "length": 4,
       "value": "0.78"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 553,
       "length": 4,
       "value": "0.78"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/UIConstants.swift",
       "kind": "FloatLiteral",
       "offset": 565,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1092,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1162,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1204,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1475,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1633,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1757,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1819,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2035,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2072,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2131,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2354,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2391,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2450,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2663,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2700,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2759,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "StringLiteral",
       "offset": 2833,
       "length": 6,
       "value": "\"Back\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2975,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3036,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3115,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "FloatLiteral",
       "offset": 3156,
       "length": 4,
       "value": "0.76"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "FloatLiteral",
       "offset": 3169,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "FloatLiteral",
       "offset": 3181,
       "length": 4,
       "value": "0.07"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "FloatLiteral",
       "offset": 3194,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "StringLiteral",
       "offset": 3355,
       "length": 14,
       "value": "\"Raffle Title\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3408,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3468,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3609,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "StringLiteral",
       "offset": 3672,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3716,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3777,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3916,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "StringLiteral",
       "offset": 3979,
       "length": 16,
       "value": "\"Fine Print ...\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 4036,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 4071,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/RaffleCell.swift",
       "kind": "BooleanLiteral",
       "offset": 4133,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 14,
       "value": "\"Your Coupons\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 276,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 533,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 14,
       "value": "\"Your Coupons\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "IntegerLiteral",
       "offset": 957,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1017,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1219,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1254,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "StringLiteral",
       "offset": 1371,
       "length": 11,
       "value": "\"Available\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "IntegerLiteral",
       "offset": 1442,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1533,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1603,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1735,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1775,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1385,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1402,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1787,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1861,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1903,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1945,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2373,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2497,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2559,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2775,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2812,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2870,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3030,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "StringLiteral",
       "offset": 3200,
       "length": 13,
       "value": "\"close_black\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3297,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3358,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "StringLiteral",
       "offset": 3524,
       "length": 6,
       "value": "\"info\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3645,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3771,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3832,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3911,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 3952,
       "length": 4,
       "value": "0.76"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 3965,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 3977,
       "length": 4,
       "value": "0.07"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 3990,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "StringLiteral",
       "offset": 4151,
       "length": 14,
       "value": "\"Coupon Title\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 4204,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 4264,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 4403,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "StringLiteral",
       "offset": 4464,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 4506,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 4566,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 4809,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "StringLiteral",
       "offset": 5009,
       "length": 15,
       "value": "\"Tap to Return\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 5062,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 5103,
       "length": 4,
       "value": "0.76"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 5116,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 5128,
       "length": 4,
       "value": "0.07"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "FloatLiteral",
       "offset": 5141,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 5202,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 5356,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 5460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "BooleanLiteral",
       "offset": 5521,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "StringLiteral",
       "offset": 6021,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 6246,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 6285,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 6359,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 6412,
       "length": 2,
       "value": "36"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponCell.swift",
       "kind": "IntegerLiteral",
       "offset": 6486,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 12,
       "value": "\"couponItem\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 12,
       "value": "\"raffleItem\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "IntegerLiteral",
       "offset": 468,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "StringLiteral",
       "offset": 570,
       "length": 35,
       "value": "\"device-register-button-hidden-key\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "Array",
       "offset": 725,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "BooleanLiteral",
       "offset": 1093,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "BooleanLiteral",
       "offset": 1262,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "IntegerLiteral",
       "offset": 1688,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "BooleanLiteral",
       "offset": 1761,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "BooleanLiteral",
       "offset": 1796,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "BooleanLiteral",
       "offset": 1856,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/CouponView.swift",
       "kind": "BooleanLiteral",
       "offset": 2198,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "BooleanLiteral",
       "offset": 645,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "StringLiteral",
       "offset": 764,
       "length": 9,
       "value": "\"Confirm\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "BooleanLiteral",
       "offset": 940,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "StringLiteral",
       "offset": 1067,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "FloatLiteral",
       "offset": 1182,
       "length": 4,
       "value": "0.79"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "FloatLiteral",
       "offset": 1195,
       "length": 4,
       "value": "0.27"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "FloatLiteral",
       "offset": 1207,
       "length": 4,
       "value": "0.27"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "FloatLiteral",
       "offset": 1220,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "BooleanLiteral",
       "offset": 1281,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "BooleanLiteral",
       "offset": 1437,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "BooleanLiteral",
       "offset": 1533,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "FloatLiteral",
       "offset": 4253,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 4293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 4381,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 4392,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/Coupon\/SubviewAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 4402,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 8,
       "value": "\"CellID\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "StringLiteral",
       "offset": 810,
       "length": 21,
       "value": "\"com.sirl.Search_Bar\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 17,
       "value": "\"Sirl_Search_Bar\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 1866,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 2459,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 2716,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 2745,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "StringLiteral",
       "offset": 2915,
       "length": 23,
       "value": "\"Search For Store Item\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 3151,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 4117,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 4246,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "StringLiteral",
       "offset": 4290,
       "length": 7,
       "value": "\"empty\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
       "offset": 4468,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "FloatLiteral",
       "offset": 5175,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "FloatLiteral",
       "offset": 424,
       "length": 4,
       "value": "58.8"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 467,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 8,
       "value": "\"CellID\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "FloatLiteral",
       "offset": 814,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 928,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 1073,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 1125,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 1511,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 1879,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 2136,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "IntegerLiteral",
       "offset": 2029,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 2786,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 2838,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultView.swift",
       "kind": "BooleanLiteral",
       "offset": 2972,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
       "kind": "StringLiteral",
       "offset": 371,
       "length": 9,
       "value": "\"noImage\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
       "kind": "BooleanLiteral",
       "offset": 422,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
       "kind": "BooleanLiteral",
       "offset": 537,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchResultCell.swift",
       "kind": "BooleanLiteral",
       "offset": 724,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Models\/HelpRequest.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Models\/HelpRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 272,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Models\/StoreProduct.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Models\/StoreProduct.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 12,
       "value": "\"SIRLRetail.StoreProduct\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Models\/Promotion.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Models\/Promotion.swift",
       "kind": "StringLiteral",
       "offset": 2081,
       "length": 9,
       "value": "\"SIRLRetail.Promotion\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 25,
       "value": "\"com.sirl.coupon.service\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 21,
       "value": "\"Sirl Coupon Service\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 32,
       "value": "\"Sirl_CounponSerive_Ignore_List\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "BooleanLiteral",
       "offset": 699,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "Array",
       "offset": 751,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "Array",
       "offset": 900,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "BooleanLiteral",
       "offset": 1343,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "BooleanLiteral",
       "offset": 1403,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "BooleanLiteral",
       "offset": 1560,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "BooleanLiteral",
       "offset": 1987,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Services\/CouponService.swift",
       "kind": "BooleanLiteral",
       "offset": 2044,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 26,
       "value": "\"com.sirl.barcode.scanner\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
       "kind": "StringLiteral",
       "offset": 638,
       "length": 29,
       "value": "\"Dynamic_Product_Replacement\""
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 835,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 1121,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 926,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 1284,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
+      "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Utilities\/SirlBarcodeScanner.swift",
       "kind": "StringLiteral",
       "offset": 1191,
       "length": 2,
