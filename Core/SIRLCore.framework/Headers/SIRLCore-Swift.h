@@ -346,6 +346,7 @@ SWIFT_CLASS_NAMED("NodeConfig")
 @property (nonatomic) int32_t configuredID;
 @property (nonatomic) int32_t roomId;
 @property (nonatomic) int32_t nodeId;
+@property (nonatomic) int32_t aisleId;
 @property (nonatomic, copy) NSString * _Nullable macAddress;
 @property (nonatomic) double x;
 @property (nonatomic) double y;

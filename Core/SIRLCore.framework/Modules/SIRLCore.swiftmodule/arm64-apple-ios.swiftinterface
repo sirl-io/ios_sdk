@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name SIRLCore
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SIRLCore
 import AdSupport
 import CoreBluetooth
 import CoreData
@@ -132,6 +132,10 @@ extension SIRLCore.NodeConfig {
     @objc get
     @objc set
   }
+  @objc @NSManaged dynamic public var aisleId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged dynamic public var macAddress: Swift.String? {
     @objc get
     @objc set
@@ -214,7 +218,7 @@ extension SIRLCore.NodeConfig {
   }
 }
 public class NodeConfigs : Swift.Decodable {
-  public init(configuredId: Swift.UInt32?, macAddress: Swift.String, roomId: Swift.UInt32, nodeId: Swift.UInt32, x: Swift.Double, xMinimum: Swift.Double, xMaximum: Swift.Double, y: Swift.Double, yMinimum: Swift.Double, yMaximum: Swift.Double, z: Swift.Double, zMinimum: Swift.Double, zMaximum: Swift.Double, pathLoss: Swift.Double, xa: Swift.Double, ya: Swift.Double, za: Swift.Double, rotationOrder: Swift.Int32, generation: Swift.UInt32?, enabled: Swift.Bool, measured: Swift.Bool)
+  public init(configuredId: Swift.UInt32?, macAddress: Swift.String, roomId: Swift.UInt32, nodeId: Swift.UInt32, aisleId: Swift.UInt32, x: Swift.Double, xMinimum: Swift.Double, xMaximum: Swift.Double, y: Swift.Double, yMinimum: Swift.Double, yMaximum: Swift.Double, z: Swift.Double, zMinimum: Swift.Double, zMaximum: Swift.Double, pathLoss: Swift.Double, xa: Swift.Double, ya: Swift.Double, za: Swift.Double, rotationOrder: Swift.Int32, generation: Swift.UInt32?, enabled: Swift.Bool, measured: Swift.Bool)
   required convenience public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
