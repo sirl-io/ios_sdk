@@ -56178,9 +56178,9 @@
     {
       "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/Networking\/Utils\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 4214,
-      "length": 4,
-      "value": "true"
+      "offset": 4175,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/bartshappee\/Dropbox\/code\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/Networking\/Utils\/Reachability.swift",
@@ -57618,70 +57618,70 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 17,
       "value": "\"back_arrow_icon\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 889,
       "length": 13,
       "value": "\"close_black\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1031,
       "length": 12,
       "value": "\"close_icon\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 7,
       "value": "\"empty\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1288,
       "length": 6,
       "value": "\"info\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1421,
       "length": 11,
       "value": "\"menu_icon\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1568,
       "length": 15,
       "value": "\"productmarker\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1703,
       "length": 7,
       "value": "\"route\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1841,
       "length": 13,
       "value": "\"search_icon\""
     },
     {
-      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphoneos\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/bartshappee\/Library\/Developer\/Xcode\/DerivedData\/pipsSDKDev-agmrppgydnallxglbqcevebeclrt\/Build\/Intermediates.noindex\/pipsSDKDev.build\/Debug-iphonesimulator\/SIRLCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1980,
       "length": 10,
