@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name SIRLMap
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name SIRLMap
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreLocation
 import Foundation
 import SIRLCore
@@ -173,14 +174,14 @@ open class NavigationMarker : QuartzCore.CALayer {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
-@IBDesignable @_Concurrency.MainActor(unsafe) open class RouteButton : UIKit.UIButton {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+@IBDesignable @_Concurrency.MainActor @preconcurrency open class RouteButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSelected: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public struct SirlMarker {
@@ -206,37 +207,37 @@ public protocol SirlMapComponent : UIKit.UIView {
   func displayRoute(_ route: [SIRLMap.RouteNode])
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
-@_Concurrency.MainActor(unsafe) public class DestinationMarker : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var markerText: Swift.String? {
+@_Concurrency.MainActor @preconcurrency public class DestinationMarker : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var markerText: Swift.String? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var markerImage: UIKit.UIImage? {
+  @_Concurrency.MainActor @preconcurrency public var markerImage: UIKit.UIImage? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var markerSize: CoreFoundation.CGFloat? {
+  @_Concurrency.MainActor @preconcurrency public var markerSize: CoreFoundation.CGFloat? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var makerWidth: CoreFoundation.CGFloat {
+  @_Concurrency.MainActor @preconcurrency public var makerWidth: CoreFoundation.CGFloat {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var markerHeight: CoreFoundation.CGFloat {
+  @_Concurrency.MainActor @preconcurrency public var markerHeight: CoreFoundation.CGFloat {
     get
   }
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
-@IBDesignable @_Concurrency.MainActor(unsafe) open class LocateUserButton : UIKit.UIButton {
-  @_Concurrency.MainActor(unsafe) open var buttonLayer: SIRLMap.LocateUserButtonLayer
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+@IBDesignable @_Concurrency.MainActor @preconcurrency open class LocateUserButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency open var buttonLayer: SIRLMap.LocateUserButtonLayer
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSelected: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @available(iOS 10.0, *)
@@ -250,48 +251,48 @@ extension SIRLMap.SirlMapDelegate {
   public func maploadingComplete(succeed: Swift.Bool)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
-@IBDesignable @objc @_Concurrency.MainActor(unsafe) open class SirlMapView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var delegate: (any SIRLMap.SirlMapDelegate)? {
+@IBDesignable @objc @_Concurrency.MainActor @preconcurrency open class SirlMapView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var delegate: (any SIRLMap.SirlMapDelegate)? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var cacheTTL: Foundation.TimeInterval {
+  @_Concurrency.MainActor @preconcurrency public var cacheTTL: Foundation.TimeInterval {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var isMapLoaded: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency public var isMapLoaded: Swift.Bool {
     get
   }
-  @_Concurrency.MainActor(unsafe) open var navigationModeButton: SIRLMap.LocateUserButton
-  @_Concurrency.MainActor(unsafe) open var routingButton: SIRLMap.RouteButton
-  @_Concurrency.MainActor(unsafe) public var desinationMarker: SIRLMap.DestinationMarker? {
+  @_Concurrency.MainActor @preconcurrency open var navigationModeButton: SIRLMap.LocateUserButton
+  @_Concurrency.MainActor @preconcurrency open var routingButton: SIRLMap.RouteButton
+  @_Concurrency.MainActor @preconcurrency public var desinationMarker: SIRLMap.DestinationMarker? {
     get
   }
-  @_Concurrency.MainActor(unsafe) public var routingMode: Swift.Bool {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) public var allocateMode: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency public var routingMode: Swift.Bool {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) public func reload()
+  @_Concurrency.MainActor @preconcurrency public var allocateMode: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency public func reload()
   @objc deinit
 }
 @available(iOS 10.0, *)
 extension SIRLMap.SirlMapView {
-  @_Concurrency.MainActor(unsafe) open func updateCurrentLocation(location: SIRLCore.SirlLocation)
-  @_Concurrency.MainActor(unsafe) open func updateDestination(destination: SIRLCore.SirlLocation, allowRouting: Swift.Bool = true, destinationDescription: Swift.String? = nil)
-  @_Concurrency.MainActor(unsafe) public func resetDestination()
-  @_Concurrency.MainActor(unsafe) public func setMarkers(markers: [SIRLMap.SirlMarker])
-  @_Concurrency.MainActor(unsafe) public func clearMarkers()
-  @_Concurrency.MainActor(unsafe) public func hideMarkers()
-  @_Concurrency.MainActor(unsafe) public func showMarkers()
+  @_Concurrency.MainActor @preconcurrency open func updateCurrentLocation(location: SIRLCore.SirlLocation)
+  @_Concurrency.MainActor @preconcurrency open func updateDestination(destination: SIRLCore.SirlLocation, allowRouting: Swift.Bool = true, destinationDescription: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency public func resetDestination()
+  @_Concurrency.MainActor @preconcurrency public func setMarkers(markers: [SIRLMap.SirlMarker])
+  @_Concurrency.MainActor @preconcurrency public func clearMarkers()
+  @_Concurrency.MainActor @preconcurrency public func hideMarkers()
+  @_Concurrency.MainActor @preconcurrency public func showMarkers()
 }
 @available(iOS 10.0, *)
 extension SIRLMap.SirlMapView : SIRLCore.SirlCoreMapDelegate {
-  @_Concurrency.MainActor(unsafe) public func didGetNewPosition(_ position: SIRLCore.SirlLocation)
-  @_Concurrency.MainActor(unsafe) public func didDetectMapLocation(mlId: Swift.UInt32)
+  @_Concurrency.MainActor @preconcurrency public func didGetNewPosition(_ position: SIRLCore.SirlLocation)
+  @_Concurrency.MainActor @preconcurrency public func didDetectMapLocation(mlId: Swift.UInt32)
 }

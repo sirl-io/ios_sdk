@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name SIRLCore
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name SIRLCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdSupport
 import CoreBluetooth
 import CoreData
@@ -26,7 +27,7 @@ extension Swift.CodingUserInfoKey {
 }
 @available(iOS 10.0, *)
 extension UIKit.UIDevice {
-  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
 @_inheritsConvenienceInitializers @objc open class SirlLogger : ObjectiveC.NSObject {
   public enum externalTag : Swift.String {
@@ -440,6 +441,7 @@ public class RawStringValue : Swift.Decodable {
 public struct SirlSite : Swift.Decodable {
   public var mlId: Swift.UInt32!
   public var storeId: Swift.UInt32!
+  public var companyId: Swift.UInt32!
   public var name: Swift.String!
   public var address: Swift.String!
   public var timezone: Swift.String!
@@ -755,6 +757,7 @@ public class SirlTripDataUploader {
     case ai_data
     case executionLog
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -764,6 +767,7 @@ public class SirlTripDataUploader {
     case txt
     case zip
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -786,6 +790,7 @@ public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
     case event
     case ueid
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -797,6 +802,7 @@ public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
     case map
     case location
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -808,6 +814,7 @@ public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
     case request
     case receive
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -821,6 +828,7 @@ public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
     case unauthorized
     case unknown
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -832,6 +840,7 @@ public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
     case reroute_manual
     case reroute_auto
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -844,6 +853,7 @@ public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
     case scan
     case promotion
     public init?(rawValue: Swift.String)
+    @available(iOS 10.0, *)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
