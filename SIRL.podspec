@@ -41,6 +41,7 @@ Pod::Spec.new do |s|
     core.source_files  = "Core/libs/include/*.{h}"
     core.libraries = "c++"
     core.requires_arc = true
+    core.dependency 'SSZipArchive'
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/Core/libs/include'}
   end
