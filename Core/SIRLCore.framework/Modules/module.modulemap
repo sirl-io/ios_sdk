@@ -1,4 +1,0 @@
-framework module SIRLCore {
-  header "SIRLCore-Swift.h"
-  requires objc
-}
