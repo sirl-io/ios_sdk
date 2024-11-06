@@ -21103,20 +21103,6 @@
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "StringLiteral",
-      "offset": 1026,
-      "length": 25,
-      "value": "\"image size \""
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "StringLiteral",
-      "offset": 1050,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
       "offset": 930,
       "length": 1,
@@ -21132,93 +21118,121 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1339,
+      "offset": 1294,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "Array",
-      "offset": 3945,
+      "offset": 3792,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
-      "offset": 4219,
+      "offset": 4066,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4268,
+      "offset": 4115,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4515,
+      "offset": 4362,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4649,
+      "offset": 4496,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4671,
+      "offset": 4518,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4715,
+      "offset": 4562,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4839,
+      "offset": 4686,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5038,
+      "offset": 4885,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "StringLiteral",
-      "offset": 5279,
-      "length": 33,
-      "value": "\"map tiles level \""
+      "kind": "IntegerLiteral",
+      "offset": 5144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5180,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
-      "offset": 5311,
+      "offset": 5208,
+      "length": 34,
+      "value": "\"map max tile size \""
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "kind": "StringLiteral",
+      "offset": 5241,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5350,
+      "offset": 5286,
       "length": 1,
-      "value": "0"
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5303,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
+      "kind": "Array",
+      "offset": 5353,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
@@ -21229,120 +21243,64 @@
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "StringLiteral",
-      "offset": 5414,
-      "length": 34,
-      "value": "\"map max tile size \""
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "StringLiteral",
-      "offset": 5447,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5492,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5509,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "Array",
-      "offset": 5559,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5592,
+      "offset": 5413,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5619,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5671,
+      "offset": 5465,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "FloatLiteral",
-      "offset": 5922,
+      "offset": 5716,
       "length": 4,
       "value": "1.95"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "FloatLiteral",
-      "offset": 5966,
+      "offset": 5760,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6031,
+      "offset": 5825,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6072,
+      "offset": 5866,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "StringLiteral",
-      "offset": 6202,
-      "length": 19,
-      "value": "\"map debug: \""
-    },
-    {
-      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
-      "kind": "StringLiteral",
-      "offset": 6220,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6277,
+      "offset": 6028,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
-      "offset": 6352,
+      "offset": 6103,
       "length": 44,
       "value": "\"Error reading directory contents: \""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/Legacy\/SirlMapTileView.swift",
       "kind": "StringLiteral",
-      "offset": 6395,
+      "offset": 6146,
       "length": 2,
       "value": "\"\""
     },
