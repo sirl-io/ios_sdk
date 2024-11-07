@@ -37,13 +37,15 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
     core.vendored_frameworks = "Core/SIRLCore.xcframework"
     core.preserve_paths = "Core/libs/include/module.modulemap"
-    core.vendored_libraries = "Core/libs/*.a"
     core.source_files  = "Core/libs/include/*.{h}"
     core.libraries = "c++"
     core.requires_arc = true
     core.dependency 'SSZipArchive'
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
-                      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/Core/libs/include'}
+                      'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/Core/libs/include',
+                      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -L"$(PODS_ROOT)/SIRL/Core/libs" -lpips_ios',
+                      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited) -L"$(PODS_ROOT)/SIRL/Core/libs" -lpips_ios-sim'
+                      }
   end
 
   s.subspec 'Map' do |map|	
