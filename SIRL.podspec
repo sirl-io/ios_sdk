@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Map' do |map|	
-    map.vendored_frameworks = "Map/SIRLMap.framework"
+    map.vendored_frameworks = "Map/SIRLMap.xcframework"
     map.resource_bundles = {'SIRL_MapSDK' => ['Resource/*.xcassets']}	
     map.requires_arc = true
     map.dependency 'SIRL/Core'	
@@ -56,17 +56,17 @@ Pod::Spec.new do |s|
   end	
 
   s.subspec 'Retail' do |ret|	
-    ret.vendored_frameworks = "Retail/SIRLRetail.framework"
+    ret.vendored_frameworks = "Retail/SIRLRetail.xcframework"
     ret.dependency 'SIRL/Map'	
   end
 
   s.subspec 'User' do |usr|	
-    usr.vendored_frameworks = "User/SIRLUser.framework"
+    usr.vendored_frameworks = "User/SIRLUser.xcframework"
     usr.dependency 'SIRL/Core'	
   end
 
   s.subspec 'Asset' do |asset|	
-    asset.vendored_frameworks = "Asset/SIRLAsset.framework"
+    asset.vendored_frameworks = "Asset/SIRLAsset.xcframework"
     asset.dependency 'SIRL/Core'	
   end
 

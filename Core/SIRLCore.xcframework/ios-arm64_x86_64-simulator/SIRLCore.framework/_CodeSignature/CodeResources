@@ -8,6 +8,18 @@
 		<data>
 		0TmupyUa2C4z920ohwZr1+HqJqE=
 		</data>
+		<key>Frameworks/Pods_SharedDependencies_SIRLCore.framework/Info.plist</key>
+		<data>
+		qtetFU9IECE2qNp3zlNt6lmaQkc=
+		</data>
+		<key>Frameworks/Pods_SharedDependencies_SIRLCore.framework/Pods_SharedDependencies_SIRLCore</key>
+		<data>
+		Nx52PnRb0Ta8rv7s0CS8kj+o+iE=
+		</data>
+		<key>Frameworks/Pods_SharedDependencies_SIRLCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		9Wws0+LyxzoVdgRWu4QUfEXjFsU=
+		</data>
 		<key>Headers/SIRLCore-Swift.h</key>
 		<data>
 		3unMRr6koZQaVRXoPAxkCggGl2M=
@@ -76,6 +88,27 @@
 			<key>hash2</key>
 			<data>
 			I+z3T1JRRilPc2PW1+P53xLWZwXNXM3+Xdi2HmWvS8g=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_SharedDependencies_SIRLCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sWchYSsMlP+ULlUsjF/s3EYQEIvESK3iwppHmBgSwik=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_SharedDependencies_SIRLCore.framework/Pods_SharedDependencies_SIRLCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8lIjgnamijIxvz6EHVQ3K2geKKwxEykRkqvm82Bmnvc=
+			</data>
+		</dict>
+		<key>Frameworks/Pods_SharedDependencies_SIRLCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bRjps8gTiMP1X9b8VJPbAfliUAF003wrzQFKXda1k64=
 			</data>
 		</dict>
 		<key>Headers/SIRLCore-Swift.h</key>

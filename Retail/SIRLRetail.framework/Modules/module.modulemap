@@ -1,4 +1,0 @@
-framework module SIRLRetail {
-  header "SIRLRetail-Swift.h"
-  requires objc
-}
