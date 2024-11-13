@@ -40110,6 +40110,9 @@
             "mangledName": "$s8SIRLCore13SirlBLEPacketC11packetReadySbvp",
             "moduleName": "SIRLCore",
             "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -40729,6 +40732,9 @@
             "usr": "s:8SIRLCore13SirlBLEPacketC18advertismentPacket4RSSI8deviceIDACSDySSypG_So8NSNumberCs6UInt16VSgtcfc",
             "mangledName": "$s8SIRLCore13SirlBLEPacketC18advertismentPacket4RSSI8deviceIDACSDySSypG_So8NSNumberCs6UInt16VSgtcfc",
             "moduleName": "SIRLCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "init_kind": "Designated"
           },
           {
@@ -40770,7 +40776,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],

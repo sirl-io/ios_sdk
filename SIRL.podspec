@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.author             = { "Wei Cai" => "wei.cai@sirl.io" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "13.0"
-  s.swift_version = '5.1'
+  s.platform     = :ios, "15.0"
+  s.swift_version = '6.1'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/sirl-io/ios_sdk.git",
