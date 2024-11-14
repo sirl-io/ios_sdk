@@ -2798,6 +2798,64 @@
           },
           {
             "kind": "Var",
+            "name": "batteryLevel",
+            "printedName": "batteryLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SIRLAsset9SirlAssetC12batteryLevelSiSgvp",
+            "mangledName": "$s9SIRLAsset9SirlAssetC12batteryLevelSiSgvp",
+            "moduleName": "SIRLAsset",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SIRLAsset9SirlAssetC12batteryLevelSiSgvg",
+                "mangledName": "$s9SIRLAsset9SirlAssetC12batteryLevelSiSgvg",
+                "moduleName": "SIRLAsset",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "timestamp",
             "printedName": "timestamp",
             "children": [
@@ -2915,7 +2973,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:lgId:type:typeId:companyId:externalId:meta:sku:tagMappings:location:)",
+            "printedName": "init(id:lgId:type:typeId:companyId:externalId:meta:sku:tagMappings:location:batteryLevel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3056,11 +3114,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9SIRLAsset9SirlAssetC2id4lgId4type0gF007companyF008externalF04meta3sku11tagMappings8locationACs5Int32V_AoA0bC4TypeCSgAOSgAOSSSDyS2SGSgAA0bC3SkuCSgSayAA0bC10TagMappingCGSgAA0C8LocationVSgtcfc",
-            "mangledName": "$s9SIRLAsset9SirlAssetC2id4lgId4type0gF007companyF008externalF04meta3sku11tagMappings8locationACs5Int32V_AoA0bC4TypeCSgAOSgAOSSSDyS2SGSgAA0bC3SkuCSgSayAA0bC10TagMappingCGSgAA0C8LocationVSgtcfc",
+            "usr": "s:9SIRLAsset9SirlAssetC2id4lgId4type0gF007companyF008externalF04meta3sku11tagMappings8location12batteryLevelACs5Int32V_ApA0bC4TypeCSgAPSgAPSSSDyS2SGSgAA0bC3SkuCSgSayAA0bC10TagMappingCGSgAA0C8LocationVSgATtcfc",
+            "mangledName": "$s9SIRLAsset9SirlAssetC2id4lgId4type0gF007companyF008externalF04meta3sku11tagMappings8location12batteryLevelACs5Int32V_ApA0bC4TypeCSgAPSgAPSSSDyS2SGSgAA0bC3SkuCSgSayAA0bC10TagMappingCGSgAA0C8LocationVSgATtcfc",
             "moduleName": "SIRLAsset",
             "declAttributes": [
               "AccessControl"
