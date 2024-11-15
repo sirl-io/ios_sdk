@@ -14829,7 +14829,7 @@
           {
             "kind": "Function",
             "name": "associateAssetWithTag",
-            "printedName": "associateAssetWithTag(assetId:tagId:completion:)",
+            "printedName": "associateAssetWithTag(assetId:tagId:accessToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14847,6 +14847,21 @@
                 "name": "Int32",
                 "printedName": "Swift.Int32",
                 "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -14876,8 +14891,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC09associateC7WithTag7assetId03tagI010completionys5Int32V_AIyAA0bcG7MappingCSgctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC09associateC7WithTag7assetId03tagI010completionys5Int32V_AIyAA0bcG7MappingCSgctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC09associateC7WithTag7assetId03tagI011accessToken10completionys5Int32V_AJSSSgyAA0bcG7MappingCSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC09associateC7WithTag7assetId03tagI011accessToken10completionys5Int32V_AJSSSgyAA0bcG7MappingCSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -14888,7 +14903,7 @@
           {
             "kind": "Function",
             "name": "disassociateAssetWithTag",
-            "printedName": "disassociateAssetWithTag(assetId:tagId:completion:)",
+            "printedName": "disassociateAssetWithTag(assetId:tagId:accessToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14906,6 +14921,21 @@
                 "name": "Int32",
                 "printedName": "Swift.Int32",
                 "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -14935,8 +14965,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC012disassociateC7WithTag7assetId03tagI010completionys5Int32V_AIyAA0bcG7MappingCSgctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC012disassociateC7WithTag7assetId03tagI010completionys5Int32V_AIyAA0bcG7MappingCSgctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC012disassociateC7WithTag7assetId03tagI011accessToken10completionys5Int32V_AJSSSgyAA0bcG7MappingCSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC012disassociateC7WithTag7assetId03tagI011accessToken10completionys5Int32V_AJSSSgyAA0bcG7MappingCSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -14947,7 +14977,7 @@
           {
             "kind": "Function",
             "name": "associateAssetWithArea",
-            "printedName": "associateAssetWithArea(assetId:areaName:completion:)",
+            "printedName": "associateAssetWithArea(assetId:areaName:accessToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14965,6 +14995,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -14994,8 +15039,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC09associateC8WithArea7assetId8areaName10completionys5Int32V_SSyAA0bC0CSgctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC09associateC8WithArea7assetId8areaName10completionys5Int32V_SSyAA0bC0CSgctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC09associateC8WithArea7assetId8areaName11accessToken10completionys5Int32V_S2SSgyAA0bC0CSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC09associateC8WithArea7assetId8areaName11accessToken10completionys5Int32V_S2SSgyAA0bC0CSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -15006,7 +15051,7 @@
           {
             "kind": "Function",
             "name": "disassociateAssetWithArea",
-            "printedName": "disassociateAssetWithArea(assetId:completion:)",
+            "printedName": "disassociateAssetWithArea(assetId:accessToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -15018,6 +15063,21 @@
                 "name": "Int32",
                 "printedName": "Swift.Int32",
                 "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -15047,8 +15107,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC012disassociateC8WithArea7assetId10completionys5Int32V_yAA0bC0CSgctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC012disassociateC8WithArea7assetId10completionys5Int32V_yAA0bC0CSgctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC012disassociateC8WithArea7assetId11accessToken10completionys5Int32V_SSSgyAA0bC0CSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC012disassociateC8WithArea7assetId11accessToken10completionys5Int32V_SSSgyAA0bC0CSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -15059,7 +15119,7 @@
           {
             "kind": "Function",
             "name": "programAssetTag",
-            "printedName": "programAssetTag(mlId:macAddress:completion:)",
+            "printedName": "programAssetTag(mlId:macAddress:accessToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -15077,6 +15137,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -15106,8 +15181,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC07programC3Tag4mlId10macAddress10completionys5Int32V_SSyAA0bcF0CSgctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC07programC3Tag4mlId10macAddress10completionys5Int32V_SSyAA0bcF0CSgctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC07programC3Tag4mlId10macAddress11accessToken10completionys5Int32V_S2SSgyAA0bcF0CSgctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC07programC3Tag4mlId10macAddress11accessToken10completionys5Int32V_S2SSgyAA0bcF0CSgctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [

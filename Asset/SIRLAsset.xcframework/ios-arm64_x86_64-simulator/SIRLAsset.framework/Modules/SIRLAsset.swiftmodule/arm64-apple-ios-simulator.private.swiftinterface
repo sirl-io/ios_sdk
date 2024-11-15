@@ -455,11 +455,11 @@ public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
   public func getCompanySKUs(companyId: Swift.Int32, filter: [Swift.String : Swift.String]? = nil, completion: @escaping (_ skus: [SIRLAsset.SirlAssetSku]) -> Swift.Void)
   public func getActiveAssetMapping(id: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
   public func associateNewAssetAndTagWithSKU(skuId: Swift.Int32, tagIdentifier: Swift.String, accessToken: Swift.String? = nil, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func associateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func disassociateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
-  public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
-  public func disassociateAssetWithArea(assetId: Swift.Int32, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
-  public func programAssetTag(mlId: Swift.Int32, macAddress: Swift.String, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
+  public func associateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, accessToken: Swift.String? = nil, completion: @escaping (_ mapping: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
+  public func disassociateAssetWithTag(assetId: Swift.Int32, tagId: Swift.Int32, accessToken: Swift.String? = nil, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTagMapping?) -> Swift.Void)
+  public func associateAssetWithArea(assetId: Swift.Int32, areaName: Swift.String, accessToken: Swift.String? = nil, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
+  public func disassociateAssetWithArea(assetId: Swift.Int32, accessToken: Swift.String? = nil, completion: @escaping (_ asset: SIRLAsset.SirlAsset?) -> Swift.Void)
+  public func programAssetTag(mlId: Swift.Int32, macAddress: Swift.String, accessToken: Swift.String? = nil, completion: @escaping (_ assettag: SIRLAsset.SirlAssetTag?) -> Swift.Void)
   public func getAssetTagMappingHistory(tagId: Swift.Int32, completion: @escaping (_ history: [SIRLAsset.SirlAssetTagMapping]?) -> Swift.Void)
   @objc deinit
 }
