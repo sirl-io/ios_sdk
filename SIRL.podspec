@@ -44,8 +44,8 @@ Pod::Spec.new do |s|
     core.dependency 'SSZipArchive'
     core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
                       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/SIRL/Core/libs/include',
-                      'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -L"$(PODS_ROOT)/SIRL/Core/libs" -lpips_device',
-                      'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited) -L"$(PODS_ROOT)/SIRL/Core/libs" -lpips_simulator'
+                      # 'OTHER_LDFLAGS[sdk=iphoneos*]' => '$(inherited) -L"$(PODS_ROOT)/SIRL/Core/libs" -lpips_device',
+                      # 'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '$(inherited) -L"$(PODS_ROOT)/SIRL/Core/libs" -lpips_simulator'
                       }
   end
 
