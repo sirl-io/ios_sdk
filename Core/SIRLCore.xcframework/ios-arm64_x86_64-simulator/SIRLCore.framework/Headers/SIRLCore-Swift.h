@@ -483,7 +483,7 @@ SWIFT_CLASS("_TtC8SIRLCore8SirlCore")
 @interface SirlCore : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _Nonnull shared;)
 + (SirlCore * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (void)setSingleLocationWithMlID:(uint32_t)mlID;
+- (void)setSingleLocationWithMlID:(int32_t)mlID;
 - (void)setAutoDetectLocation;
 - (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode apiKey:(NSString * _Nonnull)apiKey;
 - (void)updateSettingWithAutoWakeup:(BOOL)autoWakeup;
@@ -509,7 +509,7 @@ SWIFT_PROTOCOL("_TtP8SIRLCore16SirlCoreDelegate_")
 - (void)didGetNewPosition:(SirlLocation * _Nonnull)position;
 - (void)didChangeBLEAvalibility:(BOOL)blePowerOn;
 - (void)didReceiveDebugMessage:(NSString * _Nonnull)msg;
-- (void)didDetectMapLocationWithMlId:(uint32_t)mlId;
+- (void)didDetectMapLocationWithMlId:(int32_t)mlId;
 - (void)didChangeLocationServiceAuthorization:(NSString * _Nonnull)status;
 - (void)didEnteredSirlRegion;
 - (void)didExitedSirlRegion;
@@ -528,7 +528,7 @@ SWIFT_CLASS("_TtC8SIRLCore12SirlCoreImpl") SWIFT_AVAILABILITY(ios,introduced=10.
 
 SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface SirlCoreImpl (SWIFT_EXTENSION(SIRLCore))
-- (void)setTestLocation:(uint32_t)mlid;
+- (void)setTestLocation:(int32_t)mlid;
 @end
 
 
@@ -1088,7 +1088,7 @@ SWIFT_CLASS("_TtC8SIRLCore8SirlCore")
 @interface SirlCore : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SirlCore * _Nonnull shared;)
 + (SirlCore * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (void)setSingleLocationWithMlID:(uint32_t)mlID;
+- (void)setSingleLocationWithMlID:(int32_t)mlID;
 - (void)setAutoDetectLocation;
 - (void)updateSettingWithBackgroundMode:(BOOL)backgroundMode apiKey:(NSString * _Nonnull)apiKey;
 - (void)updateSettingWithAutoWakeup:(BOOL)autoWakeup;
@@ -1114,7 +1114,7 @@ SWIFT_PROTOCOL("_TtP8SIRLCore16SirlCoreDelegate_")
 - (void)didGetNewPosition:(SirlLocation * _Nonnull)position;
 - (void)didChangeBLEAvalibility:(BOOL)blePowerOn;
 - (void)didReceiveDebugMessage:(NSString * _Nonnull)msg;
-- (void)didDetectMapLocationWithMlId:(uint32_t)mlId;
+- (void)didDetectMapLocationWithMlId:(int32_t)mlId;
 - (void)didChangeLocationServiceAuthorization:(NSString * _Nonnull)status;
 - (void)didEnteredSirlRegion;
 - (void)didExitedSirlRegion;
@@ -1133,7 +1133,7 @@ SWIFT_CLASS("_TtC8SIRLCore12SirlCoreImpl") SWIFT_AVAILABILITY(ios,introduced=10.
 
 SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface SirlCoreImpl (SWIFT_EXTENSION(SIRLCore))
-- (void)setTestLocation:(uint32_t)mlid;
+- (void)setTestLocation:(int32_t)mlid;
 @end
 
 

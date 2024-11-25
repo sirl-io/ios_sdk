@@ -2791,21 +2791,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8LocationV7storeIds6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8LocationV7storeIds6UInt32VSgvp",
+            "usr": "s:8SIRLCore8LocationV7storeIds5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8LocationV7storeIds5Int32VSgvp",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "HasInitialValue",
@@ -2822,21 +2822,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV7storeIds6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8LocationV7storeIds6UInt32VSgvg",
+                "usr": "s:8SIRLCore8LocationV7storeIds5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8LocationV7storeIds5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2854,21 +2854,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV7storeIds6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore8LocationV7storeIds6UInt32VSgvs",
+                "usr": "s:8SIRLCore8LocationV7storeIds5Int32VSgvs",
+                "mangledName": "$s8SIRLCore8LocationV7storeIds5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2885,8 +2885,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV7storeIds6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore8LocationV7storeIds6UInt32VSgvM",
+                "usr": "s:8SIRLCore8LocationV7storeIds5Int32VSgvM",
+                "mangledName": "$s8SIRLCore8LocationV7storeIds5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2901,21 +2901,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8LocationV9companyIds6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8LocationV9companyIds6UInt32VSgvp",
+            "usr": "s:8SIRLCore8LocationV9companyIds5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8LocationV9companyIds5Int32VSgvp",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "HasInitialValue",
@@ -2932,21 +2932,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV9companyIds6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8LocationV9companyIds6UInt32VSgvg",
+                "usr": "s:8SIRLCore8LocationV9companyIds5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8LocationV9companyIds5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2964,21 +2964,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV9companyIds6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore8LocationV9companyIds6UInt32VSgvs",
+                "usr": "s:8SIRLCore8LocationV9companyIds5Int32VSgvs",
+                "mangledName": "$s8SIRLCore8LocationV9companyIds5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2995,8 +2995,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV9companyIds6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore8LocationV9companyIds6UInt32VSgvM",
+                "usr": "s:8SIRLCore8LocationV9companyIds5Int32VSgvM",
+                "mangledName": "$s8SIRLCore8LocationV9companyIds5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3231,21 +3231,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8LocationV2ids6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8LocationV2ids6UInt32VSgvp",
+            "usr": "s:8SIRLCore8LocationV2ids5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8LocationV2ids5Int32VSgvp",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "HasInitialValue",
@@ -3262,21 +3262,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV2ids6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8LocationV2ids6UInt32VSgvg",
+                "usr": "s:8SIRLCore8LocationV2ids5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8LocationV2ids5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3294,21 +3294,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV2ids6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore8LocationV2ids6UInt32VSgvs",
+                "usr": "s:8SIRLCore8LocationV2ids5Int32VSgvs",
+                "mangledName": "$s8SIRLCore8LocationV2ids5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3325,8 +3325,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8LocationV2ids6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore8LocationV2ids6UInt32VSgvM",
+                "usr": "s:8SIRLCore8LocationV2ids5Int32VSgvM",
+                "mangledName": "$s8SIRLCore8LocationV2ids5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3517,13 +3517,28 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -3562,28 +3577,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.UInt32?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -3606,8 +3606,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SIRLCore8LocationV6custId03appD003locD003bldD005storeD007companyD006casingD006configD02id11descriptionACs6UInt32VSg_A8PSSSgtcfc",
-            "mangledName": "$s8SIRLCore8LocationV6custId03appD003locD003bldD005storeD007companyD006casingD006configD02id11descriptionACs6UInt32VSg_A8PSSSgtcfc",
+            "usr": "s:8SIRLCore8LocationV6custId03appD003locD003bldD005storeD007companyD006casingD006configD02id11descriptionACs6UInt32VSg_A3Ps5Int32VSgAs2pSSSSgtcfc",
+            "mangledName": "$s8SIRLCore8LocationV6custId03appD003locD003bldD005storeD007companyD006casingD006configD02id11descriptionACs6UInt32VSg_A3Ps5Int32VSgAs2pSSSSgtcfc",
             "moduleName": "SIRLCore",
             "implicit": true,
             "init_kind": "Designated"
@@ -13542,21 +13542,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvp",
+            "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvp",
+            "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvp",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -13573,21 +13573,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvg",
+                "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvg",
+                "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "isOpen": true,
@@ -13606,21 +13606,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvs",
+                "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvs",
+                "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "isOpen": true,
@@ -13638,8 +13638,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds6UInt32VSgvM",
+                "usr": "s:8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvM",
+                "mangledName": "$s8SIRLCore15SirlNodeConfigsC4mlIds5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "isOpen": true,
@@ -14500,13 +14500,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -14515,13 +14515,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -14575,8 +14575,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SIRLCore15SirlNodeConfigsC6custID03appF003locF003bldF04mlId05storeK010nodeConfig9blackListACs6UInt32V_A4MSgANSayAA0cD0CGSgSaySSGSgtcfc",
-            "mangledName": "$s8SIRLCore15SirlNodeConfigsC6custID03appF003locF003bldF04mlId05storeK010nodeConfig9blackListACs6UInt32V_A4MSgANSayAA0cD0CGSgSaySSGSgtcfc",
+            "usr": "s:8SIRLCore15SirlNodeConfigsC6custID03appF003locF003bldF04mlId05storeK010nodeConfig9blackListACs6UInt32V_A3Ms5Int32VSgAPSayAA0cD0CGSgSaySSGSgtcfc",
+            "mangledName": "$s8SIRLCore15SirlNodeConfigsC6custID03appF003locF003bldF04mlId05storeK010nodeConfig9blackListACs6UInt32V_A3Ms5Int32VSgAPSayAA0cD0CGSgSaySSGSgtcfc",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "AccessControl"
@@ -23471,21 +23471,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8SirlSiteV4mlIds6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8SirlSiteV4mlIds6UInt32VSgvp",
+            "usr": "s:8SIRLCore8SirlSiteV4mlIds5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8SirlSiteV4mlIds5Int32VSgvp",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "HasInitialValue",
@@ -23502,21 +23502,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV4mlIds6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8SirlSiteV4mlIds6UInt32VSgvg",
+                "usr": "s:8SIRLCore8SirlSiteV4mlIds5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8SirlSiteV4mlIds5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -23534,21 +23534,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV4mlIds6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore8SirlSiteV4mlIds6UInt32VSgvs",
+                "usr": "s:8SIRLCore8SirlSiteV4mlIds5Int32VSgvs",
+                "mangledName": "$s8SIRLCore8SirlSiteV4mlIds5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -23565,8 +23565,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV4mlIds6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore8SirlSiteV4mlIds6UInt32VSgvM",
+                "usr": "s:8SIRLCore8SirlSiteV4mlIds5Int32VSgvM",
+                "mangledName": "$s8SIRLCore8SirlSiteV4mlIds5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -23581,21 +23581,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8SirlSiteV7storeIds6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8SirlSiteV7storeIds6UInt32VSgvp",
+            "usr": "s:8SIRLCore8SirlSiteV7storeIds5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8SirlSiteV7storeIds5Int32VSgvp",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "HasInitialValue",
@@ -23612,21 +23612,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV7storeIds6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8SirlSiteV7storeIds6UInt32VSgvg",
+                "usr": "s:8SIRLCore8SirlSiteV7storeIds5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8SirlSiteV7storeIds5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -23644,21 +23644,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV7storeIds6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore8SirlSiteV7storeIds6UInt32VSgvs",
+                "usr": "s:8SIRLCore8SirlSiteV7storeIds5Int32VSgvs",
+                "mangledName": "$s8SIRLCore8SirlSiteV7storeIds5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -23675,8 +23675,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV7storeIds6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore8SirlSiteV7storeIds6UInt32VSgvM",
+                "usr": "s:8SIRLCore8SirlSiteV7storeIds5Int32VSgvM",
+                "mangledName": "$s8SIRLCore8SirlSiteV7storeIds5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -23691,21 +23691,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8SirlSiteV9companyIds6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8SirlSiteV9companyIds6UInt32VSgvp",
+            "usr": "s:8SIRLCore8SirlSiteV9companyIds5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8SirlSiteV9companyIds5Int32VSgvp",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "HasInitialValue",
@@ -23722,21 +23722,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV9companyIds6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8SirlSiteV9companyIds6UInt32VSgvg",
+                "usr": "s:8SIRLCore8SirlSiteV9companyIds5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8SirlSiteV9companyIds5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -23754,21 +23754,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV9companyIds6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore8SirlSiteV9companyIds6UInt32VSgvs",
+                "usr": "s:8SIRLCore8SirlSiteV9companyIds5Int32VSgvs",
+                "mangledName": "$s8SIRLCore8SirlSiteV9companyIds5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "set"
@@ -23785,8 +23785,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlSiteV9companyIds6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore8SirlSiteV9companyIds6UInt32VSgvM",
+                "usr": "s:8SIRLCore8SirlSiteV9companyIds5Int32VSgvM",
+                "mangledName": "$s8SIRLCore8SirlSiteV9companyIds5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -24357,13 +24357,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -24372,13 +24372,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -24387,13 +24387,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -24476,8 +24476,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SIRLCore8SirlSiteV4mlId05storeE007companyE04name7address8timezone7channel8locationACs6UInt32VSg_A2NSSSgA2Os5UInt8VSgAA0bC9CordinateVSgtcfc",
-            "mangledName": "$s8SIRLCore8SirlSiteV4mlId05storeE007companyE04name7address8timezone7channel8locationACs6UInt32VSg_A2NSSSgA2Os5UInt8VSgAA0bC9CordinateVSgtcfc",
+            "usr": "s:8SIRLCore8SirlSiteV4mlId05storeE007companyE04name7address8timezone7channel8locationACs5Int32VSg_A2NSSSgA2Os5UInt8VSgAA0bC9CordinateVSgtcfc",
+            "mangledName": "$s8SIRLCore8SirlSiteV4mlId05storeE007companyE04name7address8timezone7channel8locationACs5Int32VSg_A2NSSSgA2Os5UInt8VSgAA0bC9CordinateVSgtcfc",
             "moduleName": "SIRLCore",
             "implicit": true,
             "init_kind": "Designated"
@@ -26560,21 +26560,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvp",
+            "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvp",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvp",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -26592,21 +26592,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvg",
+                "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvg",
+                "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "isOpen": true,
@@ -26625,21 +26625,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvs",
-                "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvs",
+                "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvs",
+                "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "isOpen": true,
@@ -26657,8 +26657,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvM",
-                "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs6UInt32VSgvM",
+                "usr": "s:8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvM",
+                "mangledName": "$s8SIRLCore12SirlCoreImplC13singleStoreIDs5Int32VSgvM",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "isOpen": true,
@@ -26678,21 +26678,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore12SirlCoreImplC5ML_IDs6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore12SirlCoreImplC5ML_IDs6UInt32VSgvp",
+            "usr": "s:8SIRLCore12SirlCoreImplC5ML_IDs5Int32VSgvp",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC5ML_IDs5Int32VSgvp",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -26707,21 +26707,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore12SirlCoreImplC5ML_IDs6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore12SirlCoreImplC5ML_IDs6UInt32VSgvg",
+                "usr": "s:8SIRLCore12SirlCoreImplC5ML_IDs5Int32VSgvg",
+                "mangledName": "$s8SIRLCore12SirlCoreImplC5ML_IDs5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -26794,21 +26794,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore12SirlCoreImplC9companyIds6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore12SirlCoreImplC9companyIds6UInt32VSgvp",
+            "usr": "s:8SIRLCore12SirlCoreImplC9companyIds5Int32VSgvp",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC9companyIds5Int32VSgvp",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -26823,21 +26823,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore12SirlCoreImplC9companyIds6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore12SirlCoreImplC9companyIds6UInt32VSgvg",
+                "usr": "s:8SIRLCore12SirlCoreImplC9companyIds5Int32VSgvg",
+                "mangledName": "$s8SIRLCore12SirlCoreImplC9companyIds5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -27696,14 +27696,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLCore12SirlCoreImplC23didDetectLocationChange4mlIdys6UInt32V_tF",
-            "mangledName": "$s8SIRLCore12SirlCoreImplC23didDetectLocationChange4mlIdys6UInt32V_tF",
+            "usr": "s:8SIRLCore12SirlCoreImplC23didDetectLocationChange4mlIdys5Int32V_tF",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC23didDetectLocationChange4mlIdys5Int32V_tF",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -27724,9 +27724,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               },
               {
                 "kind": "TypeNominal",
@@ -27744,8 +27744,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLCore12SirlCoreImplC21didDetectReplayConfig4mlid6configys6UInt32V_SaySo17pips_node_settingaGtF",
-            "mangledName": "$s8SIRLCore12SirlCoreImplC21didDetectReplayConfig4mlid6configys6UInt32V_SaySo17pips_node_settingaGtF",
+            "usr": "s:8SIRLCore12SirlCoreImplC21didDetectReplayConfig4mlid6configys5Int32V_SaySo17pips_node_settingaGtF",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC21didDetectReplayConfig4mlid6configys5Int32V_SaySo17pips_node_settingaGtF",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -28050,14 +28050,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
             "usr": "c:@CM@SIRLCore@objc(cs)SirlCoreImpl(im)setTestLocation:",
-            "mangledName": "$s8SIRLCore12SirlCoreImplC15setTestLocationyys6UInt32VF",
+            "mangledName": "$s8SIRLCore12SirlCoreImplC15setTestLocationyys5Int32VF",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -39250,14 +39250,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLCore31SirlMapLocationListenerDelegateP09didDetectD6Change4mlIdys6UInt32V_tF",
-            "mangledName": "$s8SIRLCore31SirlMapLocationListenerDelegateP09didDetectD6Change4mlIdys6UInt32V_tF",
+            "usr": "s:8SIRLCore31SirlMapLocationListenerDelegateP09didDetectD6Change4mlIdys5Int32V_tF",
+            "mangledName": "$s8SIRLCore31SirlMapLocationListenerDelegateP09didDetectD6Change4mlIdys5Int32V_tF",
             "moduleName": "SIRLCore",
             "genericSig": "<τ_0_0 where τ_0_0 : SIRLCore.SirlMapLocationListenerDelegate>",
             "sugared_genericSig": "<Self where Self : SIRLCore.SirlMapLocationListenerDelegate>",
@@ -39277,14 +39277,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLCore31SirlMapLocationListenerDelegatePAAE09didDetectD6Change4mlIdys6UInt32V_tF",
-            "mangledName": "$s8SIRLCore31SirlMapLocationListenerDelegatePAAE09didDetectD6Change4mlIdys6UInt32V_tF",
+            "usr": "s:8SIRLCore31SirlMapLocationListenerDelegatePAAE09didDetectD6Change4mlIdys5Int32V_tF",
+            "mangledName": "$s8SIRLCore31SirlMapLocationListenerDelegatePAAE09didDetectD6Change4mlIdys5Int32V_tF",
             "moduleName": "SIRLCore",
             "genericSig": "<τ_0_0 where τ_0_0 : SIRLCore.SirlMapLocationListenerDelegate>",
             "sugared_genericSig": "<Self where Self : SIRLCore.SirlMapLocationListenerDelegate>",
@@ -39391,7 +39391,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.UInt32]",
+                "printedName": "[Swift.String : Swift.Int32]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -39401,17 +39401,17 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:SD"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore19MapLocationListenerC10mNodeMLMap33_514AD9CBBAB77EC430091AD27784CFFDLLSDySSs6UInt32VGvp",
-            "mangledName": "$s8SIRLCore19MapLocationListenerC10mNodeMLMap33_514AD9CBBAB77EC430091AD27784CFFDLLSDySSs6UInt32VGvp",
+            "usr": "s:8SIRLCore19MapLocationListenerC10mNodeMLMap33_514AD9CBBAB77EC430091AD27784CFFDLLSDySSs5Int32VGvp",
+            "mangledName": "$s8SIRLCore19MapLocationListenerC10mNodeMLMap33_514AD9CBBAB77EC430091AD27784CFFDLLSDySSs5Int32VGvp",
             "moduleName": "SIRLCore",
             "isInternal": true,
             "declAttributes": [
@@ -39716,13 +39716,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.UInt32 : Swift.UInt]",
+                "printedName": "[Swift.Int32 : Swift.UInt]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   },
                   {
                     "kind": "TypeNominal",
@@ -39735,8 +39735,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore19MapLocationListenerC15locationCounter33_514AD9CBBAB77EC430091AD27784CFFDLLSDys6UInt32VSuGvp",
-            "mangledName": "$s8SIRLCore19MapLocationListenerC15locationCounter33_514AD9CBBAB77EC430091AD27784CFFDLLSDys6UInt32VSuGvp",
+            "usr": "s:8SIRLCore19MapLocationListenerC15locationCounter33_514AD9CBBAB77EC430091AD27784CFFDLLSDys5Int32VSuGvp",
+            "mangledName": "$s8SIRLCore19MapLocationListenerC15locationCounter33_514AD9CBBAB77EC430091AD27784CFFDLLSDys5Int32VSuGvp",
             "moduleName": "SIRLCore",
             "isInternal": true,
             "declAttributes": [
@@ -46670,14 +46670,14 @@
         "children": [
           {
             "kind": "TypeNominal",
-            "name": "UInt32",
-            "printedName": "Swift.UInt32",
-            "usr": "s:s6UInt32V"
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
           }
         ],
         "declKind": "Var",
-        "usr": "s:8SIRLCore20WESTSIDE_98th_MAP_IDs6UInt32Vvp",
-        "mangledName": "$s8SIRLCore20WESTSIDE_98th_MAP_IDs6UInt32Vvp",
+        "usr": "s:8SIRLCore20WESTSIDE_98th_MAP_IDs5Int32Vvp",
+        "mangledName": "$s8SIRLCore20WESTSIDE_98th_MAP_IDs5Int32Vvp",
         "moduleName": "SIRLCore",
         "declAttributes": [
           "HasInitialValue",
@@ -46694,14 +46694,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Accessor",
-            "usr": "s:8SIRLCore20WESTSIDE_98th_MAP_IDs6UInt32Vvg",
-            "mangledName": "$s8SIRLCore20WESTSIDE_98th_MAP_IDs6UInt32Vvg",
+            "usr": "s:8SIRLCore20WESTSIDE_98th_MAP_IDs5Int32Vvg",
+            "mangledName": "$s8SIRLCore20WESTSIDE_98th_MAP_IDs5Int32Vvg",
             "moduleName": "SIRLCore",
             "implicit": true,
             "accessorKind": "get"
@@ -50414,14 +50414,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@SIRLCore@objc(pl)SirlCoreDelegate(im)didDetectMapLocationWithMlId:",
-            "mangledName": "$s8SIRLCore16SirlCoreDelegateP20didDetectMapLocation4mlIdys6UInt32V_tF",
+            "mangledName": "$s8SIRLCore16SirlCoreDelegateP20didDetectMapLocation4mlIdys5Int32V_tF",
             "moduleName": "SIRLCore",
             "genericSig": "<τ_0_0 where τ_0_0 : SIRLCore.SirlCoreDelegate>",
             "sugared_genericSig": "<Self where Self : SIRLCore.SirlCoreDelegate>",
@@ -50676,14 +50676,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLCore19SirlCoreMapDelegateP09didDetectD8Location4mlIdys6UInt32V_tF",
-            "mangledName": "$s8SIRLCore19SirlCoreMapDelegateP09didDetectD8Location4mlIdys6UInt32V_tF",
+            "usr": "s:8SIRLCore19SirlCoreMapDelegateP09didDetectD8Location4mlIdys5Int32V_tF",
+            "mangledName": "$s8SIRLCore19SirlCoreMapDelegateP09didDetectD8Location4mlIdys5Int32V_tF",
             "moduleName": "SIRLCore",
             "genericSig": "<τ_0_0 where τ_0_0 : SIRLCore.SirlCoreMapDelegate>",
             "sugared_genericSig": "<Self where Self : SIRLCore.SirlCoreMapDelegate>",
@@ -50733,14 +50733,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLCore19SirlCoreMapDelegatePAAE09didDetectD8Location4mlIdys6UInt32V_tF",
-            "mangledName": "$s8SIRLCore19SirlCoreMapDelegatePAAE09didDetectD8Location4mlIdys6UInt32V_tF",
+            "usr": "s:8SIRLCore19SirlCoreMapDelegatePAAE09didDetectD8Location4mlIdys5Int32V_tF",
+            "mangledName": "$s8SIRLCore19SirlCoreMapDelegatePAAE09didDetectD8Location4mlIdys5Int32V_tF",
             "moduleName": "SIRLCore",
             "genericSig": "<τ_0_0 where τ_0_0 : SIRLCore.SirlCoreMapDelegate>",
             "sugared_genericSig": "<Self where Self : SIRLCore.SirlCoreMapDelegate>",
@@ -51323,21 +51323,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8SirlCoreC5ML_IDs6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8SirlCoreC5ML_IDs6UInt32VSgvp",
+            "usr": "s:8SIRLCore8SirlCoreC5ML_IDs5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8SirlCoreC5ML_IDs5Int32VSgvp",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -51352,21 +51352,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlCoreC5ML_IDs6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8SirlCoreC5ML_IDs6UInt32VSgvg",
+                "usr": "s:8SIRLCore8SirlCoreC5ML_IDs5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8SirlCoreC5ML_IDs5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -51381,21 +51381,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SIRLCore8SirlCoreC9companyIDs6UInt32VSgvp",
-            "mangledName": "$s8SIRLCore8SirlCoreC9companyIDs6UInt32VSgvp",
+            "usr": "s:8SIRLCore8SirlCoreC9companyIDs5Int32VSgvp",
+            "mangledName": "$s8SIRLCore8SirlCoreC9companyIDs5Int32VSgvp",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -51410,21 +51410,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SIRLCore8SirlCoreC9companyIDs6UInt32VSgvg",
-                "mangledName": "$s8SIRLCore8SirlCoreC9companyIDs6UInt32VSgvg",
+                "usr": "s:8SIRLCore8SirlCoreC9companyIDs5Int32VSgvg",
+                "mangledName": "$s8SIRLCore8SirlCoreC9companyIDs5Int32VSgvg",
                 "moduleName": "SIRLCore",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -51501,14 +51501,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@SIRLCore@objc(cs)SirlCore(im)setSingleLocationWithMlID:",
-            "mangledName": "$s8SIRLCore8SirlCoreC17setSingleLocation4mlIDys6UInt32V_tF",
+            "mangledName": "$s8SIRLCore8SirlCoreC17setSingleLocation4mlIDys5Int32V_tF",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "objc_name": "setSingleLocationWithMlID:",
@@ -52297,21 +52297,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SIRLCore18SirlPacketRecorderC5start8filePath8deviceId02mlI0y10Foundation3URLV_s6UInt16VSgs6UInt32VSgtF",
-            "mangledName": "$s8SIRLCore18SirlPacketRecorderC5start8filePath8deviceId02mlI0y10Foundation3URLV_s6UInt16VSgs6UInt32VSgtF",
+            "usr": "s:8SIRLCore18SirlPacketRecorderC5start8filePath8deviceId02mlI0y10Foundation3URLV_s6UInt16VSgs5Int32VSgtF",
+            "mangledName": "$s8SIRLCore18SirlPacketRecorderC5start8filePath8deviceId02mlI0y10Foundation3URLV_s6UInt16VSgs5Int32VSgtF",
             "moduleName": "SIRLCore",
             "isOpen": true,
             "declAttributes": [
@@ -57442,14 +57442,14 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/Models\/SirlNodeConfigs.swift",
       "kind": "BooleanLiteral",
-      "offset": 377,
+      "offset": 376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/Models\/SirlNodeConfigs.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 941,
       "length": 16,
       "value": "\"sirlNodeConfig\""
     },
@@ -57645,91 +57645,91 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 504,
+      "offset": 503,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 560,
+      "offset": 558,
       "length": 2,
       "value": "33"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 968,
+      "offset": 966,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1155,
+      "offset": 1153,
       "length": 4,
       "value": "1200"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1288,
+      "offset": 1286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1332,
+      "offset": 1330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1421,
       "length": 16,
       "value": "\"com.sirl.queue\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 2744,
+      "offset": 2740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 3016,
+      "offset": 3012,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 3215,
+      "offset": 3211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3795,
+      "offset": 3789,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3841,
+      "offset": 3835,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 7787,
+      "offset": 7781,
       "length": 5,
       "value": "false"
     },
@@ -58338,70 +58338,70 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 561,
       "length": 15,
       "value": "\"com.sirl.core\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 588,
       "length": 23,
       "value": "\"Map Location Listener\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "BooleanLiteral",
-      "offset": 795,
+      "offset": 792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "BooleanLiteral",
-      "offset": 844,
+      "offset": 841,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "BooleanLiteral",
-      "offset": 890,
+      "offset": 887,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "Array",
-      "offset": 938,
+      "offset": 935,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "IntegerLiteral",
-      "offset": 1257,
+      "offset": 1252,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "IntegerLiteral",
-      "offset": 1336,
+      "offset": 1331,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "BooleanLiteral",
-      "offset": 1534,
+      "offset": 1529,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/PIPS\/MapLocationListener.swift",
       "kind": "BooleanLiteral",
-      "offset": 2978,
+      "offset": 2972,
       "length": 5,
       "value": "false"
     },
@@ -58779,91 +58779,91 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 671,
+      "offset": 670,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 1218,
+      "offset": 1217,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1262,
       "length": 22,
       "value": "\"com.wlabs.sirlinddor\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1322,
+      "offset": 1321,
       "length": 7,
       "value": "\"debug\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1361,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1394,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1427,
+      "offset": 1426,
       "length": 70,
       "value": "\"http:\/\/aws-docker-cluster-alb-1286189348.us-east-1.elb.amazonaws.com\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1690,
+      "offset": 1689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1696,
+      "offset": 1695,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1702,
+      "offset": 1701,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 1957,
       "length": 23,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1969,
+      "offset": 1968,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1979,
+      "offset": 1978,
       "length": 1,
       "value": "\"]\""
     },
@@ -58954,49 +58954,49 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 256,
+      "offset": 255,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 314,
+      "offset": 312,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 377,
+      "offset": 374,
       "length": 2,
       "value": "41"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "StringLiteral",
-      "offset": 3668,
+      "offset": 3662,
       "length": 10,
       "value": "\"Tutorial\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 4007,
+      "offset": 4001,
       "length": 4,
       "value": "11.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "FloatLiteral",
-      "offset": 4027,
+      "offset": 4021,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 4046,
+      "offset": 4040,
       "length": 1,
       "value": "1"
     },

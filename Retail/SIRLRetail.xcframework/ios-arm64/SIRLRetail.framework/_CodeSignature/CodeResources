@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/SIRLRetail.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0PZKR8bs5Xqee4X7Mk0OFxhj4w0=
+		/TVUS5qqVPaLqq3Qm3GCr0+6ppQ=
 		</data>
 		<key>Modules/SIRLRetail.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/SIRLRetail.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PGGRaSfO7I3ezNFRYHGPHkJIlrs=
+		4J4xYkw3e/GKamwAwSIgUc0EDXg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UG0+0YgTAjroeIPexWxlazMZm+EvhpNI6qRDjJQ+BJ8=
+			2XsXwL9LFehjHrpbTzLJ0Ign7reptMASqjOdWGMpZSE=
 			</data>
 		</dict>
 		<key>Modules/SIRLRetail.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pYH/amsm60Q7aL1ippEerDiXabKPh5z65x6294QJhUY=
+			0Q1NUXHAMA/9ih+RqZe72W6+zwg1Ns0VOQFN3A3/xTY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

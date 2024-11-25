@@ -16071,21 +16071,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10SIRLRetail19GetAvailableCouponsV8locations6UInt32VSgvp",
-            "mangledName": "$s10SIRLRetail19GetAvailableCouponsV8locations6UInt32VSgvp",
+            "usr": "s:10SIRLRetail19GetAvailableCouponsV8locations5Int32VSgvp",
+            "mangledName": "$s10SIRLRetail19GetAvailableCouponsV8locations5Int32VSgvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
               "HasStorage"
@@ -16102,21 +16102,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10SIRLRetail19GetAvailableCouponsV8locations6UInt32VSgvg",
-                "mangledName": "$s10SIRLRetail19GetAvailableCouponsV8locations6UInt32VSgvg",
+                "usr": "s:10SIRLRetail19GetAvailableCouponsV8locations5Int32VSgvg",
+                "mangledName": "$s10SIRLRetail19GetAvailableCouponsV8locations5Int32VSgvg",
                 "moduleName": "SIRLRetail",
                 "implicit": true,
                 "declAttributes": [
@@ -16140,21 +16140,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10SIRLRetail19GetAvailableCouponsV4mlIdACs6UInt32VSg_tcfc",
-            "mangledName": "$s10SIRLRetail19GetAvailableCouponsV4mlIdACs6UInt32VSg_tcfc",
+            "usr": "s:10SIRLRetail19GetAvailableCouponsV4mlIdACs5Int32VSg_tcfc",
+            "mangledName": "$s10SIRLRetail19GetAvailableCouponsV4mlIdACs5Int32VSg_tcfc",
             "moduleName": "SIRLRetail",
             "init_kind": "Designated"
           },
@@ -16920,21 +16920,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10SIRLRetail9UseCouponV8locations6UInt32VSgvp",
-            "mangledName": "$s10SIRLRetail9UseCouponV8locations6UInt32VSgvp",
+            "usr": "s:10SIRLRetail9UseCouponV8locations5Int32VSgvp",
+            "mangledName": "$s10SIRLRetail9UseCouponV8locations5Int32VSgvp",
             "moduleName": "SIRLRetail",
             "declAttributes": [
               "HasStorage"
@@ -16951,21 +16951,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.UInt32?",
+                    "printedName": "Swift.Int32?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UInt32",
-                        "printedName": "Swift.UInt32",
-                        "usr": "s:s6UInt32V"
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10SIRLRetail9UseCouponV8locations6UInt32VSgvg",
-                "mangledName": "$s10SIRLRetail9UseCouponV8locations6UInt32VSgvg",
+                "usr": "s:10SIRLRetail9UseCouponV8locations5Int32VSgvg",
+                "mangledName": "$s10SIRLRetail9UseCouponV8locations5Int32VSgvg",
                 "moduleName": "SIRLRetail",
                 "implicit": true,
                 "declAttributes": [
@@ -17052,13 +17052,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.UInt32?",
+                "printedName": "Swift.Int32?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
                   }
                 ],
                 "usr": "s:Sq"
@@ -17071,8 +17071,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10SIRLRetail9UseCouponV4mlId6couponACs6UInt32VSg_AA0C0Ctcfc",
-            "mangledName": "$s10SIRLRetail9UseCouponV4mlId6couponACs6UInt32VSg_AA0C0Ctcfc",
+            "usr": "s:10SIRLRetail9UseCouponV4mlId6couponACs5Int32VSg_AA0C0Ctcfc",
+            "mangledName": "$s10SIRLRetail9UseCouponV4mlId6couponACs5Int32VSg_AA0C0Ctcfc",
             "moduleName": "SIRLRetail",
             "init_kind": "Designated"
           },
@@ -24529,63 +24529,63 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2716,
+      "offset": 2715,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2745,
+      "offset": 2744,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 2914,
       "length": 23,
       "value": "\"Search For Store Item\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3151,
+      "offset": 3150,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4117,
+      "offset": 4116,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4246,
+      "offset": 4245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "StringLiteral",
-      "offset": 4290,
+      "offset": 4289,
       "length": 7,
       "value": "\"empty\""
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4468,
+      "offset": 4467,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/retail\/Views\/SearchBar\/SirlSearchBarView.swift",
       "kind": "FloatLiteral",
-      "offset": 5175,
+      "offset": 5174,
       "length": 3,
       "value": "0.2"
     },

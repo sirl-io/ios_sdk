@@ -105,11 +105,11 @@ public struct Location : Swift.Decodable {
   public var appId: Swift.UInt32!
   public var locId: Swift.UInt32!
   public var bldId: Swift.UInt32!
-  public var storeId: Swift.UInt32!
-  public var companyId: Swift.UInt32!
+  public var storeId: Swift.Int32!
+  public var companyId: Swift.Int32!
   public var casingId: Swift.UInt32!
   public var configId: Swift.UInt32!
-  public var id: Swift.UInt32!
+  public var id: Swift.Int32!
   public var description: Swift.String!
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -300,7 +300,7 @@ extension SIRLCore.Settings {
   }
 }
 public class SirlNodeConfigs : Swift.Decodable {
-  public init(custID: Swift.UInt32, appID: Swift.UInt32, locID: Swift.UInt32, bldID: Swift.UInt32, mlId: Swift.UInt32? = nil, storeId: Swift.UInt32? = nil, nodeConfig: [SIRLCore.NodeConfigs]? = nil, blackList: [Swift.String]? = nil)
+  public init(custID: Swift.UInt32, appID: Swift.UInt32, locID: Swift.UInt32, bldID: Swift.UInt32, mlId: Swift.Int32? = nil, storeId: Swift.Int32? = nil, nodeConfig: [SIRLCore.NodeConfigs]? = nil, blackList: [Swift.String]? = nil)
   required convenience public init(from decoder: any Swift.Decoder) throws
   public func getNodeConfigTable() -> [pipsAPI.pips_node_setting]
   @available(iOS 10.0, *)
@@ -439,9 +439,9 @@ public class RawStringValue : Swift.Decodable {
   @objc deinit
 }
 public struct SirlSite : Swift.Decodable {
-  public var mlId: Swift.UInt32!
-  public var storeId: Swift.UInt32!
-  public var companyId: Swift.UInt32!
+  public var mlId: Swift.Int32!
+  public var storeId: Swift.Int32!
+  public var companyId: Swift.Int32!
   public var name: Swift.String!
   public var address: Swift.String!
   public var timezone: Swift.String!
@@ -494,13 +494,13 @@ open class SirlCoreImpl : ObjectiveC.NSObject, SIRLCore.PIPSDelegate {
   public var inActiveRegion: Swift.Bool {
     get
   }
-  public var ML_ID: Swift.UInt32? {
+  public var ML_ID: Swift.Int32? {
     get
   }
   public var siteName: Swift.String? {
     get
   }
-  public var companyId: Swift.UInt32? {
+  public var companyId: Swift.Int32? {
     get
   }
   public func executionLogConfig(pips: Swift.Bool? = nil, ble: Swift.Bool? = nil, debug: Swift.Bool? = nil, info: Swift.Bool? = nil, imu: Swift.Bool? = nil, speed: Swift.Bool? = nil, event: Swift.Bool? = nil)
@@ -530,8 +530,8 @@ extension SIRLCore.SirlCoreImpl : SIRLCore.SirlCoreDataSourceDelegate, SIRLCore.
   public func didTriggerBackgroundTaskTermination()
   public func didChangeSourceAvalibility(avaliable: Swift.Bool, state: CoreBluetooth.CBManagerState?)
   public func didReceiveSirlPacket(packet: SIRLCore.SirlBLEPacket, timeElap: Swift.Int64)
-  public func didDetectLocationChange(mlId: Swift.UInt32)
-  public func didDetectReplayConfig(mlid: Swift.UInt32, config: [pipsAPI.pips_node_setting])
+  public func didDetectLocationChange(mlId: Swift.Int32)
+  public func didDetectReplayConfig(mlid: Swift.Int32, config: [pipsAPI.pips_node_setting])
 }
 @available(iOS 10.0, *)
 extension SIRLCore.SirlCoreImpl {
@@ -540,7 +540,7 @@ extension SIRLCore.SirlCoreImpl {
 @available(iOS 10.0, *)
 extension SIRLCore.SirlCoreImpl {
   public static var testTimer: Foundation.Timer?
-  @objc dynamic public func setTestLocation(_ mlid: Swift.UInt32)
+  @objc dynamic public func setTestLocation(_ mlid: Swift.Int32)
   public func setTestUserLocation(x: Swift.Double, y: Swift.Double, z: Swift.Double)
   public func disabelTestUserLocation(x: Swift.Double, y: Swift.Double, z: Swift.Double)
 }
@@ -881,11 +881,11 @@ public class SirlTripExecutionLogRecorder : SIRLCore.SirlTripDataRecorder {
 }
 @available(iOS 10.0, *)
 public protocol SirlMapLocationListenerDelegate : AnyObject {
-  func didDetectLocationChange(mlId: Swift.UInt32)
+  func didDetectLocationChange(mlId: Swift.Int32)
 }
 @available(iOS 10.0, *)
 extension SIRLCore.SirlMapLocationListenerDelegate {
-  public func didDetectLocationChange(mlId: Swift.UInt32)
+  public func didDetectLocationChange(mlId: Swift.Int32)
 }
 @objc @available(iOS 10.0, *)
 public class SirlBLEPacket : ObjectiveC.NSObject {
@@ -1096,7 +1096,7 @@ public let DEAFAULT_BLE_CHANNEL: Swift.UInt8
 public let BLE_CHANNELS: [Swift.UInt8]
 public let SIRL_USER_CACHE_KEY: Swift.String
 public let SIRL_USER_META_CACHE_KEY: Swift.String
-public let WESTSIDE_98th_MAP_ID: Swift.UInt32
+public let WESTSIDE_98th_MAP_ID: Swift.Int32
 public enum ScanMode {
   case general
   case standing
@@ -1171,7 +1171,7 @@ public enum BuildConfig {
   @objc optional func didGetNewPosition(_ position: SIRLCore.SirlLocation)
   @objc optional func didChangeBLEAvalibility(_ blePowerOn: Swift.Bool)
   @objc optional func didReceiveDebugMessage(_ msg: Swift.String)
-  @objc optional func didDetectMapLocation(mlId: Swift.UInt32)
+  @objc optional func didDetectMapLocation(mlId: Swift.Int32)
   @objc optional func didChangeLocationServiceAuthorization(_ status: Swift.String)
   @objc optional func didEnteredSirlRegion()
   @objc optional func didExitedSirlRegion()
@@ -1182,12 +1182,12 @@ public enum BuildConfig {
 @available(iOS 10.0, *)
 public protocol SirlCoreMapDelegate : AnyObject {
   func didGetNewPosition(_ position: SIRLCore.SirlLocation)
-  func didDetectMapLocation(mlId: Swift.UInt32)
+  func didDetectMapLocation(mlId: Swift.Int32)
 }
 @available(iOS 10.0, *)
 extension SIRLCore.SirlCoreMapDelegate {
   public func didGetNewPosition(_ position: SIRLCore.SirlLocation)
-  public func didDetectMapLocation(mlId: Swift.UInt32)
+  public func didDetectMapLocation(mlId: Swift.Int32)
 }
 @available(iOS 10.0, *)
 open class SirlScannerSetting {
@@ -1212,16 +1212,16 @@ open class SirlScannerSetting {
 }
 @_inheritsConvenienceInitializers @objc open class SirlCore : ObjectiveC.NSObject {
   @objc public static let shared: SIRLCore.SirlCore
-  public var ML_ID: Swift.UInt32? {
+  public var ML_ID: Swift.Int32? {
     get
   }
-  public var companyID: Swift.UInt32? {
+  public var companyID: Swift.Int32? {
     get
   }
   public var siteName: Swift.String? {
     get
   }
-  @objc public func setSingleLocation(mlID: Swift.UInt32)
+  @objc public func setSingleLocation(mlID: Swift.Int32)
   @objc public func setAutoDetectLocation()
   public func updateSettings(backgroundMode: Swift.Bool? = nil, autoWakeup: Swift.Bool? = nil, regionLocking: Swift.Bool? = nil, prediction: Swift.Bool? = nil, apiKey: Swift.String? = nil, endPoint: Swift.String? = nil)
   @objc public func updateSetting(backgroundMode: Swift.Bool, apiKey: Swift.String)

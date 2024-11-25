@@ -14065,9 +14065,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               },
               {
                 "kind": "TypeNominal",
@@ -14112,8 +14112,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC03getC11ForLocation4mlid6filter10completionys6UInt32V_AA0C6FilterCSgySayAA0bC0CGctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC03getC11ForLocation4mlid6filter10completionys6UInt32V_AA0C6FilterCSgySayAA0bC0CGctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC03getC11ForLocation4mlid6filter10completionys5Int32V_AA0C6FilterCSgySayAA0bC0CGctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC03getC11ForLocation4mlid6filter10completionys5Int32V_AA0C6FilterCSgySayAA0bC0CGctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [
@@ -14134,9 +14134,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               },
               {
                 "kind": "TypeFunc",
@@ -14166,8 +14166,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SIRLAsset16SirlAssetServiceC03getC5Areas4mlid10completionys6UInt32V_ySayAA0bC4AreaCGctF",
-            "mangledName": "$s9SIRLAsset16SirlAssetServiceC03getC5Areas4mlid10completionys6UInt32V_ySayAA0bC4AreaCGctF",
+            "usr": "s:9SIRLAsset16SirlAssetServiceC03getC5Areas4mlid10completionys5Int32V_ySayAA0bC4AreaCGctF",
+            "mangledName": "$s9SIRLAsset16SirlAssetServiceC03getC5Areas4mlid10completionys5Int32V_ySayAA0bC4AreaCGctF",
             "moduleName": "SIRLAsset",
             "isOpen": true,
             "declAttributes": [

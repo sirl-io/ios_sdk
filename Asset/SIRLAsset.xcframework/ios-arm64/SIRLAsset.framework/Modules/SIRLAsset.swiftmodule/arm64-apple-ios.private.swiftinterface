@@ -443,8 +443,8 @@ public struct DisassociateAssetFromArea : SIRLCore.APIRequest {
 }
 @_hasMissingDesignatedInitializers public class SirlAssetService {
   public static let shared: SIRLAsset.SirlAssetService
-  public func getAssetForLocation(mlid: Swift.UInt32, filter: SIRLAsset.AssetFilter? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
-  public func getAssetAreas(mlid: Swift.UInt32, completion: @escaping (_ assets: [SIRLAsset.SirlAssetArea]) -> Swift.Void)
+  public func getAssetForLocation(mlid: Swift.Int32, filter: SIRLAsset.AssetFilter? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAsset]) -> Swift.Void)
+  public func getAssetAreas(mlid: Swift.Int32, completion: @escaping (_ assets: [SIRLAsset.SirlAssetArea]) -> Swift.Void)
   public func getAssetByExternalId(mlid: Swift.Int32, externalId: Swift.String, completion: @escaping (_ assets: SIRLAsset.SirlAsset?) -> Swift.Void)
   public func getAssetSKUList(asseTypeId: Swift.Int32, mlid: Swift.Int32? = nil, completion: @escaping (_ assets: [SIRLAsset.SirlAssetSku]) -> Swift.Void)
   public func getAssetSKUList(companyId: Swift.Int32, completion: @escaping (_ assets: [SIRLAsset.SirlAssetSku]) -> Swift.Void)
