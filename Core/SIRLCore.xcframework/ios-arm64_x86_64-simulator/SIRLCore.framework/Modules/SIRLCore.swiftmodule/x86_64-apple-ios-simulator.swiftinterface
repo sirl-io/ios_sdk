@@ -227,6 +227,10 @@ public class NodeConfigs : Swift.Decodable {
 }
 extension SIRLCore.NodeConfigTable {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SIRLCore.NodeConfigTable>
+  @objc @NSManaged dynamic public var libVersion: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc @NSManaged dynamic public var mlId: Swift.Int32 {
     @objc get
     @objc set
@@ -304,7 +308,7 @@ public class SirlNodeConfigs : Swift.Decodable {
   required convenience public init(from decoder: any Swift.Decoder) throws
   public func getNodeConfigTable() -> [pipsAPI.pips_node_setting]
   @available(iOS 10.0, *)
-  public func save()
+  public func save(libVer: Swift.String? = nil)
   @objc deinit
 }
 @available(iOS 10.0, *)

@@ -391,6 +391,7 @@ SWIFT_AVAILABILITY(ios,introduced=10.0)
 
 
 @interface NodeConfigTable (SWIFT_EXTENSION(SIRLCore))
+@property (nonatomic, copy) NSString * _Nullable libVersion;
 @property (nonatomic) int32_t mlId;
 @property (nonatomic) int32_t custId;
 @property (nonatomic) int32_t appId;
@@ -996,6 +997,7 @@ SWIFT_AVAILABILITY(ios,introduced=10.0)
 
 
 @interface NodeConfigTable (SWIFT_EXTENSION(SIRLCore))
+@property (nonatomic, copy) NSString * _Nullable libVersion;
 @property (nonatomic) int32_t mlId;
 @property (nonatomic) int32_t custId;
 @property (nonatomic) int32_t appId;
