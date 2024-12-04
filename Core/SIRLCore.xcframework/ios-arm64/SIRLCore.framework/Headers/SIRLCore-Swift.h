@@ -350,6 +350,7 @@ SWIFT_CLASS_NAMED("NodeConfig")
 @property (nonatomic) int32_t configuredID;
 @property (nonatomic) int32_t roomId;
 @property (nonatomic) int32_t nodeId;
+@property (nonatomic) int32_t aisleId;
 @property (nonatomic, copy) NSString * _Nullable macAddress;
 @property (nonatomic) double x;
 @property (nonatomic) double y;
@@ -363,6 +364,7 @@ SWIFT_CLASS_NAMED("NodeConfig")
 @property (nonatomic) double xa;
 @property (nonatomic) double ya;
 @property (nonatomic) double za;
+@property (nonatomic) double rssiOneMeter;
 @property (nonatomic) int32_t rotationOrder;
 @property (nonatomic) double pathLoss;
 @property (nonatomic) BOOL enabled;

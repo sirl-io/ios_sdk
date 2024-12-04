@@ -5001,6 +5001,88 @@
           },
           {
             "kind": "Var",
+            "name": "aisleId",
+            "printedName": "aisleId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SIRLCore@objc(cs)NodeConfig(py)aisleId",
+            "mangledName": "$s8SIRLCore10NodeConfigC7aisleIds5Int32Vvp",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SIRLCore@objc(cs)NodeConfig(im)aisleId",
+                "mangledName": "$s8SIRLCore10NodeConfigC7aisleIds5Int32Vvg",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SIRLCore@objc(cs)NodeConfig(im)setAisleId:",
+                "mangledName": "$s8SIRLCore10NodeConfigC7aisleIds5Int32Vvs",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "macAddress",
             "printedName": "macAddress",
             "children": [
@@ -6077,6 +6159,88 @@
                 "declKind": "Accessor",
                 "usr": "c:@CM@SIRLCore@objc(cs)NodeConfig(im)setZa:",
                 "mangledName": "$s8SIRLCore10NodeConfigC2zaSdvs",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssiOneMeter",
+            "printedName": "rssiOneMeter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SIRLCore@objc(cs)NodeConfig(py)rssiOneMeter",
+            "mangledName": "$s8SIRLCore10NodeConfigC12rssiOneMeterSdvp",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SIRLCore@objc(cs)NodeConfig(im)rssiOneMeter",
+                "mangledName": "$s8SIRLCore10NodeConfigC12rssiOneMeterSdvg",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SIRLCore@objc(cs)NodeConfig(im)setRssiOneMeter:",
+                "mangledName": "$s8SIRLCore10NodeConfigC12rssiOneMeterSdvs",
                 "moduleName": "SIRLCore",
                 "implicit": true,
                 "isOpen": true,
@@ -8754,9 +8918,185 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "rssiOneMeter",
+            "printedName": "rssiOneMeter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore11NodeConfigsC12rssiOneMeterSdvp",
+            "mangledName": "$s8SIRLCore11NodeConfigsC12rssiOneMeterSdvp",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore11NodeConfigsC12rssiOneMeterSdvg",
+                "mangledName": "$s8SIRLCore11NodeConfigsC12rssiOneMeterSdvg",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore11NodeConfigsC12rssiOneMeterSdvs",
+                "mangledName": "$s8SIRLCore11NodeConfigsC12rssiOneMeterSdvs",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore11NodeConfigsC12rssiOneMeterSdvM",
+                "mangledName": "$s8SIRLCore11NodeConfigsC12rssiOneMeterSdvM",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aisleId",
+            "printedName": "aisleId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SIRLCore11NodeConfigsC7aisleIds6UInt32Vvp",
+            "mangledName": "$s8SIRLCore11NodeConfigsC7aisleIds6UInt32Vvp",
+            "moduleName": "SIRLCore",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore11NodeConfigsC7aisleIds6UInt32Vvg",
+                "mangledName": "$s8SIRLCore11NodeConfigsC7aisleIds6UInt32Vvg",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore11NodeConfigsC7aisleIds6UInt32Vvs",
+                "mangledName": "$s8SIRLCore11NodeConfigsC7aisleIds6UInt32Vvs",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SIRLCore11NodeConfigsC7aisleIds6UInt32VvM",
+                "mangledName": "$s8SIRLCore11NodeConfigsC7aisleIds6UInt32VvM",
+                "moduleName": "SIRLCore",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(configuredId:macAddress:roomId:nodeId:x:xMinimum:xMaximum:y:yMinimum:yMaximum:z:zMinimum:zMaximum:pathLoss:xa:ya:za:rotationOrder:generation:enabled:measured:)",
+            "printedName": "init(configuredId:macAddress:roomId:nodeId:x:xMinimum:xMaximum:y:yMinimum:yMaximum:z:zMinimum:zMaximum:pathLoss:xa:ya:za:rotationOrder:aisleId:rssiOneMeter:generation:enabled:measured:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8882,6 +9222,18 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.UInt32?",
                 "children": [
@@ -8908,8 +9260,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8SIRLCore11NodeConfigsC12configuredId10macAddress04roomE004nodeE01x8xMinimum8xMaximum1y01yJ001yK01z01zJ001zK08pathLoss2xa2ya2za13rotationOrder10generation7enabled8measuredACs6UInt32VSg_SSA2ZS13ds5Int32VA_S2btcfc",
-            "mangledName": "$s8SIRLCore11NodeConfigsC12configuredId10macAddress04roomE004nodeE01x8xMinimum8xMaximum1y01yJ001yK01z01zJ001zK08pathLoss2xa2ya2za13rotationOrder10generation7enabled8measuredACs6UInt32VSg_SSA2ZS13ds5Int32VA_S2btcfc",
+            "usr": "s:8SIRLCore11NodeConfigsC12configuredId10macAddress04roomE004nodeE01x8xMinimum8xMaximum1y01yJ001yK01z01zJ001zK08pathLoss2xa2ya2za13rotationOrder05aisleE012rssiOneMeter10generation7enabled8measuredACs6UInt32VSg_SSA0_A0_S13ds5Int32VA0_SdA1_S2btcfc",
+            "mangledName": "$s8SIRLCore11NodeConfigsC12configuredId10macAddress04roomE004nodeE01x8xMinimum8xMaximum1y01yJ001yK01z01zJ001zK08pathLoss2xa2ya2za13rotationOrder05aisleE012rssiOneMeter10generation7enabled8measuredACs6UInt32VSg_SSA0_A0_S13ds5Int32VA0_SdA1_S2btcfc",
             "moduleName": "SIRLCore",
             "declAttributes": [
               "AccessControl"
@@ -9756,6 +10108,82 @@
                 "mangledName": "$s8SIRLCore11NodeConfigsC10CodingKeysO8measuredyA2EmF",
                 "moduleName": "SIRLCore",
                 "fixedbinaryorder": 21
+              },
+              {
+                "kind": "Var",
+                "name": "rssiOneMeter",
+                "printedName": "rssiOneMeter",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SIRLCore.NodeConfigs.CodingKeys.Type) -> SIRLCore.NodeConfigs.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "SIRLCore.NodeConfigs.CodingKeys",
+                        "usr": "s:8SIRLCore11NodeConfigsC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SIRLCore.NodeConfigs.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "SIRLCore.NodeConfigs.CodingKeys",
+                            "usr": "s:8SIRLCore11NodeConfigsC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8SIRLCore11NodeConfigsC10CodingKeysO12rssiOneMeteryA2EmF",
+                "mangledName": "$s8SIRLCore11NodeConfigsC10CodingKeysO12rssiOneMeteryA2EmF",
+                "moduleName": "SIRLCore",
+                "fixedbinaryorder": 22
+              },
+              {
+                "kind": "Var",
+                "name": "aisleId",
+                "printedName": "aisleId",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SIRLCore.NodeConfigs.CodingKeys.Type) -> SIRLCore.NodeConfigs.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "SIRLCore.NodeConfigs.CodingKeys",
+                        "usr": "s:8SIRLCore11NodeConfigsC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SIRLCore.NodeConfigs.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "SIRLCore.NodeConfigs.CodingKeys",
+                            "usr": "s:8SIRLCore11NodeConfigsC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8SIRLCore11NodeConfigsC10CodingKeysO7aisleIdyA2EmF",
+                "mangledName": "$s8SIRLCore11NodeConfigsC10CodingKeysO7aisleIdyA2EmF",
+                "moduleName": "SIRLCore",
+                "fixedbinaryorder": 23
               },
               {
                 "kind": "Constructor",
@@ -57849,8 +58277,22 @@
     },
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3882,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3931,
+      "length": 3,
+      "value": "-85"
+    },
+    {
+      "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/core\/SirlCoreImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 7781,
+      "offset": 7879,
       "length": 5,
       "value": "false"
     },

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/SIRLCore-Swift.h</key>
 		<data>
-		NJ5IFw2EmeAX7s0AHuxv5BS+EcY=
+		8WTrVDRvSPpBtgVMVKNhlBSmc58=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		VO+tcr6HEyhKU/SWZaAKFB14VOg=
+		nfFj9aS68zXmGH+zp/uELjJMVGU=
 		</data>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8b80VkmVP4bH80FU6zqMIzdGWck=
+		/pnNrGrYfv6p0crKtsGzPhsCnFA=
 		</data>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8b80VkmVP4bH80FU6zqMIzdGWck=
+		/pnNrGrYfv6p0crKtsGzPhsCnFA=
 		</data>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uvrQvpLnaciwp2TRHD7HMoHM7LA=
+		LgRZsdo9fLSy5GlGCz5is/cPC+k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>SirlCacheDataModel.momd/SirlCacheDataModel.mom</key>
 		<data>
-		8lXCLsomXYmE9dDPqlTIJ+ULa2A=
+		6iC2nkOGIp7AM6zncliWdZLoq5U=
 		</data>
 		<key>SirlCacheDataModel.momd/VersionInfo.plist</key>
 		<data>
-		jnDW1dzfcogI/9c8yziCpeTQ1D4=
+		Yy+R/knEg1EZy0t/ugDBBYfjq8Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -62,21 +62,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KDXetATP3FqHavhts1GMnDrTjc527uj8BziM32k4K7o=
+			08lpFEUp+5YtGNxWrwAM3hAYZA6Jnj3q3AWKxIOpVP8=
 			</data>
 		</dict>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3JDpNFcSt74w7IIkCMxk7qBDOy9DEpCFrp6dQsxGkSA=
+			SSSZW4BWnjh53XqusLx5DTeoAuUerIeIUnPEA8IP9X0=
 			</data>
 		</dict>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGXPFT1dA630strMdD8TNbw0KjuEEpEhqlDOXTu/+mM=
+			yAN+n5TmqxiTLAYB1cFnvFtBEP/M+/s+DMtQVqPvAWM=
 			</data>
 		</dict>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGXPFT1dA630strMdD8TNbw0KjuEEpEhqlDOXTu/+mM=
+			yAN+n5TmqxiTLAYB1cFnvFtBEP/M+/s+DMtQVqPvAWM=
 			</data>
 		</dict>
 		<key>Modules/SIRLCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Szr6HprVsnl2PAO04pnA4ZB8xUJ0MVhX+fdJDoyndWo=
+			1ulvhe3MnEOT1NliaNLOPAh+SDKOWG7kPLYrOhAKv6E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uWSbzcBbBjJ3ZHEmzGkxnhebkkKpOAONkFd2lhIezwQ=
+			yoog+gJqfN6Opfaor1R+992WJ29+Q6swVAGkGfVoD9U=
 			</data>
 		</dict>
 		<key>SirlCacheDataModel.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kBwpzunnzoCYasf5lzb6682Y1J2sESLI3hnftQ7Ti4A=
+			sUQYNYfRzHasjsdLAy2S/11yy65+05zt9oN74IoyGHg=
 			</data>
 		</dict>
 	</dict>
