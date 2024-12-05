@@ -278,6 +278,7 @@ extension SIRLMap.SirlMapDelegate {
   }
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency public static func preDownloadMap(mlid: Swift.Int)
   @_Concurrency.MainActor @preconcurrency public func reload()
   @objc deinit
 }

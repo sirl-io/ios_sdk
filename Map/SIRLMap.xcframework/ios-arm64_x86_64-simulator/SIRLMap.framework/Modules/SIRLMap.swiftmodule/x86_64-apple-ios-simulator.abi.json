@@ -19781,6 +19781,36 @@
           },
           {
             "kind": "Function",
+            "name": "preDownloadMap",
+            "printedName": "preDownloadMap(mlid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SIRLMap11SirlMapViewC011preDownloadC04mlidySi_tFZ",
+            "mangledName": "$s7SIRLMap11SirlMapViewC011preDownloadC04mlidySi_tFZ",
+            "moduleName": "SIRLMap",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "reload",
             "printedName": "reload()",
             "children": [
@@ -21776,7 +21806,7 @@
     {
       "filePath": "\/Users\/weicai\/Documents\/Sirl\/iOS\/pips-ios-indoor\/dependencies\/SirlSDK\/mapping\/Views\/SirlMapView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9304,
+      "offset": 10841,
       "length": 4,
       "value": "true"
     }

@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MyBMfnIdJpsSsP5Vcald1TuSv8w=
+		kmaL1yX2GePJcYm1WQBllffUmlc=
 		</data>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		DGFkyxl8sDSBYboykrMJGoxqhd8=
+		Qehc5jz0gr0lSgZB89bX09dwXo4=
 		</data>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DGFkyxl8sDSBYboykrMJGoxqhd8=
+		Qehc5jz0gr0lSgZB89bX09dwXo4=
 		</data>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3zqNb3yQXDu5Fb8MgUrlB7nKNk0=
+		N9lB+n+tCLCuFoT4O5ffKtv/pwk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVUlEAO6PSfehxQv4BE4ctovqdRjELFEi3fCuzvSXvQ=
+			6Mhk65+4aFuONl+3ABdX7p8lGHC53gNkChIat1roSh0=
 			</data>
 		</dict>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y7DBrcaeP4Xr1VorWycHCrGzkpcxhfSJyTtDdc4rk00=
+			DZL+R7xx5SMjA5o99Qjob3YN1/8yJ6Dxg5DSJP/sGW4=
 			</data>
 		</dict>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y7DBrcaeP4Xr1VorWycHCrGzkpcxhfSJyTtDdc4rk00=
+			DZL+R7xx5SMjA5o99Qjob3YN1/8yJ6Dxg5DSJP/sGW4=
 			</data>
 		</dict>
 		<key>Modules/SIRLMap.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aN+6jbmVA7V7YGoesNylYnuYNDnK4ko5c5KoVOFSU0A=
+			1DLD5w4ZFXiW9KCjjMaK+TbkgtCdp5PAmJipOJlyoug=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
