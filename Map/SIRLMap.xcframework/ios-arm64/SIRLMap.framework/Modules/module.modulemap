@@ -1,4 +1,0 @@
-framework module SIRLMap {
-  header "SIRLMap-Swift.h"
-  requires objc
-}
