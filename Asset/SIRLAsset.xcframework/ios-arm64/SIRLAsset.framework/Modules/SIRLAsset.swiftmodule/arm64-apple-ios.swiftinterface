@@ -125,6 +125,7 @@ public class SirlAsset : Swift.Decodable {
   @objc deinit
 }
 public struct AssetLocation : Swift.Decodable {
+  public init(x: Swift.Double, y: Swift.Double, timestamp: Foundation.Date, mlId: Swift.Int32, mlRole: Swift.String)
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @available(iOS 10.0, *)

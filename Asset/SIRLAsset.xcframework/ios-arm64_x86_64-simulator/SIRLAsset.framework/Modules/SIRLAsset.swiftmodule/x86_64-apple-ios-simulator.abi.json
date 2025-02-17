@@ -3837,6 +3837,9 @@
             "usr": "s:9SIRLAsset13AssetLocationV1x1y9timestamp4mlId0E4RoleACSd_Sd10Foundation4DateVs5Int32VSStcfc",
             "mangledName": "$s9SIRLAsset13AssetLocationV1x1y9timestamp4mlId0E4RoleACSd_Sd10Foundation4DateVs5Int32VSStcfc",
             "moduleName": "SIRLAsset",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "init_kind": "Designated"
           },
           {

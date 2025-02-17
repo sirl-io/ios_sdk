@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		XCXda2LjPxTfypIiJnrMLWwWa2M=
+		mtn3v1ZPCSgpxn3tow99SlhG5wM=
 		</data>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		4EFAFb3bXpkilu2mrAtG7wE9xFA=
+		9lvV+HVi5yNQvrih8p8yMURDjjs=
 		</data>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		4EFAFb3bXpkilu2mrAtG7wE9xFA=
+		9lvV+HVi5yNQvrih8p8yMURDjjs=
 		</data>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		L18RYx7gq02WRuKFSMj7TIEwRaU=
+		f0JQTO1P12dj0kQsqdx4KqMOBO0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pbo3ylmuItPPogCy18Yn0hSxcx+WsVsGfZ9QrTinUrA=
+			3GuMWSZ7XBoH9/30auR/FWGFJBMPetJ7X2W9u3HbmI0=
 			</data>
 		</dict>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z54jJZc7fG61Oy1PBUA9uIbVqCOkkT/WGdqL6dXd2ao=
+			61QNQ8/cM0EEXDFa6UQN5aNnBC1FGKSlY80ZyPhuNFU=
 			</data>
 		</dict>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z54jJZc7fG61Oy1PBUA9uIbVqCOkkT/WGdqL6dXd2ao=
+			61QNQ8/cM0EEXDFa6UQN5aNnBC1FGKSlY80ZyPhuNFU=
 			</data>
 		</dict>
 		<key>Modules/SIRLAsset.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3y5NYGQtWN8Khyl8LFZ9qio0RA0AtRl0zRoohGT2rJw=
+			Q3aamVsb9sNzrE475QdDqYltQXGEuV5i3XhtqM/1nZ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
